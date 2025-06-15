@@ -1,6 +1,7 @@
 import time
 import logging
 from selenium import webdriver
+from selenium.common import WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from urllib.parse import urljoin
@@ -9,6 +10,7 @@ from urllib.parse import urljoin
 logger = logging.getLogger(__name__)
 
 class WebScraper:
+    direct_privacy_subdomains = direct_paths = ['/privacy', '/privacy-policy']
     privacy_name_list = ['Privacy Policy', 'privacy', 'privacy-policy', 'Privacy Statement']
 
     def __init__(self, domain_url):
@@ -30,10 +32,37 @@ class WebScraper:
 
     def find_privacy_url(self):
         # Navigate to the domain URL
+        logger.info(f'Navigating to homepage: {self.url}')
         self.driver.get(self.url)
+        time.sleep(2)
 
+        # Try navigation to direct subdomain paths first
+        for path in self.direct_paths:
+            try:
+                full_url = urljoin(self.url, path)
+                self.driver.get(full_url)
+                if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
+                    self.privacy_url = full_url
+                    logger.info('Privacy policy URL found using direct path.')
+                    return
+
+            except WebDriverException:
+                logger.info(f'Privacy policy URL NOT found using direct path {path}.')
+                continue
+
+        # Try navigation based on elements containing keywords
+        # Navigate back to the domain url and restart the process
+        self.driver.get(self.url)
+        time.sleep(2)
         # Take all the elements that include hyperlinks and search the privacy related ones
         links = self.driver.find_elements(By.TAG_NAME, 'a')
+
+        logger.info(f'Found {len(links)} hyperlinks on the page.')
+
+        # Define the 3 classes of the privacy url ranking system
+        rank_1_candidate_privacy_url = []
+        rank_2_candidate_privacy_url = []
+        rank_3_candidate_privacy_url = []
 
         for link in links:
             link_text = link.text.lower()
@@ -45,16 +74,22 @@ class WebScraper:
             # Check if any keyword is in the href (if href exists)
             keyword_in_href = any(keyword.lower() in href.lower() for keyword in self.privacy_name_list) if href else False
 
-            rank_1_candidate_privacy_url = []
-            rank_2_candidate_privacy_url = []
-            rank_3_candidate_privacy_url = []
             # If any exists, then assign the privacy_subdomain based on ranking system
             if keyword_in_text and keyword_in_href:
-                rank_1_candidate_privacy_url.append(urljoin(self.url, href))
+                candidate_url = urljoin(self.url, href)
+                rank_1_candidate_privacy_url.append(candidate_url)
+                logger.debug(f'Rank 1 candidate: {candidate_url}')
+
             elif keyword_in_text and not keyword_in_href:
-                rank_2_candidate_privacy_url.append(urljoin(self.url, href))
+                candidate_url = urljoin(self.url, href)
+                rank_2_candidate_privacy_url.append(candidate_url)
+                logger.debug(f'Rank 1 candidate: {candidate_url}')
+
             elif keyword_in_href and not keyword_in_text:
-                rank_3_candidate_privacy_url.append(urljoin(self.url, href))
+                candidate_url = urljoin(self.url, href)
+                rank_3_candidate_privacy_url.append(candidate_url)
+                logger.debug(f'Rank 1 candidate: {candidate_url}')
+
 
         # Join based on ranking
         candidate_privacy_url_sorted = [rank_1_candidate_privacy_url , rank_2_candidate_privacy_url , rank_3_candidate_privacy_url]
