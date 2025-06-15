@@ -28,7 +28,7 @@ class WebScraper:
         # Set up the driver for this URL
         self.chrome_options = Options()
         # Run in headless mode for performance purposes
-        # self.chrome_options.add_argument("--headless")
+        self.chrome_options.add_argument("--headless")
         self.driver = webdriver.Chrome(options=self.chrome_options)
 
         logger.info(f'Initialized scraper for URL: {self.url}')
