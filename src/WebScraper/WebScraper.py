@@ -5,6 +5,7 @@ from selenium.common import WebDriverException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from urllib.parse import urljoin
+from bs4 import BeautifulSoup
 
 # Setup logger for this module
 logger = logging.getLogger(__name__)
@@ -12,6 +13,7 @@ logger = logging.getLogger(__name__)
 class WebScraper:
     direct_privacy_subdomains = direct_paths = ['/privacy', '/privacy-policy']
     privacy_name_list = ['Privacy Policy', 'privacy', 'privacy-policy', 'Privacy Statement']
+    SCROLL_PAUSE_TIME = 1.5
 
     def __init__(self, domain_url):
         # Assign the URL of the domain
@@ -26,8 +28,9 @@ class WebScraper:
         # Set up the driver for this URL
         self.chrome_options = Options()
         # Run in headless mode for performance purposes
-        self.chrome_options.add_argument("--headless")
+        # self.chrome_options.add_argument("--headless")
         self.driver = webdriver.Chrome(options=self.chrome_options)
+
         logger.info(f'Initialized scraper for URL: {self.url}')
 
     def find_privacy_url(self):
@@ -43,7 +46,7 @@ class WebScraper:
                 self.driver.get(full_url)
                 if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
                     self.privacy_url = full_url
-                    logger.info('Privacy policy URL found using direct path.')
+                    logger.info(f'Privacy policy URL found using direct path at {self.privacy_url}.')
                     return
 
             except WebDriverException:
@@ -92,9 +95,30 @@ class WebScraper:
 
 
         # Join based on ranking
-        candidate_privacy_url_sorted = [rank_1_candidate_privacy_url , rank_2_candidate_privacy_url , rank_3_candidate_privacy_url]
+        candidate_privacy_url_sorted = []
+        candidate_privacy_url_sorted.extend(rank_1_candidate_privacy_url)
+        candidate_privacy_url_sorted.extend(rank_2_candidate_privacy_url)
+        candidate_privacy_url_sorted.extend(rank_3_candidate_privacy_url)
 
+        for candidate_url in candidate_privacy_url_sorted[:5]:
+            try:
+                self.driver.get(candidate_url)
+                if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
+                    self.privacy_url = candidate_url
+                    logger.info(f"Found privacy URL via keyword scan at: {self.privacy_url}")
+                    return
+            except WebDriverException:
+                continue
 
+    def scroll_to_bottom(self):
+        last_height = self.driver.execute_script("return document.body.scrollHeight")
+        while True:
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(self.SCROLL_PAUSE_TIME)
+            new_height = self.driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                break
+            last_height = new_height
 
     def extract_policies(self):
         # Navigate to privacy URL
@@ -102,11 +126,22 @@ class WebScraper:
             self.driver.get(self.privacy_url)
 
             # Allow padding time to let the site load
-            time.sleep(5)
-            text_extracted = self.driver.find_element(By.TAG_NAME, 'body').text
+            time.sleep(3)
+
+            # Ensure all lazy-loaded content is visible
+            self.scroll_to_bottom()
+
+            # Use page_source for full HTML access
+            html = self.driver.page_source
             self.driver.quit()
+
+            # Parse with BeautifulSoup
+            soup = BeautifulSoup(html, 'html.parser')
+            text_extracted = soup.get_text(separator='\n')
+            logger.info('Extracted policy text using full DOM parsing.')
 
             return text_extracted
         else:
             self.driver.quit()
+            logger.warning('Privacy URL not found.')
             return 'No privacy url found'
