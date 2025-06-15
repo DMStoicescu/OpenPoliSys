@@ -1,16 +1,27 @@
-# This is a sample Python script.
+import logging
+from src.WebScraper.WebScraper import WebScraper
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def configure_logger():
+    # Configure logging globally
+    logging.basicConfig(
+        level=logging.INFO,  # Or DEBUG for more verbose output
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.StreamHandler(),  # Output to console
+            logging.FileHandler('scraper.log', mode='w')  # Output to file
+        ]
+    )
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # Logger setup
+    configure_logger()
+    logger = logging.getLogger(__name__)
+
+    url = input('Enter URL: ')
+    scraper = WebScraper(url)
+    scraper.find_privacy_url()
+    policies = scraper.extract_policies()
+    print(policies)
+
+
