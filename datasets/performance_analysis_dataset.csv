@@ -1,219 +1,219 @@
-Human labeller,domain,CMP,privacy_link,privacy_policy_on_hompage,last_updated,,contact_email,contact_number,contact_address,mention_of_childrens_data,childrens_data_collected,mention_of_opt_out,advanced_privacy_controls,specific_tracking_technology,mention_of_generic_tracking_tech
-Akshay,https://jacentretail.com,CookieYes,https://jacentretail.com/privacy-policy/,TRUE,,,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Akshay,https://mychildrenschoice.com,Complianz,https://www.mychildrenschoice.com/privacy-policy/,TRUE,,,info@mychildrenschoice.com,844-707-5437,,TRUE,FALSE,TRUE,TRUE,,FALSE
-Akshay,https://holmanusa.com,,https://holmanusa.com/privacy-policy/,TRUE,,,solutions@holmanusa.com,(253) 872-7140,,FALSE,FALSE,TRUE,TRUE,,FALSE
-Akshay,https://heritage-title.com,,https://heritagetitleofaustin.com/privacy-policy/,TRUE,,,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Akshay,https://clearwaypain.com,,https://clearwaypain.com/privacy-policy/,TRUE,"43,910.00",1,info@clearwaypain.com,833-301-7246,"Clearway Pain Solutions, 201 Defense Hwy, Ste 250, Annapolis, MD, 21401",TRUE,FALSE,TRUE,FALSE,Google Analytics,FALSE
-Akshay,https://pacs.com,,https://pacs.com/privacy-policy,TRUE,"45,313.00",1,techsupport@pacs.com,(801) 447-9829,,TRUE,FALSE,TRUE,TRUE,,TRUE
-Akshay,https://follettlearning.com,onetrust,https://follettsoftware.com/privacy-policy/,TRUE,"45,456.00",1,privacy@follettlearning.com,800-350-6418,"1340 Ridgeview Dr., McHenry, IL 60050",TRUE,FALSE,FALSE,TRUE,,TRUE
-Akshay,https://allianceanimal.com,,https://allianceanimal.com/privacy-policy/,TRUE,,1,HR@allianceanimal.com,914-369-1500 ,"800 Westchester Ave, #S-504
-Rye Brook, NY 10573",TRUE,FALSE,TRUE,TRUE,Google Analytics,TRUE
-Akshay,https://plancorp.com,,https://www.plancorp.com/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Akshay,https://tecton.ai,,https://tecton.ai/privacy-policy/,TRUE,"45,532.00",1,privacy@tecton.ai,,"Tecton, Inc.
+Human labeller,domain,CMP,privacy_link,privacy_policy_on_hompage,last_updated,Unnamed: 6,contact_email,contact_number,contact_address,mention_of_childrens_data,childrens_data_collected,mention_of_opt_out,advanced_privacy_controls,specific_tracking_technology,mention_of_generic_tracking_tech
+Akshay,https://jacentretail.com,CookieYes,https://jacentretail.com/privacy-policy/,True,,,,,,False,,False,False,,False
+Akshay,https://mychildrenschoice.com,Complianz,https://www.mychildrenschoice.com/privacy-policy/,True,,,info@mychildrenschoice.com,844-707-5437,,True,False,True,True,,False
+Akshay,https://holmanusa.com,,https://holmanusa.com/privacy-policy/,True,,,solutions@holmanusa.com,(253) 872-7140,,False,False,True,True,,False
+Akshay,https://heritage-title.com,,https://heritagetitleofaustin.com/privacy-policy/,True,,,,,,False,,False,False,,False
+Akshay,https://clearwaypain.com,,https://clearwaypain.com/privacy-policy/,True,"43,910.00",1.0,info@clearwaypain.com,833-301-7246,"Clearway Pain Solutions, 201 Defense Hwy, Ste 250, Annapolis, MD, 21401",True,False,True,False,Google Analytics,False
+Akshay,https://pacs.com,,https://pacs.com/privacy-policy,True,"45,313.00",1.0,techsupport@pacs.com,(801) 447-9829,,True,False,True,True,,True
+Akshay,https://follettlearning.com,onetrust,https://follettsoftware.com/privacy-policy/,True,"45,456.00",1.0,privacy@follettlearning.com,800-350-6418,"1340 Ridgeview Dr., McHenry, IL 60050",True,False,False,True,,True
+Akshay,https://allianceanimal.com,,https://allianceanimal.com/privacy-policy/,True,,1.0,HR@allianceanimal.com,914-369-1500 ,"800 Westchester Ave, #S-504
+Rye Brook, NY 10573",True,False,True,True,Google Analytics,True
+Akshay,https://plancorp.com,,https://www.plancorp.com/privacy-policy/,True,,1.0,,,,False,,False,False,,False
+Akshay,https://tecton.ai,,https://tecton.ai/privacy-policy/,True,"45,532.00",1.0,privacy@tecton.ai,,"Tecton, Inc.
 548 Market Street, PMB 28021
-San Francisco, California 94104",TRUE,FALSE,TRUE,FALSE,,TRUE
-Akshay,https://barcelonawinebar.com,,http://www.barcelonawinebar.com/privacy-policy,TRUE,"44,139.00",1,,," 20 Ketchum Street, Suite 101, Westport, CT 06880",TRUE,FALSE,TRUE,TRUE,,FALSE
-Akshay,https://hirecounsel.com,,https://www.hirecounsel.com/privacy-policy/,TRUE,,1,,(646) 356-0550,,TRUE,TRUE,,,Google Analytics,TRUE
-Akshay,https://taylorfarms.com,cookieyes,800-350-6418,TRUE,,1,privacy@taylorfarms.com,(831) 676-9765,"Privacy Officer
+San Francisco, California 94104",True,False,True,False,,True
+Akshay,https://barcelonawinebar.com,,http://www.barcelonawinebar.com/privacy-policy,True,"44,139.00",1.0,,," 20 Ketchum Street, Suite 101, Westport, CT 06880",True,False,True,True,,False
+Akshay,https://hirecounsel.com,,https://www.hirecounsel.com/privacy-policy/,True,,1.0,,(646) 356-0550,,True,True,,,Google Analytics,True
+Akshay,https://taylorfarms.com,cookieyes,800-350-6418,True,,1.0,privacy@taylorfarms.com,(831) 676-9765,"Privacy Officer
 Taylor Fresh Foods, Inc.
 150 Main Street
-Salinas, CA 93901",TRUE,FALSE,TRUE,TRUE,"Facebook, Google Analytics",TRUE
-Akshay,https://lasallenetwork.com,Moove GDPR Consent,https://www.thelasallenetwork.com/privacy-policy/,TRUE,,1,WebMaster@LaSalleNetwork.com,,,TRUE,FALSE,FALSE,TRUE,,FALSE
-Akshay,https://redriv.com,,https://www.redriv.com/privacy-policy/,TRUE,,1,,,,TRUE,FALSE,TRUE,FALSE,Google Ads (AdWords),FALSE
-Akshay,https://weaverparts.com,,https://weaverparts.com/privacy-policy/,TRUE,"45,528.00",1,marketingadmin@roadtestedparts.com,,,TRUE,FALSE,FALSE,FALSE,,TRUE
-Akshay,https://learningstream.com,,https://www.learningstream.com/privacy-policy,TRUE,,1,support@learningstream.com,(800) 560-1617,"1213 W. Morehead Street
+Salinas, CA 93901",True,False,True,True,"Facebook, Google Analytics",True
+Akshay,https://lasallenetwork.com,Moove GDPR Consent,https://www.thelasallenetwork.com/privacy-policy/,True,,1.0,WebMaster@LaSalleNetwork.com,,,True,False,False,True,,False
+Akshay,https://redriv.com,,https://www.redriv.com/privacy-policy/,True,,1.0,,,,True,False,True,False,Google Ads (AdWords),False
+Akshay,https://weaverparts.com,,https://weaverparts.com/privacy-policy/,True,"45,528.00",1.0,marketingadmin@roadtestedparts.com,,,True,False,False,False,,True
+Akshay,https://learningstream.com,,https://www.learningstream.com/privacy-policy,True,,1.0,support@learningstream.com,(800) 560-1617,"1213 W. Morehead Street
 Suite 500
-Charlotte, NC 28208",FALSE,N/A,TRUE,TRUE,,FALSE
-Akshay,https://eriehome.com,,https://eriehome.com/privacy-policy/,TRUE,"45,002.00",1,customersupport@eriehome.com,(419) 472-4200,"Privacy Officer, 3516 Granite Circle, Toledo, OH 43617
-",FALSE,N/A,TRUE,FALSE,Google Analytics,TRUE
-Akshay,https://akam.com,cookieyes,https://akam.com/privacy-policy/,TRUE,,1,info@akam.com,,,TRUE,FALSE,TRUE,TRUE,,TRUE
-Akshay,https://marquetteassociates.com,,https://www.marquetteassociates.com/privacy-policy-disclosure-documents/,TRUE,,1,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Akshay,https://brightnightpower.com,,https://brightnightpower.com/privacy-policy/,TRUE,,1,,,,TRUE,FALSE,FALSE,TRUE,,TRUE
-Akshay,https://etcnow.com,,https://marketing.etcnow.com/acton/attachment/10903/f-00cf/1/-/-/-/-/Privacy-Policy.pdf,TRUE,,1,,,,TRUE,FALSE,TRUE,FALSE,,FALSE
-Akshay,https://extradutysolutions.com,,https://extradutysolutions.com/privacy-policy/,TRUE,"45,338.00",1,,,,TRUE,FALSE,FALSE,FALSE,,FALSE
-Akshay,https://notablehealth.com,,https://notablehealth.com/privacy-policy,TRUE,"44,736.00",1,contact@notablehealth.com,,"400 S El Camino Real Ste. 600, San Mateo, CA 94402",TRUE,FALSE,TRUE,TRUE,Google Analytics,TRUE
-Akshay,https://alexanderhh.com,,https://alexanderhh.com/privacy-policy,TRUE,,1,info@angelsofcare.com,,,FALSE,N/A,TRUE,TRUE,Google Analytics,TRUE
-Akshay,https://powergridservices.com,,https://powergridservices.com/privacy-policy/,TRUE,,1,info@powergridservices-dev.cloudaccess.host,(1-800-797-4743),"2350 U.S.Highway 31 NW, Hartselle, AL, 35640",FALSE,N/A,TRUE,TRUE,,FALSE
-Akshay,https://alitura.com,,https://alitura.com/policies/privacy-policy,TRUE,"45,538.00",1,hello@alitura.com,,"100 Verde Valley School Road, #112, Sedona, AZ, 86351, US",TRUE,FALSE,TRUE,TRUE,,TRUE
-Akshay,https://liveonny.org,,https://liveonny.org/privacy-policy/,TRUE,,1,communication@liveonny.org,,"LiveOnNY
+Charlotte, NC 28208",False,,True,True,,False
+Akshay,https://eriehome.com,,https://eriehome.com/privacy-policy/,True,"45,002.00",1.0,customersupport@eriehome.com,(419) 472-4200,"Privacy Officer, 3516 Granite Circle, Toledo, OH 43617
+",False,,True,False,Google Analytics,True
+Akshay,https://akam.com,cookieyes,https://akam.com/privacy-policy/,True,,1.0,info@akam.com,,,True,False,True,True,,True
+Akshay,https://marquetteassociates.com,,https://www.marquetteassociates.com/privacy-policy-disclosure-documents/,True,,1.0,,,,False,,False,False,,False
+Akshay,https://brightnightpower.com,,https://brightnightpower.com/privacy-policy/,True,,1.0,,,,True,False,False,True,,True
+Akshay,https://etcnow.com,,https://marketing.etcnow.com/acton/attachment/10903/f-00cf/1/-/-/-/-/Privacy-Policy.pdf,True,,1.0,,,,True,False,True,False,,False
+Akshay,https://extradutysolutions.com,,https://extradutysolutions.com/privacy-policy/,True,"45,338.00",1.0,,,,True,False,False,False,,False
+Akshay,https://notablehealth.com,,https://notablehealth.com/privacy-policy,True,"44,736.00",1.0,contact@notablehealth.com,,"400 S El Camino Real Ste. 600, San Mateo, CA 94402",True,False,True,True,Google Analytics,True
+Akshay,https://alexanderhh.com,,https://alexanderhh.com/privacy-policy,True,,1.0,info@angelsofcare.com,,,False,,True,True,Google Analytics,True
+Akshay,https://powergridservices.com,,https://powergridservices.com/privacy-policy/,True,,1.0,info@powergridservices-dev.cloudaccess.host,(1-800-797-4743),"2350 U.S.Highway 31 NW, Hartselle, AL, 35640",False,,True,True,,False
+Akshay,https://alitura.com,,https://alitura.com/policies/privacy-policy,True,"45,538.00",1.0,hello@alitura.com,,"100 Verde Valley School Road, #112, Sedona, AZ, 86351, US",True,False,True,True,,True
+Akshay,https://liveonny.org,,https://liveonny.org/privacy-policy/,True,,1.0,communication@liveonny.org,,"LiveOnNY
 460 West 34th Street
 15th Floor
-New York, NY 10001",FALSE,N/A,FALSE,FALSE,,FALSE
-Akshay,https://hhills.com,,https://hhills.com/privacy-policy/,TRUE,"44,095.00",1,,,"Harmony Hills
+New York, NY 10001",False,,False,False,,False
+Akshay,https://hhills.com,,https://hhills.com/privacy-policy/,True,"44,095.00",1.0,,,"Harmony Hills
 
 18121 Boys Ranch Road
 
-Altoona, FL 32702",FALSE,N/A,FALSE,TRUE,,FALSE
-Akshay,https://gracoroberts.com,,https://gracoroberts.com/about/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://ccclark.com,,https://ccclark.com/privacy-policy/,TRUE,"44,734.00",1,help@ccclark.com,,,TRUE,FALSE,TRUE,FALSE,,FALSE
-Daniel,https://sterilex.com,,https://www.sterilex.com/privacy-policy/,TRUE,"44,753.00",1,privacy@sterilex.com,,,TRUE,FALSE,TRUE,FALSE,Google Analytics,FALSE
-Daniel,https://dlr360.com,Complianz,https://dlr360.com/home/privacy-policy/,TRUE,,1,info@dlr360.com,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://sbenergy.com,,https://sbenergy.com/privacy-policy/,TRUE,"44,408.00",1,info@sbenergy.com,,"1 Circle Star Way, San Carlos, CA 94070",TRUE,FALSE,TRUE,TRUE,Google Analytics,FALSE
-Daniel,https://liparifoods.com,,https://liparifoods.com/privacy-policy/,TRUE,"44,235.00",1,info@liparifoods.com,,,TRUE,FALSE,TRUE,TRUE,"Google Analytics, Google Ads (AdWords), Facebook",TRUE
-Daniel,https://k2ins.com,Cookie Script,https://k2ins.com/privacy-policy,TRUE,"45,266.00",1,privacy@k2ins.com,(866) 662-5752,,TRUE,FALSE,TRUE,TRUE,,FALSE
-Daniel,https://recoverycentersofamerica.com,,https://recoverycentersofamerica.com/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,FALSE,Facebook,FALSE
-Daniel,https://nucerasolutions.com,,https://chasecorp.com/nucerasolutions/privacy-policy,TRUE,"43,910.00",1,Karen.Reeves@NuCeraSolutions.com,(888) 562 9797,,TRUE,FALSE,TRUE,TRUE,Google Analytics,TRUE
-Daniel,https://maysteel.com,,https://maysteel.com/privacy-policy/,TRUE,"44,775.00",1,info@maysteel.com,262-251-1632,"6199 Highway W Allenton, Wisconsin 53002",FALSE,N/A,TRUE,TRUE,,TRUE
-Daniel,https://apexsci.com,,https://apexsci.com/privacy-policy/,TRUE,"45,108.00",1,info@cenexel.com,,"CenExel, 310 E 4500 S, Suite #240, Salt Lake City, Utah 84107",TRUE,FALSE,TRUE,TRUE,Google Analytics,TRUE
-Daniel,https://fourhands.com,,https://fourhands.com/privacy-policy,TRUE,"43,617.00",1,info@fourhands.com,,"Four Hands LLC, Customer Care, 2090 Woodward St., Austin, TX 78744",TRUE,FALSE,FALSE,FALSE,Facebook,TRUE
-Daniel,https://newleafenergy.com,,https://newleafenergy.com/privacy-policy,TRUE,"44,757.00",1,privacyrequest@newleafenergy.com,(800) 818-5249,"New Leaf Energy, Inc., 55 Technology Dr, Suite 102, Lowell, MA 01851",TRUE,FALSE,FALSE,TRUE,"Google Analytics, Facebook",FALSE
-Daniel,https://mersgoodwill.org,,https://mersgoodwill.org/privacy-policy/,TRUE,,1,,,"MERS Goodwill Industries, 1727 Locust Street, St. Louis, MO 63103, 314-241-3464",FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://buddyspizza.com,,https://buddyspizza.com/privacy-policy,TRUE,"44,197.00",1,buddyspizza@buddyspizza.com,,"31800 Northwestern Hwy, Suite 206, Farmington Hills, MI 48334
-",TRUE,FALSE,FALSE,TRUE,,TRUE
-Daniel,https://raslavrar.com,,https://raslavrar.com/privacy-policy/,TRUE,,1,,561-613-0067,"RAS LaVrar, LLC 1133 South University Drive, 2nd Floor Plantation, FL 33324",FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://blueflintethanol.com,,https://blueflintethanol.com/fccp-privacy-policy-19648,FALSE,,1,,,,,,,,,
-Daniel,https://drawbridgeco.com,CookieYes,https://drawbridgeco.com/privacy-policy/,TRUE,"45,161.00",1,privacy@drawbridgeco.com,(561) 593-1600,"Drawbridge, 3330 PGA Boulevard, Suite 507, Palm Beach Gardens, FL 33418",TRUE,FALSE,TRUE,TRUE,Google Analytics,FALSE
-Daniel,https://emersonecologics.com,,https://emersonecologics.com/privacy-policy,TRUE,"44,927.00",1,privacy@emersonecologics.com,800-654-4432,"Privacy Officer, 1230 Elm Street, Suite 301, Manchester, NH 03101",TRUE,FALSE,FALSE,FALSE,Google Analytics,FALSE
-Daniel,https://middlesexmgmt.com,,https://middlesexmgmt.com/privacy-policy/,TRUE,"43,282.00",1,info@informationform.com,,,TRUE,FALSE,FALSE,FALSE,,TRUE
-Daniel,https://owlservices.com,,https://owlservices.com/privacy-policy/,TRUE,"45,133.00",1,privacy@owlservices.com,,,TRUE,FALSE,TRUE,FALSE,Google Analytics,TRUE
-Daniel,https://loopcapital.com,OneTrust,https://www.loopcapital.com/privacy-policy/,TRUE,"43,617.00",1,compliance@loopcapital.com,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://nrdc.org,,https://nrdc.org/privacy-policy,TRUE,"45,444.00",1,webmaster@nrdc.org,," Natural Resources Defense Council, Inc., Attn: Membership Services, 40 W. 20th Street, New York, NY 10011",TRUE,FALSE,TRUE,TRUE,"Google Ads (AdWords), Facebook",TRUE
-Daniel,https://mainlinebrands.com,,https://mainlinebrands.com/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,TRUE,,FALSE
-Daniel,https://valleyqueen.com,,https://valleyqueen.com/privacy-policy,TRUE,,1,cheese@vqcheese.com,,,FALSE,N/A,TRUE,FALSE,"Google Analytics, Facebook",TRUE
-Daniel,https://rfi.global,CookieYes,https://rfi.global/privacy-policy/,TRUE,"45,497.00",1,privacy@rfi.global,,,FALSE,N/A,TRUE,TRUE,,FALSE
-Daniel,https://alaschools.org,,https://alaschools.org/privacy-policy,TRUE,"44,802.00",1,itweb@charter.one,(480) 420-2101,"6913 E Rembrandt Ave,
-Mesa, AZ 85212 ",TRUE,FALSE,TRUE,FALSE,"Google Analytics, Google Ads (AdWords)",FALSE
-Daniel,https://mattresswarehouse.com,,https://mattresswarehouse.com/pages/privacy-policy,TRUE,,1,,"301-682-8504
-","Mattress Warehouse 4949 New Design Road Frederick, MD 21703",FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://inhancetechnologies.com,,https://www.inhancetechnologies.com/policies/privacy-policy,TRUE,"43,931.00",1,it@inhancetechnologies.com,,,TRUE,FALSE,TRUE,TRUE,,TRUE
-Daniel,https://trinsic.org,,https://trinsic.org/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Daniel,https://jonesplastic.com,,https://jonesplastic.com/privacy-policy,TRUE,"45,366.00",1,contact@jonesplastic.com,,,TRUE,FALSE,FALSE,FALSE,Google Analytics,FALSE
-Luca,https://barkharvest.com,,https://www.superiorfarmspet.com/privacy-policy,TRUE,"43,648.00",1,,,,TRUE,FALSE,TRUE,TRUE,"Google Analytics, Google Ads (AdWords), Facebook",TRUE
-Luca,https://ihcscorp.com,,https://ihcscorp.com/privacy-policy/,TRUE,"45,189.00",1,,(844) 215-4264,"3700 Commerce Parkway, Miramar, FL 33025",FALSE,N/A,FALSE,TRUE,,FALSE
-Luca,https://xriwater.com,,http://xriwater.com/privacy-policy/,TRUE,"43,835.00",1,privacy@xrifq.com,,"303 W. Wall St. Suite 400, Midland, TX 79701",FALSE,N/A,TRUE,TRUE,Google Analytics,TRUE
-Luca,https://clickfunnels.com,,https://clickfunnels.com/privacy-policy,TRUE,"45,566.00",1,compliance@clickfunnels.com,,"Legal & Compliance Department, 3443 W. Bavaria Street, Eagle, Idaho 83616",TRUE,TRUE,TRUE,TRUE,Google Analytics,FALSE
-Luca,https://decisionlens.com,,https://www.decisionlens.com/privacy-policy,TRUE,,1,info@decisionlens.com,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Luca,https://atproperties.com,OneTrust,https://www.atproperties.com/pages/privacy-policy,TRUE,"45,575.00",1,privacy@atproperties.com,,,FALSE,N/A,TRUE,TRUE,,FALSE
-Luca,https://afhu.org,CookieYes,https://www.afhu.org/privacy-policy/,TRUE,"43,374.00",1,info@afhu.org,,,TRUE,FALSE,TRUE,TRUE,,TRUE
-Luca,https://ai-sys.com,,https://www.ai-sys.com/about-ai/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,FALSE,,FALSE
-Luca,https://1800mrrusso.com,,https://1800mrrusso.com/privacy-policy,TRUE,,1,,(973) 887-1334,"27 Eagle Rock Ave., East Hanover, NJ 07936",FALSE,N/A,FALSE,TRUE,,FALSE
-Luca,https://mikart.com,,https://www.mikart.com/privacy-policy/,TRUE,,1,info@mikart.com,,"Mikart, LLC, 1750 Chattahoochee Ave, Atlanta, Georgia, USA",FALSE,N/A,FALSE,FALSE,,TRUE
-Luca,https://conceptmachine.com,,https://www.conceptmachine.com/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,TRUE,,FALSE
-Luca,https://bridgeway.io,CookieYes,http://bridgewayconnects.com/wp-content/uploads/2022/10/Bridgeway-Connects-Privacy-Policy.pdf,TRUE,"44,858.00",1,privacy@bridgeway.io,(877) 694-5229,"Bridgeway Connects, 100 Industry Drive, Pittsburgh, PA 15275",TRUE,TRUE,TRUE,TRUE,Google Analytics,TRUE
-Luca,https://authenticrb.com,,https://authenticrb.com/privacy-policy/,TRUE,"45,047.00",1,info@authenticrb.com,,"853 Broadway 16th Floor, New York, NY 10003",TRUE,FALSE,FALSE,FALSE,Google Analytics,TRUE
-Luca,https://awaytravel.com,,https://awaytravel.com/privacy-policy,TRUE,"45,407.00",1,privacy@awaytravel.com,(844) 202-2011,"11th Floor Whitefriars Lewis Mead, Bristol, England, United Kingdom, BS1 2NT",TRUE,FALSE,TRUE,TRUE,"Google Analytics, Facebook",TRUE
-Luca,https://ccianesthesia.com,,https://ccianesthesia.com/privacy-policy/,TRUE,,1,,,,TRUE,FALSE,FALSE,FALSE,,FALSE
-Luca,https://poseida.com,,https://poseida.com/privacy-policy/,TRUE,"44,927.00",1,info@poseida.com,(858) 779-3100,"9390 Towne Centre Drive, Suite 200, San Diego, CA 92121",TRUE,TRUE,TRUE,FALSE,Google Analytics,FALSE
-Luca,https://sco.org,,https://sco.org/privacy-policy/,TRUE,,1,coffice@sco.org,(516) 671-1253,,FALSE,N/A,FALSE,FALSE,,FALSE
-Luca,https://kwalu.com,Cookie Notice,https://www.kwalu.com/privacy-policy/,TRUE,,1,,(877) 695-9258,"6160 Peachtree Dunwoody Rd, Building C, Atlanta GA 30328",FALSE,N/A,FALSE,TRUE,,FALSE
-Luca,https://nvp.com,CookieYes,https://nvp.com/privacy-policy/,TRUE,"44,998.00",1,,(650) 321-8000,"1300 El Camino Real, Suite 200, Menlo Park, CA 94025",TRUE,FALSE,TRUE,TRUE,,TRUE
-Luca,https://sweepingcorp.com,,https://sweepingcorp.com/privacy-policy/,TRUE,"45,183.00",1,,,,TRUE,FALSE,TRUE,TRUE,"Google Analytics, Google Ads (AdWords), Facebook",TRUE
-Luca,https://guideone.com,,https://guideone.com/about-us/privacy-policy,TRUE,"43,586.00",1,LegalWorkRequests@guideone.com,(877) 448-4331,"1111 Ashworth Road, West Des Moines, IA 50265-3538",TRUE,FALSE,TRUE,TRUE,Google Analytics,FALSE
-Luca,https://hillcountrydairies.com,,https://hillcountrydairies.com/privacy-policy,TRUE,"43,252.00",1,info@hillcountrydairies.com,(512) 836-6123,"912 Kramer Lane, Austin, TX 78758",TRUE,FALSE,FALSE,FALSE,,FALSE
-Luca,https://astronautics.com,,https://astronautics.com/privacy-policy/,TRUE,,1,communications@astronautics.com,,"135 W Forest Hill Avenue, Oak Creek, WI 53154",FALSE,N/A,FALSE,FALSE,,FALSE
-Luca,https://pipingrockclub.org,,https://pipingrockclub.org/web/pages/privacy-policy,TRUE,,1,prcinfo@pipingrockclub.org,(516) 676-2332,,FALSE,N/A,FALSE,TRUE,,FALSE
-Luca,https://scotchplywood.com,,https://www.scotchplywood.com/privacy-policy/,TRUE,,1,,,,FALSE,N/A,FALSE,TRUE,,FALSE
-Luca,https://majesticsteel.com,,https://www.majesticsteel.com/privacy-policy/,TRUE,"41,474.00",1,,(800) 321-5590,"31099 Chagrin Blvd., Suite 150, Cleveland, Ohio 44124",TRUE,FALSE,FALSE,FALSE,,FALSE
-Luca,https://macdonaldcody.com,,https://www.macdonaldcody.com/privacy-policy/,TRUE,"45,362.00",1,jfitzgerald@macdonaldcody.com,(714) 938-5748,"3400 Central Avenue, Suite 300, Riverside, California 92506",TRUE,TRUE,TRUE,TRUE,,TRUE
-Luca,https://vcsedu.org,,https://vcsedu.org/privacy-policy-link,TRUE,,1,,,,TRUE,TRUE,FALSE,FALSE,Google Analytics,FALSE
-Luca,https://hortonww.com,,https://www.hortonww.com/privacy-policy/,TRUE,"43,830.00",1,info@hortonww.com,1 (800) 621-1320,,TRUE,FALSE,TRUE,TRUE,,FALSE
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
-Mike,,,,,,,,,,,,,,,
+Altoona, FL 32702",False,,False,True,,False
+Akshay,https://gracoroberts.com,,https://gracoroberts.com/about/privacy-policy/,True,,1.0,,,,False,,False,False,,False
+Daniel,https://ccclark.com,,https://ccclark.com/privacy-policy/,True,"44,734.00",1.0,help@ccclark.com,,,True,False,True,False,,False
+Daniel,https://sterilex.com,,https://www.sterilex.com/privacy-policy/,True,"44,753.00",1.0,privacy@sterilex.com,,,True,False,True,False,Google Analytics,False
+Daniel,https://dlr360.com,Complianz,https://dlr360.com/home/privacy-policy/,True,,1.0,info@dlr360.com,,,False,,False,False,,False
+Daniel,https://sbenergy.com,,https://sbenergy.com/privacy-policy/,True,"44,408.00",1.0,info@sbenergy.com,,"1 Circle Star Way, San Carlos, CA 94070",True,False,True,True,Google Analytics,False
+Daniel,https://liparifoods.com,,https://liparifoods.com/privacy-policy/,True,"44,235.00",1.0,info@liparifoods.com,,,True,False,True,True,"Google Analytics, Google Ads (AdWords), Facebook",True
+Daniel,https://k2ins.com,Cookie Script,https://k2ins.com/privacy-policy,True,"45,266.00",1.0,privacy@k2ins.com,(866) 662-5752,,True,False,True,True,,False
+Daniel,https://recoverycentersofamerica.com,,https://recoverycentersofamerica.com/privacy-policy/,True,,1.0,,,,False,,False,False,Facebook,False
+Daniel,https://nucerasolutions.com,,https://chasecorp.com/nucerasolutions/privacy-policy,True,"43,910.00",1.0,Karen.Reeves@NuCeraSolutions.com,(888) 562 9797,,True,False,True,True,Google Analytics,True
+Daniel,https://maysteel.com,,https://maysteel.com/privacy-policy/,True,"44,775.00",1.0,info@maysteel.com,262-251-1632,"6199 Highway W Allenton, Wisconsin 53002",False,,True,True,,True
+Daniel,https://apexsci.com,,https://apexsci.com/privacy-policy/,True,"45,108.00",1.0,info@cenexel.com,,"CenExel, 310 E 4500 S, Suite #240, Salt Lake City, Utah 84107",True,False,True,True,Google Analytics,True
+Daniel,https://fourhands.com,,https://fourhands.com/privacy-policy,True,"43,617.00",1.0,info@fourhands.com,,"Four Hands LLC, Customer Care, 2090 Woodward St., Austin, TX 78744",True,False,False,False,Facebook,True
+Daniel,https://newleafenergy.com,,https://newleafenergy.com/privacy-policy,True,"44,757.00",1.0,privacyrequest@newleafenergy.com,(800) 818-5249,"New Leaf Energy, Inc., 55 Technology Dr, Suite 102, Lowell, MA 01851",True,False,False,True,"Google Analytics, Facebook",False
+Daniel,https://mersgoodwill.org,,https://mersgoodwill.org/privacy-policy/,True,,1.0,,,"MERS Goodwill Industries, 1727 Locust Street, St. Louis, MO 63103, 314-241-3464",False,,False,False,,False
+Daniel,https://buddyspizza.com,,https://buddyspizza.com/privacy-policy,True,"44,197.00",1.0,buddyspizza@buddyspizza.com,,"31800 Northwestern Hwy, Suite 206, Farmington Hills, MI 48334
+",True,False,False,True,,True
+Daniel,https://raslavrar.com,,https://raslavrar.com/privacy-policy/,True,,1.0,,561-613-0067,"RAS LaVrar, LLC 1133 South University Drive, 2nd Floor Plantation, FL 33324",False,,False,False,,False
+Daniel,https://blueflintethanol.com,,https://blueflintethanol.com/fccp-privacy-policy-19648,False,,1.0,,,,,,,,,
+Daniel,https://drawbridgeco.com,CookieYes,https://drawbridgeco.com/privacy-policy/,True,"45,161.00",1.0,privacy@drawbridgeco.com,(561) 593-1600,"Drawbridge, 3330 PGA Boulevard, Suite 507, Palm Beach Gardens, FL 33418",True,False,True,True,Google Analytics,False
+Daniel,https://emersonecologics.com,,https://emersonecologics.com/privacy-policy,True,"44,927.00",1.0,privacy@emersonecologics.com,800-654-4432,"Privacy Officer, 1230 Elm Street, Suite 301, Manchester, NH 03101",True,False,False,False,Google Analytics,False
+Daniel,https://middlesexmgmt.com,,https://middlesexmgmt.com/privacy-policy/,True,"43,282.00",1.0,info@informationform.com,,,True,False,False,False,,True
+Daniel,https://owlservices.com,,https://owlservices.com/privacy-policy/,True,"45,133.00",1.0,privacy@owlservices.com,,,True,False,True,False,Google Analytics,True
+Daniel,https://loopcapital.com,OneTrust,https://www.loopcapital.com/privacy-policy/,True,"43,617.00",1.0,compliance@loopcapital.com,,,False,,False,False,,False
+Daniel,https://nrdc.org,,https://nrdc.org/privacy-policy,True,"45,444.00",1.0,webmaster@nrdc.org,," Natural Resources Defense Council, Inc., Attn: Membership Services, 40 W. 20th Street, New York, NY 10011",True,False,True,True,"Google Ads (AdWords), Facebook",True
+Daniel,https://mainlinebrands.com,,https://mainlinebrands.com/privacy-policy/,True,,1.0,,,,False,,False,True,,False
+Daniel,https://valleyqueen.com,,https://valleyqueen.com/privacy-policy,True,,1.0,cheese@vqcheese.com,,,False,,True,False,"Google Analytics, Facebook",True
+Daniel,https://rfi.global,CookieYes,https://rfi.global/privacy-policy/,True,"45,497.00",1.0,privacy@rfi.global,,,False,,True,True,,False
+Daniel,https://alaschools.org,,https://alaschools.org/privacy-policy,True,"44,802.00",1.0,itweb@charter.one,(480) 420-2101,"6913 E Rembrandt Ave,
+Mesa, AZ 85212 ",True,False,True,False,"Google Analytics, Google Ads (AdWords)",False
+Daniel,https://mattresswarehouse.com,,https://mattresswarehouse.com/pages/privacy-policy,True,,1.0,,"301-682-8504
+","Mattress Warehouse 4949 New Design Road Frederick, MD 21703",False,,False,False,,False
+Daniel,https://inhancetechnologies.com,,https://www.inhancetechnologies.com/policies/privacy-policy,True,"43,931.00",1.0,it@inhancetechnologies.com,,,True,False,True,True,,True
+Daniel,https://trinsic.org,,https://trinsic.org/privacy-policy/,True,,1.0,,,,False,,False,False,,False
+Daniel,https://jonesplastic.com,,https://jonesplastic.com/privacy-policy,True,"45,366.00",1.0,contact@jonesplastic.com,,,True,False,False,False,Google Analytics,False
+Luca,https://barkharvest.com,,https://www.superiorfarmspet.com/privacy-policy,True,"43,648.00",1.0,,,,True,False,True,True,"Google Analytics, Google Ads (AdWords), Facebook",True
+Luca,https://ihcscorp.com,,https://ihcscorp.com/privacy-policy/,True,"45,189.00",1.0,,(844) 215-4264,"3700 Commerce Parkway, Miramar, FL 33025",False,,False,True,,False
+Luca,https://xriwater.com,,http://xriwater.com/privacy-policy/,True,"43,835.00",1.0,privacy@xrifq.com,,"303 W. Wall St. Suite 400, Midland, TX 79701",False,,True,True,Google Analytics,True
+Luca,https://clickfunnels.com,,https://clickfunnels.com/privacy-policy,True,"45,566.00",1.0,compliance@clickfunnels.com,,"Legal & Compliance Department, 3443 W. Bavaria Street, Eagle, Idaho 83616",True,True,True,True,Google Analytics,False
+Luca,https://decisionlens.com,,https://www.decisionlens.com/privacy-policy,True,,1.0,info@decisionlens.com,,,False,,False,False,,False
+Luca,https://atproperties.com,OneTrust,https://www.atproperties.com/pages/privacy-policy,True,"45,575.00",1.0,privacy@atproperties.com,,,False,,True,True,,False
+Luca,https://afhu.org,CookieYes,https://www.afhu.org/privacy-policy/,True,"43,374.00",1.0,info@afhu.org,,,True,False,True,True,,True
+Luca,https://ai-sys.com,,https://www.ai-sys.com/about-ai/privacy-policy/,True,,1.0,,,,False,,False,False,,False
+Luca,https://1800mrrusso.com,,https://1800mrrusso.com/privacy-policy,True,,1.0,,(973) 887-1334,"27 Eagle Rock Ave., East Hanover, NJ 07936",False,,False,True,,False
+Luca,https://mikart.com,,https://www.mikart.com/privacy-policy/,True,,1.0,info@mikart.com,,"Mikart, LLC, 1750 Chattahoochee Ave, Atlanta, Georgia, USA",False,,False,False,,True
+Luca,https://conceptmachine.com,,https://www.conceptmachine.com/privacy-policy/,True,,1.0,,,,False,,False,True,,False
+Luca,https://bridgeway.io,CookieYes,http://bridgewayconnects.com/wp-content/uploads/2022/10/Bridgeway-Connects-Privacy-Policy.pdf,True,"44,858.00",1.0,privacy@bridgeway.io,(877) 694-5229,"Bridgeway Connects, 100 Industry Drive, Pittsburgh, PA 15275",True,True,True,True,Google Analytics,True
+Luca,https://authenticrb.com,,https://authenticrb.com/privacy-policy/,True,"45,047.00",1.0,info@authenticrb.com,,"853 Broadway 16th Floor, New York, NY 10003",True,False,False,False,Google Analytics,True
+Luca,https://awaytravel.com,,https://awaytravel.com/privacy-policy,True,"45,407.00",1.0,privacy@awaytravel.com,(844) 202-2011,"11th Floor Whitefriars Lewis Mead, Bristol, England, United Kingdom, BS1 2NT",True,False,True,True,"Google Analytics, Facebook",True
+Luca,https://ccianesthesia.com,,https://ccianesthesia.com/privacy-policy/,True,,1.0,,,,True,False,False,False,,False
+Luca,https://poseida.com,,https://poseida.com/privacy-policy/,True,"44,927.00",1.0,info@poseida.com,(858) 779-3100,"9390 Towne Centre Drive, Suite 200, San Diego, CA 92121",True,True,True,False,Google Analytics,False
+Luca,https://sco.org,,https://sco.org/privacy-policy/,True,,1.0,coffice@sco.org,(516) 671-1253,,False,,False,False,,False
+Luca,https://kwalu.com,Cookie Notice,https://www.kwalu.com/privacy-policy/,True,,1.0,,(877) 695-9258,"6160 Peachtree Dunwoody Rd, Building C, Atlanta GA 30328",False,,False,True,,False
+Luca,https://nvp.com,CookieYes,https://nvp.com/privacy-policy/,True,"44,998.00",1.0,,(650) 321-8000,"1300 El Camino Real, Suite 200, Menlo Park, CA 94025",True,False,True,True,,True
+Luca,https://sweepingcorp.com,,https://sweepingcorp.com/privacy-policy/,True,"45,183.00",1.0,,,,True,False,True,True,"Google Analytics, Google Ads (AdWords), Facebook",True
+Luca,https://guideone.com,,https://guideone.com/about-us/privacy-policy,True,"43,586.00",1.0,LegalWorkRequests@guideone.com,(877) 448-4331,"1111 Ashworth Road, West Des Moines, IA 50265-3538",True,False,True,True,Google Analytics,False
+Luca,https://hillcountrydairies.com,,https://hillcountrydairies.com/privacy-policy,True,"43,252.00",1.0,info@hillcountrydairies.com,(512) 836-6123,"912 Kramer Lane, Austin, TX 78758",True,False,False,False,,False
+Luca,https://astronautics.com,,https://astronautics.com/privacy-policy/,True,,1.0,communications@astronautics.com,,"135 W Forest Hill Avenue, Oak Creek, WI 53154",False,,False,False,,False
+Luca,https://pipingrockclub.org,,https://pipingrockclub.org/web/pages/privacy-policy,True,,1.0,prcinfo@pipingrockclub.org,(516) 676-2332,,False,,False,True,,False
+Luca,https://scotchplywood.com,,https://www.scotchplywood.com/privacy-policy/,True,,1.0,,,,False,,False,True,,False
+Luca,https://majesticsteel.com,,https://www.majesticsteel.com/privacy-policy/,True,"41,474.00",1.0,,(800) 321-5590,"31099 Chagrin Blvd., Suite 150, Cleveland, Ohio 44124",True,False,False,False,,False
+Luca,https://macdonaldcody.com,,https://www.macdonaldcody.com/privacy-policy/,True,"45,362.00",1.0,jfitzgerald@macdonaldcody.com,(714) 938-5748,"3400 Central Avenue, Suite 300, Riverside, California 92506",True,True,True,True,,True
+Luca,https://vcsedu.org,,https://vcsedu.org/privacy-policy-link,True,,1.0,,,,True,True,False,False,Google Analytics,False
+Luca,https://hortonww.com,,https://www.hortonww.com/privacy-policy/,True,"43,830.00",1.0,info@hortonww.com,1 (800) 621-1320,,True,False,True,True,,False
+Mike,https://google.com,,,,,,,,,,,,,,
+Mike,https://youtube.com,,,,,,,,,,,,,,
+Mike,https://baidu.com,,,,,,,,,,,,,,
+Mike,https://facebook.com,,,,,,,,,,,,,,
+Mike,https://bilibili.com,,,,,,,,,,,,,,
+Mike,https://qq.com,,,,,,,,,,,,,,
+Mike,https://yahoo.com,,,,,,,,,,,,,,
+Mike,https://instagram.com,,,,,,,,,,,,,,
+Mike,https://zhihu.com,,,,,,,,,,,,,,
+Mike,https://twitter.com,,,,,,,,,,,,,,
+Mike,https://amazon.com,,,,,,,,,,,,,,
+Mike,https://wikipedia.org,,,,,,,,,,,,,,
+Mike,https://bing.com,,,,,,,,,,,,,,
+Mike,https://csdn.net,,,,,,,,,,,,,,
+Mike,https://linkedin.com,,,,,,,,,,,,,,
+Mike,https://whatsapp.com,,,,,,,,,,,,,,
+Mike,https://reddit.com,,,,,,,,,,,,,,
+Mike,https://taobao.com,,,,,,,,,,,,,,
+Mike,https://163.com,,,,,,,,,,,,,,
+Mike,https://sina.com.cn,,,,,,,,,,,,,,
+Mike,https://live.com,,,,,,,,,,,,,,
+Mike,https://microsoft.com,,,,,,,,,,,,,,
+Mike,https://google.com.hk,,,,,,,,,,,,,,
+Mike,https://github.com,,,,,,,,,,,,,,
+Mike,https://zoom.us,,,,,,,,,,,,,,
+Mike,https://office.com,,,,,,,,,,,,,,
+Mike,https://yandex.ru,,,,,,,,,,,,,,
+Mike,https://weibo.com,,,,,,,,,,,,,,
+Mike,https://vk.com,,,,,,,,,,,,,,
+Mike,https://jd.com,,,,,,,,,,,,,,
+Mike,https://xvideos.com,,,,,,,,,,,,,,
+Mike,https://tiktok.com,,,,,,,,,,,,,,
+Mike,https://pornhub.com,,,,,,,,,,,,,,
+Mike,https://canva.com,,,,,,,,,,,,,,
+Mike,https://dzen.ru,,,,,,,,,,,,,,
+Mike,https://t.co,,,,,,,,,,,,,,
+Mike,https://amazon.in,,,,,,,,,,,,,,
+Mike,https://yahoo.co.jp,,,,,,,,,,,,,,
+Mike,https://alipay.com,,,,,,,,,,,,,,
+Mike,https://microsoftonline.com,,,,,,,,,,,,,,
+Mike,https://aliexpress.com,,,,,,,,,,,,,,
+Mike,https://naver.com,,,,,,,,,,,,,,
+Mike,https://cnblogs.com,,,,,,,,,,,,,,
+Mike,https://mail.ru,,,,,,,,,,,,,,
+Mike,https://sohu.com,,,,,,,,,,,,,,
+Mike,https://netflix.com,,,,,,,,,,,,,,
+Mike,https://paypal.com,,,,,,,,,,,,,,
+Mike,https://fandom.com,,,,,,,,,,,,,,
+Mike,https://apple.com,,,,,,,,,,,,,,
+Mike,https://stackoverflow.com,,,,,,,,,,,,,,
+Mike,https://hao123.com,,,,,,,,,,,,,,
+Mike,https://tmall.com,,,,,,,,,,,,,,
+Mike,https://douban.com,,,,,,,,,,,,,,
+Mike,https://xhamster.com,,,,,,,,,,,,,,
+Mike,https://pinterest.com,,,,,,,,,,,,,,
+Mike,https://1688.com,,,,,,,,,,,,,,
+Mike,https://flipkart.com,,,,,,,,,,,,,,
+Mike,https://ebay.com,,,,,,,,,,,,,,
+Mike,https://quora.com,,,,,,,,,,,,,,
+Mike,https://spankbang.com,,,,,,,,,,,,,,
+Mike,https://so.com,,,,,,,,,,,,,,
+Mike,https://myshopify.com,,,,,,,,,,,,,,
+Mike,https://spotify.com,,,,,,,,,,,,,,
+Mike,https://imdb.com,,,,,,,,,,,,,,
+Mike,https://adobe.com,,,,,,,,,,,,,,
+Mike,https://msn.com,,,,,,,,,,,,,,
+Mike,https://indeed.com,,,,,,,,,,,,,,
+Mike,https://360.cn,,,,,,,,,,,,,,
+Mike,https://chaturbate.com,,,,,,,,,,,,,,
+Mike,https://xnxx.com,,,,,,,,,,,,,,
+Mike,https://telegram.org,,,,,,,,,,,,,,
+Mike,https://aliyun.com,,,,,,,,,,,,,,
+Mike,https://twimg.com,,,,,,,,,,,,,,
+Mike,https://freepik.com,,,,,,,,,,,,,,
+Mike,https://duckduckgo.com,,,,,,,,,,,,,,
+Mike,https://youdao.com,,,,,,,,,,,,,,
+Mike,https://google.co.in,,,,,,,,,,,,,,
+Mike,https://deepl.com,,,,,,,,,,,,,,
+Mike,https://etsy.com,,,,,,,,,,,,,,
+Mike,https://twitch.tv,,,,,,,,,,,,,,
+Mike,https://google.cn,,,,,,,,,,,,,,
+Mike,https://amazon.co.uk,,,,,,,,,,,,,,
+Mike,https://sogou.com,,,,,,,,,,,,,,
+Mike,https://amazon.co.jp,,,,,,,,,,,,,,
+Mike,https://feishu.cn,,,,,,,,,,,,,,
+Mike,https://tencent.com,,,,,,,,,,,,,,
+Mike,https://ilovepdf.com,,,,,,,,,,,,,,
+Mike,https://mega.nz,,,,,,,,,,,,,,
+Mike,https://douyu.com,,,,,,,,,,,,,,
+Mike,https://imgur.com,,,,,,,,,,,,,,
+Mike,https://wordpress.com,,,,,,,,,,,,,,
+Mike,https://booking.com,,,,,,,,,,,,,,
+Mike,https://instructure.com,,,,,,,,,,,,,,
+Mike,https://t.me,,,,,,,,,,,,,,
+Mike,https://nih.gov,,,,,,,,,,,,,,
+Mike,https://iqiyi.com,,,,,,,,,,,,,,
+Mike,https://dropbox.com,,,,,,,,,,,,,,
+Mike,https://medium.com,,,,,,,,,,,,,,
+Mike,https://xiaohongshu.com,,,,,,,,,,,,,,
+Mike,https://force.com,,,,,,,,,,,,,,
+Mike,https://pixiv.net,,,,,,,,,,,,,,
+Mike,https://smzdm.com,,,,,,,,,,,,,,
+Mike,https://alibaba.com,,,,,,,,,,,,,,
+Mike,https://soso.com,,,,,,,,,,,,,,
+Mike,https://amazonaws.com,,,,,,,,,,,,,,
+Mike,https://discord.com,,,,,,,,,,,,,,
+Mike,https://avito.ru,,,,,,,,,,,,,,
+Mike,https://tradingview.com,,,,,,,,,,,,,,
+Mike,https://realsrv.com,,,,,,,,,,,,,,
+Mike,https://youku.com,,,,,,,,,,,,,,
