@@ -86,12 +86,12 @@ class WebScraper:
             elif keyword_in_text and not keyword_in_href:
                 candidate_url = urljoin(self.url, href)
                 rank_2_candidate_privacy_url.append(candidate_url)
-                logger.debug(f'Rank 1 candidate: {candidate_url}')
+                logger.debug(f'Rank 2 candidate: {candidate_url}')
 
             elif keyword_in_href and not keyword_in_text:
                 candidate_url = urljoin(self.url, href)
                 rank_3_candidate_privacy_url.append(candidate_url)
-                logger.debug(f'Rank 1 candidate: {candidate_url}')
+                logger.debug(f'Rank 3 candidate: {candidate_url}')
 
 
         # Join based on ranking
