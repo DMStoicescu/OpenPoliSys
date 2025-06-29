@@ -11,11 +11,11 @@ def configure_logger():
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler(),  # Output to console
-            logging.FileHandler('./test/scraper.log', mode='w')  # Output to file
+            logging.FileHandler('./out/scraper.log', mode='w')  # Output to file
         ]
     )
 
-def save_to_csv(domain, privacy_url, policy_text, filename='policy_scrape_output.csv'):
+def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_output.csv'):
     file_exists = os.path.isfile(filename)
 
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 
     # url = input('Enter URL: ')
-    for url in domains:
+    for url in domains[261:]:
         scraper = WebScraper(url)
         scraper.find_privacy_url()
         policies = scraper.extract_policies()

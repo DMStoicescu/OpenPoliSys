@@ -55,7 +55,7 @@ class WebScraper:
             return False
 
         # reject if it's clearly an error or 404
-        m = re.search(r'page you are looking for cannot be found|Page not found|Content not found', body, re.IGNORECASE)
+        m = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR', body, re.IGNORECASE)
         if m:
             snippet = m.group(0)
             logger.warning(f"({self.driver.current_url}) looks like a 404/error page — matched: '{snippet}'")
