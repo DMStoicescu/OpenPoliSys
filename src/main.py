@@ -11,7 +11,7 @@ def configure_logger():
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler(),  # Output to console
-            logging.FileHandler('../scraper.log', mode='w')  # Output to file
+            logging.FileHandler('./test/scraper.log', mode='w')  # Output to file
         ]
     )
 
@@ -27,40 +27,41 @@ def save_to_csv(domain, privacy_url, policy_text, filename='policy_scrape_output
 
         writer.writerow([domain, privacy_url or 'Not Found', policy_text.strip()])
 
+
+def load_ground_truth_domains(filename='datasets/performance_analysis_dataset.csv'):
+    domains = []
+    if not os.path.isfile(filename):
+        raise FileNotFoundError(f"Domain list not found: {filename}")
+    with open(filename, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        # assume there's a "domain" column
+        dom_col = 'domain' if 'domain' in reader.fieldnames else reader.fieldnames[0]
+        for row in reader:
+            dom = row.get(dom_col, '').strip()
+            if dom:
+                domains.append(dom)
+    return domains
+
+
 if __name__ == '__main__':
-    top_20_sites_test = [
-        "google.com",
-        "youtube.com",
-        "facebook.com",
-        "instagram.com",
-        "chatgpt.com",
-        "x.com",
-        "whatsapp.com",
-        "wikipedia.org",
-        "reddit.com",
-        "yahoo.co.jp",
-        "yahoo.com",
-        "yandex.ru",
-        "tiktok.com",
-        "amazon.com",
-        "baidu.com",
-        "msn.com",
-        "linkedin.com",
-        "netflix.com",
-        "naver.com"
-    ]
 
     # Logger setup
     configure_logger()
     logger = logging.getLogger(__name__)
 
+    # Domain list setup
+    try:
+        domains = load_ground_truth_domains()
+    except FileNotFoundError:
+        logger.info('Domain list not found')
+        exit(1)
+
+
     # url = input('Enter URL: ')
-    for url in top_20_sites_test:
+    for url in domains:
         scraper = WebScraper(url)
         scraper.find_privacy_url()
         policies = scraper.extract_policies()
 
         save_to_csv(url, scraper.privacy_url, policies)
-        print(policies)
-
-
+        # print(policies)
