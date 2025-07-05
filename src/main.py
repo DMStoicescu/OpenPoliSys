@@ -1,19 +1,55 @@
 import csv
 import os
 import logging
+from colorlog import ColoredFormatter
 from src.WebScraper.WebScraper import WebScraper
 
 
 def configure_logger():
+    DETAIL_LEVEL_NUM = 15
+    logging.addLevelName(DETAIL_LEVEL_NUM, "DETAIL")
+    # 2) Monkey-patch Logger.detail via a lambda (no def inside this function)
+    logging.Logger.detail = (
+        lambda self, message, *args, **kwargs:
+        self._log(DETAIL_LEVEL_NUM, message, args, **kwargs)
+        if self.isEnabledFor(DETAIL_LEVEL_NUM) else None
+    )
+
     # Configure logging globally
     logging.basicConfig(
-        level=logging.INFO,  # Or DEBUG for more verbose output
+        level=DETAIL_LEVEL_NUM,  # Or DEBUG for more verbose output
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler(),  # Output to console
             logging.FileHandler('./out/scraper.log', mode='w')  # Output to file
         ]
     )
+
+    colored_fmt = (
+        "%(log_color)s"  # injects the color code
+        "%(asctime)s - %(levelname)-8s - %(message)s"
+        "%(reset)s"  # resets color back to normal
+    )
+    color_map = {
+        'DETAIL': 'blue',
+        'DEBUG': 'cyan',
+        'INFO': 'green',
+        'WARNING': 'yellow',
+        'ERROR': 'red',
+        'CRITICAL': 'red,bg_white',
+    }
+    color_formatter = ColoredFormatter(
+        colored_fmt,
+        datefmt="%Y-%m-%d %H:%M:%S",
+        log_colors=color_map,
+        reset=True
+    )
+
+    # 3) Find your StreamHandler and swap its formatter
+    root = logging.getLogger()
+    for handler in root.handlers:
+        if isinstance(handler, logging.StreamHandler):
+            handler.setFormatter(color_formatter)
 
 def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_output.csv'):
     file_exists = os.path.isfile(filename)
@@ -53,7 +89,7 @@ if __name__ == '__main__':
     try:
         domains = load_ground_truth_domains()
     except FileNotFoundError:
-        logger.info('Domain list not found')
+        logger.error('Domain list not found')
         exit(1)
 
 
@@ -65,7 +101,7 @@ if __name__ == '__main__':
             policies = scraper.extract_policies(privacy_urls)
             save_to_csv(url, privacy_urls, policies)
         except Exception as e:
-            logger.exception(f"Failed to extract privacy urls, for{url}, {e} -------------------------------------------")
+            logger.error(f"Failed to extract privacy urls, for{url}, {e} -------------------------------------------")
             continue
 
 

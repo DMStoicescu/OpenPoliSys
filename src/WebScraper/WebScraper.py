@@ -54,10 +54,10 @@ class WebScraper:
 
         # must mention "privacy"
         if "privacy" not in title and "privacy" not in body:
-            logger.debug(f"({self.driver.current_url}) no 'privacy' keyword")
+            logger.detail(f"({self.driver.current_url}) no 'privacy' keyword")
             return False
 
-        # reject if it's clearly an error or 404
+        # reject if it is an error or 404
         page_not_found_matches = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR|404 Not Found|Sorry but the page|404 page|Sorry, the page you were looking for was not found|404 Page', body, re.IGNORECASE)
         if page_not_found_matches:
             snippet = page_not_found_matches.group(0)
@@ -84,7 +84,7 @@ class WebScraper:
                 is_en_flag = False
                 logger.debug(f"({current}) lang attribute '{lang_attr}' indicates non-English")
         except Exception as e:
-            logger.debug(f"({current}) no html lang attribute or error reading it: {e}")
+            logger.warning(f"({current}) no html lang attribute or error reading it: {e}")
 
         # 2) Fallback: langdetect on page text
         try:
@@ -100,7 +100,7 @@ class WebScraper:
                 is_en_flag = True
             else:
                 is_en_flag = False
-                logger.info(f"({current}) langdetect detected language '{lang}', skipping")
+                logger.detail(f"({current}) langdetect detected language '{lang}', skipping")
         except Exception as e:
             logger.warning(f"({current}) could not detect language: {e}")
             # default to proceeding if detection fails
@@ -112,20 +112,20 @@ class WebScraper:
         # Navigate to the domain URL
         privacy_urls = []
 
-        logger.info(f'Navigating to homepage: {self.url}')
+        logger.detail(f'Navigating to homepage: {self.url}')
         try:
             self.driver.get(self.url)
         except TimeoutException as e:
-            logger.warning(f"Timeout loading homepage {self.url}: {e}")
+            logger.error(f"Timeout loading homepage {self.url}: {e}")
             return privacy_urls
         except Exception as e:
-            logger.warning(f"Error loading homepage {self.url}: {e}")
+            logger.error(f"Error loading homepage {self.url}: {e}")
             return privacy_urls
         time.sleep(4)
 
         # Perform language check
         if not self._page_is_english():
-            logger.info(f"Skipping {self.url} because page is not English")
+            logger.detail(f"Skipping {self.url} because page is not English")
             return privacy_urls
 
         # Try navigation to direct subdomain paths first
@@ -137,7 +137,7 @@ class WebScraper:
                 logger.warning(f"Timeout loading direct path {full_url}: {e}")
                 continue
             except Exception as e:
-                logger.info(f"Error loading direct path {full_url}: {e}")
+                logger.warning(f"Error loading direct path {full_url}: {e}")
                 continue
 
             time.sleep(2)
@@ -146,22 +146,22 @@ class WebScraper:
                 self.privacy_url = self.driver.current_url
                 if self.privacy_url not in privacy_urls:
                     privacy_urls.append(self.privacy_url)
-                    logger.info(f'Privacy policy URL found using direct path at {self.privacy_url}.')
+                    logger.detail(f'Privacy policy URL found using direct path at {self.privacy_url}.')
 
         # Try navigation based on elements containing keywords
         # Navigate back to the domain url and restart the process
         try:
             self.driver.get(self.url)
         except TimeoutException as e:
-            logger.warning(f"Timeout reloading homepage {self.url}: {e}")
+            logger.error(f"Timeout reloading homepage {self.url}: {e}")
             return privacy_urls
         except Exception as e:
-            logger.info(f"Error reloading homepage {self.url}: {e}")
+            logger.error(f"Error loading homepage {self.url}: {e}")
             return privacy_urls
         time.sleep(2)
 
         links = self.driver.find_elements(By.TAG_NAME, 'a')
-        logger.info(f'Found {len(links)} hyperlinks on the page.')
+        logger.detail(f'Found {len(links)} hyperlinks on the page.')
 
         # Define the 3 classes of the privacy url ranking system
         rank_1_candidate_privacy_url = []
@@ -181,13 +181,13 @@ class WebScraper:
             # Assign candidates based on ranking
             if keyword_in_text and keyword_in_href:
                 rank_1_candidate_privacy_url.append(urljoin(self.url, href))
-                logger.debug(f'Rank 1 candidate: {urljoin(self.url, href)}')
+                # logger.debug(f'Rank 1 candidate: {urljoin(self.url, href)}')
             elif keyword_in_text:
                 rank_2_candidate_privacy_url.append(urljoin(self.url, href))
-                logger.debug(f'Rank 2 candidate: {urljoin(self.url, href)}')
+                # logger.debug(f'Rank 2 candidate: {urljoin(self.url, href)}')
             elif keyword_in_href:
                 rank_3_candidate_privacy_url.append(urljoin(self.url, href))
-                logger.debug(f'Rank 3 candidate: {urljoin(self.url, href)}')
+                # logger.debug(f'Rank 3 candidate: {urljoin(self.url, href)}')
 
         # Join based on ranking
         candidate_privacy_url_sorted = (
@@ -196,15 +196,16 @@ class WebScraper:
             rank_3_candidate_privacy_url
         )
 
-        logger.info(f'Found {len(candidate_privacy_url_sorted)} hyperlinks that might be related to privacy on the page.')
+        logger.detail(f'Found {len(candidate_privacy_url_sorted)} hyperlinks that might be related to privacy on the page.')
 
         for candidate_url in candidate_privacy_url_sorted[:5]:
             try:
                 self.driver.get(candidate_url)
             except TimeoutException as e:
-                logger.warning(f"Timeout loading candidate link {candidate_url}: {e}")
+                logger.error(f"Timeout loading candidate link {candidate_url}: {e}")
                 continue
-            except Exception:
+            except Exception as e:
+                logger.error(f"Exception loading candidate link {candidate_url}: {e}")
                 continue
 
             time.sleep(2)
@@ -212,7 +213,7 @@ class WebScraper:
                 self.privacy_url = self.driver.current_url
                 if self.privacy_url not in privacy_urls:
                     privacy_urls.append(self.privacy_url)
-                    logger.info(f"Found privacy-related URL via keyword scan at: {self.privacy_url}")
+                    logger.detail(f"Found privacy-related URL via keyword scan at: {self.privacy_url}")
 
         return privacy_urls
 
@@ -270,14 +271,14 @@ class WebScraper:
                 text_candidate = soup.get_text(separator='\n', strip=True)
                 if text_extracted != '':
                     if text_candidate != '' and self.similarity(text_extracted, text_candidate) <= 0.7:
-                        logger.info(f'Extraction from {privacy_url}, completed successfully.')
+                        logger.detail(f'Extraction from {privacy_url}, completed successfully.')
                         text_extracted += text_candidate
 
                 else:
-                    logger.info(f'Extraction from {privacy_url}, completed successfully.')
+                    logger.detail(f'Extraction from {privacy_url}, completed successfully.')
                     text_extracted = text_candidate
 
-            logger.info('Extraction from found privacy links completed.')
+            logger.detail('Extraction from found privacy links completed.')
             self.driver.quit()
             return text_extracted
 
