@@ -17,7 +17,22 @@ logger = logging.getLogger(__name__)
 DetectorFactory.seed = 0
 
 class WebScraper:
+    """
+        A scraper to locate and extract privacy policy content for a given domain.
+
+        Class Attributes:
+            direct_paths (list[str]): Known URL suffixes for privacy pages.
+            privacy_name_list (list[str]): Keywords to identify privacy-policy links.
+            SCROLL_PAUSE_TIME (float): Delay between scroll actions to load lazy content.
+        Instance Attributes:
+            url (str): Base URL for the target domain (with a scheme).
+            policy_text (str|None): Aggregated extracted policy text.
+            driver (webdriver.Chrome): Selenium Chrome WebDriver instance.
+    """
+    # Common direct endpoints to test before scanning page links
     direct_privacy_subdomains = direct_paths = ['/privacy', '/privacy-policy']
+
+    # Text patterns to match link labels or URLs
     privacy_name_list = [
         'Privacy Policy', 'Privacy Statement',
         'Privacy-statement','Privacy Notice',
@@ -27,10 +42,18 @@ class WebScraper:
         'Privacy-Centre', 'Terms & Privacy Policy',
         'Terms and Privacy Policy'
     ]
+
+    # Value used for lazy loaded content
     SCROLL_PAUSE_TIME = 1.5
 
     def __init__(self, domain_url):
-        # Assign the URL of the domain
+        """
+            Initialize the scraper with headless Chrome for the given domain.
+
+            Args:
+                domain_url (str): Domain to scrape (e.g., 'example.com' or 'https://example.com').
+        """
+        # Normalize URL to include scheme, assume https:// default
         self.url = domain_url if domain_url.startswith(('http://', 'https://')) else f'https://{domain_url}'
 
         # Assign initial privacy policy subdomain
@@ -45,22 +68,29 @@ class WebScraper:
         self.chrome_options.add_argument("--headless")
         self.driver = webdriver.Chrome(options=self.chrome_options)
 
-        # fail fast on slow pages
+        # Fail fast on slow pages
         self.driver.set_page_load_timeout(30)
         self.driver.set_script_timeout(30)
 
         logger.info(f'Initialized scraper for URL: {self.url}')
 
-    def _is_valid_privacy_page(self) -> bool:
+    def page_is_valid_privacy_page(self):
+        """
+            Validate that the current page is a privacy policy and not an error.
+            Note: only used for direct path policy finder - not for link-based policy finder.
+
+            Returns:
+                bool: True if page contains 'privacy' and is not a 404 or error page.
+        """
         title = self.driver.title.lower()
         body = self.driver.page_source.lower()
 
-        # must mention "privacy"
+        # Must mention "privacy"
         if "privacy" not in title and "privacy" not in body:
             logger.detail(f"({self.driver.current_url}) no 'privacy' keyword")
             return False
 
-        # reject if it is an error or 404
+        # Reject 404 or generic error pages
         page_not_found_matches = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR|404 Not Found|Sorry but the page|404 page|Sorry, the page you were looking for was not found|404 Page', body, re.IGNORECASE)
         if page_not_found_matches:
             snippet = page_not_found_matches.group(0)
@@ -69,11 +99,19 @@ class WebScraper:
 
         return True
 
-    def _page_is_english(self) -> bool:
+    def page_is_english(self):
+        """
+            Determine if the current page is in English.
+
+            Tries HTML lang attribute first, falls back to `langdetect` on page text.
+
+            Returns:
+                bool: True if page language is English or detection fails; False otherwise.
+        """
         current = self.driver.current_url
         is_en_flag = True
 
-        # 1) HTML lang attribute
+        # HTML lang attribute check
         try:
             lang_attr = (
                     self.driver
@@ -89,7 +127,7 @@ class WebScraper:
         except Exception as e:
             logger.warning(f"({current}) no html lang attribute or error reading it: {e}")
 
-        # 2) Fallback: langdetect on page text
+        # Fallback: langdetect on page text
         try:
             html = self.driver.page_source
             text = (
@@ -112,10 +150,23 @@ class WebScraper:
         return is_en_flag
 
     def find_privacy_url(self):
+        """
+            Attempts to locate privacy policy URLs.
+
+            Order of operations:
+            1. Load homepage and verify English content
+            2. Try direct paths (e.g., /privacy, /privacy-policy)
+            3. Scan top navigation links by keyword ranking
+
+            Returns:
+                list[str]: Discovered privacy policy URLs (may be empty).
+        """
         # Navigate to the domain URL
         privacy_urls = []
 
         logger.detail(f'Navigating to homepage: {self.url}')
+
+        # Load homepage, and if not possible return []
         try:
             self.driver.get(self.url)
         except TimeoutException as e:
@@ -127,11 +178,11 @@ class WebScraper:
         time.sleep(4)
 
         # Perform language check
-        if not self._page_is_english():
+        if not self.page_is_english():
             logger.detail(f"Skipping {self.url} because page is not English")
             return privacy_urls
 
-        # Try navigation to direct subdomain paths first
+        # Try navigation to direct subdomain paths first (direct path check)
         for path in self.direct_paths:
             full_url = urljoin(self.url, path)
             try:
@@ -144,7 +195,7 @@ class WebScraper:
                 continue
 
             time.sleep(2)
-            if self._is_valid_privacy_page():
+            if self.page_is_valid_privacy_page():
                 # Set current url to take into account any redirects
                 self.privacy_url = self.driver.current_url
                 if self.privacy_url not in privacy_urls:
@@ -201,6 +252,7 @@ class WebScraper:
 
         logger.detail(f'Found {len(candidate_privacy_url_sorted)} hyperlinks that might be related to privacy on the page.')
 
+        # Navigate up to 5 of the best candidates
         for candidate_url in candidate_privacy_url_sorted[:5]:
             try:
                 self.driver.get(candidate_url)
@@ -212,15 +264,20 @@ class WebScraper:
                 continue
 
             time.sleep(2)
+            # Recheck for mention of privacy
             if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
                 self.privacy_url = self.driver.current_url
                 if self.privacy_url not in privacy_urls:
+                    # Append if not already present
                     privacy_urls.append(self.privacy_url)
                     logger.detail(f"Found privacy-related URL via keyword scan at: {self.privacy_url}")
 
         return privacy_urls
 
     def scroll_to_bottom(self):
+        """
+            Scrolls page to bottom to trigger lazy-loaded elements.
+        """
         last_height = self.driver.execute_script("return document.body.scrollHeight")
         while True:
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -232,14 +289,33 @@ class WebScraper:
 
     @staticmethod
     def similarity(text1, text2):
+        """
+            Compute a similarity ratio between two strings.
+
+            Args:
+                text1 (str),
+                text2 (str)
+            Returns:
+                float: Ratio in [0.0, 1.0]
+        """
         return SequenceMatcher(None, text1, text2).ratio()
 
     @staticmethod
     def remove_boilerplate_elements(soup):
+        """
+            Remove common non-content elements (headers, footers, navs, banners).
+
+            Args:
+                soup (BeautifulSoup): Parsed HTML soup
+            Returns:
+                BeautifulSoup: Cleaned soup
+        """
+        # Remove structural tags
         tags_list = ['footer', 'nav', 'aside', 'header']
         for tag in soup.find_all(tags_list):
             tag.decompose()
 
+        # Remove by CSS selectors
         css_selector_list = ['.footer', '#footer', '.site-footer', '#site-footer',
                              '.navbar' ,'#navbar', '.nav', '#nav', '.site-nav', '#site-nav',
                              '.sidebar', '#sidebar', '.cookie-banner', '#cookie-banner']
@@ -251,6 +327,14 @@ class WebScraper:
         return soup
 
     def extract_policies(self, privacy_urls_list):
+        """
+            Extract and concatenate text from discovered privacy URL pages.
+
+            Args:
+                privacy_urls_list (list[str]): List of valid privacy policy URLs.
+            Returns:
+                str: Combined privacy policy text, or a warning string if none found.
+        """
         # Navigate to privacy URL
         text_extracted = ''
         if len(privacy_urls_list) != 0:
@@ -269,8 +353,10 @@ class WebScraper:
                 # Parse with BeautifulSoup
                 soup = BeautifulSoup(html, 'html.parser')
 
+                # Remove text related to boilerplate
                 soup = self.remove_boilerplate_elements(soup)
 
+                # Transform to text and do not append unless text is "new"
                 text_candidate = soup.get_text(separator='\n', strip=True)
                 if text_extracted != '':
                     if text_candidate != '' and self.similarity(text_extracted, text_candidate) <= 0.7:
