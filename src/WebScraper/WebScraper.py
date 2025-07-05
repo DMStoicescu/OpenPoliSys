@@ -19,10 +19,10 @@ DetectorFactory.seed = 0
 class WebScraper:
     direct_privacy_subdomains = direct_paths = ['/privacy', '/privacy-policy']
     privacy_name_list = [
-        'Privacy Policy',
-        'Privacy Statement', 'Privacy-statement',
-        'Privacy Notice', 'Privacy-notice',
-        'privacy', 'privacy-policy'
+        'Privacy Policy', 'Privacy Statement',
+        'Privacy-statement','Privacy Notice',
+        'Privacy-notice', 'privacy',
+        'privacy-policy'
     ]
     SCROLL_PAUSE_TIME = 1.5
 
@@ -118,16 +118,16 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.warning(f"Timeout loading homepage {self.url}: {e}")
-            return []
+            return privacy_urls
         except Exception as e:
             logger.warning(f"Error loading homepage {self.url}: {e}")
-            return []
+            return privacy_urls
         time.sleep(4)
 
         # Perform language check
         if not self._page_is_english():
             logger.info(f"Skipping {self.url} because page is not English")
-            return []
+            return privacy_urls
 
         # Try navigation to direct subdomain paths first
         for path in self.direct_paths:
@@ -197,6 +197,8 @@ class WebScraper:
             rank_3_candidate_privacy_url
         )
 
+        logger.info(f'Found {len(candidate_privacy_url_sorted)} hyperlinks that might be related to privacy on the page.')
+
         for candidate_url in candidate_privacy_url_sorted[:5]:
             try:
                 self.driver.get(candidate_url)
@@ -208,12 +210,10 @@ class WebScraper:
 
             time.sleep(2)
             if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
-                # Account for redirects
                 self.privacy_url = self.driver.current_url
                 if self.privacy_url not in privacy_urls:
                     privacy_urls.append(self.privacy_url)
-                    logger.info(f"Found privacy URL via keyword scan at: {self.privacy_url}")
-                return privacy_urls
+                    logger.info(f"Found privacy-related URL via keyword scan at: {self.privacy_url}")
 
         return privacy_urls
 
@@ -230,6 +230,22 @@ class WebScraper:
     @staticmethod
     def similarity(text1, text2):
         return SequenceMatcher(None, text1, text2).ratio()
+
+    @staticmethod
+    def remove_boilerplate_elements(soup):
+        tags_list = ['footer', 'nav', 'aside', 'header']
+        for tag in soup.find_all(tags_list):
+            tag.decompose()
+
+        css_selector_list = ['.footer', '#footer', '.site-footer', '#site-footer',
+                             '.navbar' ,'#navbar', '.nav', '#nav', '.site-nav', '#site-nav',
+                             '.sidebar', '#sidebar', '.cookie-banner', '#cookie-banner']
+
+        for sel in css_selector_list:
+            for elem in soup.select(sel):
+                elem.decompose()
+
+        return soup
 
     def extract_policies(self, privacy_urls_list):
         # Navigate to privacy URL
@@ -249,15 +265,20 @@ class WebScraper:
 
                 # Parse with BeautifulSoup
                 soup = BeautifulSoup(html, 'html.parser')
+
+                soup = self.remove_boilerplate_elements(soup)
+
                 text_candidate = soup.get_text(separator='\n', strip=True)
                 if text_extracted != '':
                     if text_candidate != '' and self.similarity(text_extracted, text_candidate) <= 0.7:
+                        logger.info(f'Extraction from {privacy_url}, completed successfully.')
                         text_extracted += text_candidate
 
                 else:
+                    logger.info(f'Extraction from {privacy_url}, completed successfully.')
                     text_extracted = text_candidate
 
-            logger.info('Extracted policy text using full DOM parsing.')
+            logger.info('Extraction from found privacy links completed.')
             self.driver.quit()
             return text_extracted
 
