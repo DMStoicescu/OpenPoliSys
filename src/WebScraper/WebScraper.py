@@ -58,6 +58,9 @@ class WebScraper:
         # Assign initial privacy policy subdomain
         self.privacy_url = None
 
+        # Assign intial empty lists for all privacy-related subdomains
+        self.privacy_subdomains = []
+
         # Assign initial empty policy value
         self.policy_text = None
 
@@ -160,9 +163,6 @@ class WebScraper:
             Returns:
                 list[str]: Discovered privacy policy URLs (can be empty).
         """
-        # Navigate to the domain URL
-        privacy_urls = []
-
         logger.detail(f'Navigating to homepage: {self.url}')
 
         # Load homepage, and if not possible return []
@@ -170,16 +170,16 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.error(f"Timeout loading homepage {self.url}: {e}")
-            return privacy_urls
+            return self.privacy_subdomains
         except Exception as e:
             logger.error(f"Error loading homepage {self.url}: {e}")
-            return privacy_urls
+            return self.privacy_subdomains
         time.sleep(4)
 
         # Perform language check
         if not self.page_is_english():
             logger.detail(f"Skipping {self.url} because page is not English")
-            return privacy_urls
+            return self.privacy_subdomains
 
         # Try navigation to direct subdomain paths first (direct path check)
         for path in self.direct_paths:
@@ -197,8 +197,8 @@ class WebScraper:
             if self.page_is_valid_privacy_page():
                 # Set current url to take into account any redirects
                 self.privacy_url = self.driver.current_url
-                if self.privacy_url not in privacy_urls:
-                    privacy_urls.append(self.privacy_url)
+                if self.privacy_url not in self.privacy_subdomains:
+                    self.privacy_subdomains.append(self.privacy_url)
                     logger.detail(f'Privacy policy URL found using direct path at {self.privacy_url}.')
 
         # Try navigation based on elements containing keywords
@@ -207,10 +207,10 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.error(f"Timeout reloading homepage {self.url}: {e}")
-            return privacy_urls
+            return self.privacy_subdomains
         except Exception as e:
             logger.error(f"Error loading homepage {self.url}: {e}")
-            return privacy_urls
+            return self.privacy_subdomains
         time.sleep(2)
 
         links = self.driver.find_elements(By.TAG_NAME, 'a')
@@ -266,12 +266,12 @@ class WebScraper:
             # Recheck for mention of privacy
             if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
                 self.privacy_url = self.driver.current_url
-                if self.privacy_url not in privacy_urls:
+                if self.privacy_url not in self.privacy_subdomains:
                     # Append if not already present
-                    privacy_urls.append(self.privacy_url)
+                    self.privacy_subdomains.append(self.privacy_url)
                     logger.detail(f"Found privacy-related URL via keyword scan at: {self.privacy_url}")
 
-        return privacy_urls
+        return self.privacy_subdomains
 
     def scroll_to_bottom(self):
         """
