@@ -58,10 +58,15 @@ if __name__ == '__main__':
 
 
     # url = input('Enter URL: ')
-    for url in domains[261:]:
-        scraper = WebScraper(url)
-        scraper.find_privacy_url()
-        policies = scraper.extract_policies()
+    for url in domains:
+        try:
+            scraper = WebScraper(url)
+            privacy_urls = scraper.find_privacy_url()
+            policies = scraper.extract_policies(privacy_urls)
+            save_to_csv(url, privacy_urls, policies)
+        except Exception as e:
+            logger.exception(f"Failed to extract privacy urls, for{url}, {e} -------------------------------------------")
+            continue
 
-        save_to_csv(url, scraper.privacy_url, policies)
+
         # print(policies)

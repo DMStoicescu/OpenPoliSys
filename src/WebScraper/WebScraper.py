@@ -8,18 +8,21 @@ from selenium.webdriver.chrome.options import Options
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
+from difflib import SequenceMatcher
 
 
 # Setup logger for this module
 logger = logging.getLogger(__name__)
 # Setup for language detector
+DetectorFactory.seed = 0
 
 class WebScraper:
     direct_privacy_subdomains = direct_paths = ['/privacy', '/privacy-policy']
     privacy_name_list = [
-        'Privacy Policy', 'privacy', 'privacy-policy',
+        'Privacy Policy',
         'Privacy Statement', 'Privacy-statement',
-        'Privacy Notice', 'Privacy-notice'
+        'Privacy Notice', 'Privacy-notice',
+        'privacy', 'privacy-policy'
     ]
     SCROLL_PAUSE_TIME = 1.5
 
@@ -45,7 +48,7 @@ class WebScraper:
 
         logger.info(f'Initialized scraper for URL: {self.url}')
 
-    def direct_is_valid_privacy_page(self) -> bool:
+    def _is_valid_privacy_page(self) -> bool:
         title = self.driver.title.lower()
         body = self.driver.page_source.lower()
 
@@ -55,7 +58,8 @@ class WebScraper:
             return False
 
         # reject if it's clearly an error or 404
-        m = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR', body, re.IGNORECASE)
+        m = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR|404 Not Found|Sorry but the page|404 page|Sorry, the page you were looking for was not found|404 Page', body, re.IGNORECASE)
+
         if m:
             snippet = m.group(0)
             logger.warning(f"({self.driver.current_url}) looks like a 404/error page — matched: '{snippet}'")
@@ -65,6 +69,7 @@ class WebScraper:
 
     def _page_is_english(self) -> bool:
         current = self.driver.current_url
+        is_en_flag = True
 
         # 1) HTML lang attribute
         try:
@@ -76,8 +81,9 @@ class WebScraper:
             ).lower()
             if lang_attr.startswith('en'):
                 logger.debug(f"({current}) lang attribute '{lang_attr}' indicates English")
-                return True
-            logger.debug(f"({current}) lang attribute '{lang_attr}' indicates non-English")
+            else:
+                is_en_flag = False
+                logger.debug(f"({current}) lang attribute '{lang_attr}' indicates non-English")
         except Exception as e:
             logger.debug(f"({current}) no html lang attribute or error reading it: {e}")
 
@@ -92,31 +98,36 @@ class WebScraper:
             lang = detect(text)
             if lang == 'en':
                 logger.debug(f"({current}) langdetect detected language 'en'")
-                return True
-            logger.info(f"({current}) langdetect detected language '{lang}', skipping")
-            return False
+                is_en_flag = True
+            else:
+                is_en_flag = False
+                logger.info(f"({current}) langdetect detected language '{lang}', skipping")
         except Exception as e:
             logger.warning(f"({current}) could not detect language: {e}")
             # default to proceeding if detection fails
-            return True
+            return is_en_flag
+
+        return is_en_flag
 
     def find_privacy_url(self):
         # Navigate to the domain URL
+        privacy_urls = []
+
         logger.info(f'Navigating to homepage: {self.url}')
         try:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.warning(f"Timeout loading homepage {self.url}: {e}")
-            return
+            return []
         except Exception as e:
             logger.warning(f"Error loading homepage {self.url}: {e}")
-            return
-        time.sleep(2)
+            return []
+        time.sleep(4)
 
         # Perform language check
         if not self._page_is_english():
             logger.info(f"Skipping {self.url} because page is not English")
-            return
+            return []
 
         # Try navigation to direct subdomain paths first
         for path in self.direct_paths:
@@ -130,12 +141,13 @@ class WebScraper:
                 logger.info(f"Error loading direct path {full_url}: {e}")
                 continue
 
-            time.sleep(1)
-            if self.direct_is_valid_privacy_page():
+            time.sleep(2)
+            if self._is_valid_privacy_page():
                 # Set current url to take into account any redirects
                 self.privacy_url = self.driver.current_url
-                logger.info(f'Privacy policy URL found using direct path at {self.privacy_url}.')
-                return
+                if self.privacy_url not in privacy_urls:
+                    privacy_urls.append(self.privacy_url)
+                    logger.info(f'Privacy policy URL found using direct path at {self.privacy_url}.')
 
         # Try navigation based on elements containing keywords
         # Navigate back to the domain url and restart the process
@@ -143,10 +155,10 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.warning(f"Timeout reloading homepage {self.url}: {e}")
-            return
+            return privacy_urls
         except Exception as e:
             logger.info(f"Error reloading homepage {self.url}: {e}")
-            return
+            return privacy_urls
         time.sleep(2)
 
         links = self.driver.find_elements(By.TAG_NAME, 'a')
@@ -194,11 +206,16 @@ class WebScraper:
             except Exception:
                 continue
 
+            time.sleep(2)
             if "privacy" in self.driver.title.lower() or "privacy" in self.driver.page_source.lower():
                 # Account for redirects
                 self.privacy_url = self.driver.current_url
-                logger.info(f"Found privacy URL via keyword scan at: {self.privacy_url}")
-                return
+                if self.privacy_url not in privacy_urls:
+                    privacy_urls.append(self.privacy_url)
+                    logger.info(f"Found privacy URL via keyword scan at: {self.privacy_url}")
+                return privacy_urls
+
+        return privacy_urls
 
     def scroll_to_bottom(self):
         last_height = self.driver.execute_script("return document.body.scrollHeight")
@@ -210,28 +227,42 @@ class WebScraper:
                 break
             last_height = new_height
 
-    def extract_policies(self):
+    @staticmethod
+    def similarity(text1, text2):
+        return SequenceMatcher(None, text1, text2).ratio()
+
+    def extract_policies(self, privacy_urls_list):
         # Navigate to privacy URL
-        if self.privacy_url:
-            self.driver.get(self.privacy_url)
+        text_extracted = ''
+        if len(privacy_urls_list) != 0:
+            for privacy_url in privacy_urls_list:
+                self.driver.get(privacy_url)
 
-            # Allow padding time to let the site load
-            time.sleep(3)
+                # Allow padding time to let the site load
+                time.sleep(3)
 
-            # Ensure all lazy-loaded content is visible
-            self.scroll_to_bottom()
+                # Ensure all lazy-loaded content is visible
+                self.scroll_to_bottom()
 
-            # Use page_source for full HTML access
-            html = self.driver.page_source
-            self.driver.quit()
+                # Use page_source for full HTML access
+                html = self.driver.page_source
 
-            # Parse with BeautifulSoup
-            soup = BeautifulSoup(html, 'html.parser')
-            text_extracted = soup.get_text(separator='\n')
+                # Parse with BeautifulSoup
+                soup = BeautifulSoup(html, 'html.parser')
+                text_candidate = soup.get_text(separator='\n', strip=True)
+                if text_extracted != '':
+                    if text_candidate != '' and self.similarity(text_extracted, text_candidate) <= 0.7:
+                        text_extracted += text_candidate
+
+                else:
+                    text_extracted = text_candidate
+
             logger.info('Extracted policy text using full DOM parsing.')
-
+            self.driver.quit()
             return text_extracted
+
         else:
             self.driver.quit()
             logger.warning('Privacy URL not found.')
             return 'No privacy url found'
+
