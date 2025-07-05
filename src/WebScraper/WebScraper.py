@@ -10,7 +10,6 @@ from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
 from difflib import SequenceMatcher
 
-
 # Setup logger for this module
 logger = logging.getLogger(__name__)
 # Setup for language detector
@@ -159,7 +158,7 @@ class WebScraper:
             3. Scan top navigation links by keyword ranking
 
             Returns:
-                list[str]: Discovered privacy policy URLs (may be empty).
+                list[str]: Discovered privacy policy URLs (can be empty).
         """
         # Navigate to the domain URL
         privacy_urls = []
