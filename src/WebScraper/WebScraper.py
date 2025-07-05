@@ -22,7 +22,10 @@ class WebScraper:
         'Privacy Policy', 'Privacy Statement',
         'Privacy-statement','Privacy Notice',
         'Privacy-notice', 'privacy',
-        'privacy-policy'
+        'privacy-policy', 'Privacy Centre and Ad Choices',
+        'Privacy Centre & Ad Choices', 'Privacy Centre',
+        'Privacy-Centre', 'Terms & Privacy Policy',
+        'Terms and Privacy Policy'
     ]
     SCROLL_PAUSE_TIME = 1.5
 
