@@ -57,7 +57,8 @@ def configure_logger():
     # Replace formatter on console handler only
     root = logging.getLogger()
     for handler in root.handlers:
-        if isinstance(handler, logging.StreamHandler):
+        # only colorize real console handlers, not the file handler
+        if isinstance(handler, logging.StreamHandler) and not isinstance(handler, logging.FileHandler):
             handler.setFormatter(color_formatter)
 
 def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_output.csv'):
