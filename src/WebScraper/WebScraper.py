@@ -55,6 +55,9 @@ class WebScraper:
         # Normalize URL to include scheme, assume https:// default
         self.url = domain_url if domain_url.startswith(('http://', 'https://')) else f'https://{domain_url}'
 
+        # To avoid redirects to initial home page
+        self.url_2 = domain_url if domain_url.startswith(('http://', 'https://')) else f'https://www.{domain_url}'
+
         # Assign initial privacy policy subdomain
         self.privacy_url = None
 
@@ -208,7 +211,7 @@ class WebScraper:
             if self.page_is_valid_privacy_page():
                 # Set current url to take into account any redirects
                 self.privacy_url = self.driver.current_url
-                if self.privacy_url not in self.privacy_subdomains and self.privacy_url != (self.url + "/"):
+                if self.privacy_url not in self.privacy_subdomains and self.privacy_url != (self.url + "/") and self.privacy_url != (self.url_2 + "/"):
                     self.privacy_subdomains.append(self.privacy_url)
                     logger.detail(f'Privacy policy URL found using direct path at {self.privacy_url}.')
 
