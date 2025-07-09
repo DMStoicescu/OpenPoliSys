@@ -64,6 +64,15 @@ class WebScraper:
         # Assign initial empty policy value
         self.policy_text = None
 
+        # Assign initial true value for language attribute
+        self.is_en_flag = True
+
+        # Assign timeout domain flag default to false
+        self.is_timeout_flag = False
+
+        # Assign outdated domain flag default to false
+        self.is_outdated_flag = False
+
         # Set up the driver for this URL
         self.chrome_options = Options()
         # Run in headless mode for performance purposes
@@ -111,7 +120,7 @@ class WebScraper:
                 bool: True if page language is English or detection fails; False otherwise.
         """
         current = self.driver.current_url
-        is_en_flag = True
+        self.is_en_flag = True
 
         # HTML lang attribute check
         try:
@@ -124,7 +133,7 @@ class WebScraper:
             if lang_attr.startswith('en'):
                 logger.debug(f"({current}) lang attribute '{lang_attr}' indicates English")
             else:
-                is_en_flag = False
+                self.is_en_flag = False
                 logger.debug(f"({current}) lang attribute '{lang_attr}' indicates non-English")
         except Exception as e:
             logger.warning(f"({current}) no html lang attribute or error reading it: {e}")
@@ -140,16 +149,16 @@ class WebScraper:
             lang = detect(text)
             if lang == 'en':
                 logger.debug(f"({current}) langdetect detected language 'en'")
-                is_en_flag = True
+                self.is_en_flag = True
             else:
-                is_en_flag = False
+                self.is_en_flag = False
                 logger.detail(f"({current}) langdetect detected language '{lang}', skipping")
         except Exception as e:
             logger.warning(f"({current}) could not detect language: {e}")
             # default to proceeding if detection fails
-            return is_en_flag
+            return self.is_en_flag
 
-        return is_en_flag
+        return self.is_en_flag
 
     def find_privacy_url(self):
         """
@@ -170,9 +179,11 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.error(f"Timeout loading homepage {self.url}: {e}")
+            self.is_timeout_flag = False
             return self.privacy_subdomains
         except Exception as e:
             logger.error(f"Error loading homepage {self.url}: {e}")
+            self.is_outdated_flag = True
             return self.privacy_subdomains
         time.sleep(4)
 
@@ -197,7 +208,7 @@ class WebScraper:
             if self.page_is_valid_privacy_page():
                 # Set current url to take into account any redirects
                 self.privacy_url = self.driver.current_url
-                if self.privacy_url not in self.privacy_subdomains:
+                if self.privacy_url not in self.privacy_subdomains and self.privacy_url != (self.url + "/"):
                     self.privacy_subdomains.append(self.privacy_url)
                     logger.detail(f'Privacy policy URL found using direct path at {self.privacy_url}.')
 
