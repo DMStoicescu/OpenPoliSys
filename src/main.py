@@ -77,7 +77,7 @@ def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_
     """
     file_exists = os.path.isfile(filename)
 
-    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+    with open(filename, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
         # Write header only once
