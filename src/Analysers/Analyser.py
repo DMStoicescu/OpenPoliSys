@@ -16,7 +16,7 @@ class Analyser:
         if self.model == "OpenAI":
             self.api_key = os.getenv("OPENAI_API_KEY")
 
-            self.analyse_privacy_policy_OpenAI()
+            self.analyse_privacy_policy_OpenAI
 
 
     def analyse_privacy_policy_OpenAI(self):
@@ -24,13 +24,14 @@ class Analyser:
         # Set the reply to default empty string
         reply = ''
 
-        # If the model is gpt-4o
-        if self.model == "gpt-4o":
+        # If the model OpenAI
+        if self.model == "OpenAI":
             # Set the api_key
             client = OpenAI(api_key=self.api_key)
 
             # Send prompt and create response
             response = client.chat.completions.create(
+                # Alternate between OpenAI models here
                 model="gpt-4o",
                 messages=[
                     {"role": "developer", "content": self.master_prompt},
@@ -49,5 +50,5 @@ class Analyser:
 # TODO: REMOVE
 # OpenAI
 analyser = Analyser(privacy_policy="This is a privacy policy", model="OpenAI")
-print(analyser.analyse_privacy_policy_OpenAI())
+print(analyser.analyse_privacy_policy_OpenAI)
 
