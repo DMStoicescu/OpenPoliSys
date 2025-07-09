@@ -182,7 +182,7 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.error(f"Timeout loading homepage {self.url}: {e}")
-            self.is_timeout_flag = False
+            self.is_timeout_flag = True
             return self.privacy_subdomains
         except Exception as e:
             logger.error(f"Error loading homepage {self.url}: {e}")
