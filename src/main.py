@@ -77,7 +77,7 @@ def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_
     """
     file_exists = os.path.isfile(filename)
 
-    with open(filename, mode='a', newline='', encoding='utf-8') as file:
+    with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
         # Write header only once
@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
     # Load list of domains; exit if missing
     try:
-        domains = load_domains()
+        domains = load_domains(filename='datasets/top_3000_analysis_dataset.csv')
     except FileNotFoundError:
         logger.error('Domain list not found')
         exit(1)
@@ -131,7 +131,15 @@ if __name__ == '__main__':
             scraper = WebScraper(url)
             privacy_urls = scraper.find_privacy_url()
             policies = scraper.extract_policies(privacy_urls)
-            save_to_csv(url, privacy_urls, policies)
+
+            if scraper.is_timeout_flag:
+                save_to_csv(url, ['DOMAIN TIMED OUT'], 'No privacy url found')
+            elif scraper.is_outdated_flag:
+                save_to_csv(url, ['DOMAIN OUTDATED'], 'No privacy url found')
+            elif not scraper.is_en_flag:
+                save_to_csv(url, ['DOMAIN NOT IN ENGLISH'], 'No privacy url found')
+            else:
+                save_to_csv(url, privacy_urls, policies)
         except Exception as e:
             logger.error(f"Failed to extract privacy urls, for {url}, with the following error: {e}")
             continue
