@@ -316,7 +316,7 @@ class WebScraper:
     @staticmethod
     def remove_boilerplate_elements(soup):
         """
-            Remove common non-content elements (headers, footers, navs, banners).
+            Remove common non-content elements (headers, navs, banners).
 
             Args:
                 soup (BeautifulSoup): Parsed HTML soup
@@ -324,13 +324,12 @@ class WebScraper:
                 BeautifulSoup: Cleaned soup
         """
         # Remove structural tags
-        tags_list = ['footer', 'nav', 'aside', 'header']
+        tags_list = ['nav', 'aside', 'header']
         for tag in soup.find_all(tags_list):
             tag.decompose()
 
         # Remove by CSS selectors
-        css_selector_list = ['.footer', '#footer', '.site-footer', '#site-footer',
-                             '.navbar' ,'#navbar', '.nav', '#nav', '.site-nav', '#site-nav',
+        css_selector_list = ['.navbar' ,'#navbar', '.nav', '#nav', '.site-nav', '#site-nav',
                              '.sidebar', '#sidebar', '.cookie-banner', '#cookie-banner']
 
         for sel in css_selector_list:
