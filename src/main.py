@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
     # Load list of domains; exit if missing
     try:
-        domains = load_domains(filename='datasets/top_3000_analysis_dataset.csv')
+        domains = load_domains(filename='datasets/tranco_top_3000_analysis_dataset.csv')
     except FileNotFoundError:
         logger.error('Domain list not found')
         exit(1)
