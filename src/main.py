@@ -105,8 +105,8 @@ def load_domains(filename='datasets/performance_analysis_dataset.csv'):
 
     with open(filename, newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
-        # Choose 'domain' column if present, else default to first field
-        dom_col = 'domain' if 'domain' in reader.fieldnames else reader.fieldnames[0]
+        # Choose 'Input Domain' column if present, else default to first field
+        dom_col = 'Input Domain' if 'Input Domain' in reader.fieldnames else reader.fieldnames[0]
         for row in reader:
             dom = row.get(dom_col, '').strip()
             if dom:
@@ -121,7 +121,7 @@ if __name__ == '__main__':
 
     # Load list of domains; exit if missing
     try:
-        domains = load_domains(filename='datasets/tranco_top_3000_analysis_dataset.csv')
+        domains = load_domains()
     except FileNotFoundError:
         logger.error('Domain list not found')
         exit(1)

@@ -110,7 +110,7 @@ class WebScraper:
         page_not_found_matches = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR|404 Not Found|Sorry but the page|404 page|Sorry, the page you were looking for was not found|404 Page|That’s an error', body, re.IGNORECASE)
         if page_not_found_matches:
             snippet = page_not_found_matches.group(0)
-            logger.warning(f"({self.driver.current_url}) looks like a 404/error page — matched: '{snippet}'")
+            logger.warning(f"({self.driver.current_url}) looks like a 404/error page has matched: '{snippet}'")
             return False
 
         return True
