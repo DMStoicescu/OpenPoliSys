@@ -61,7 +61,7 @@ def configure_logger():
         if isinstance(handler, logging.StreamHandler) and not isinstance(handler, logging.FileHandler):
             handler.setFormatter(color_formatter)
 
-def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_output.csv'):
+def save_to_csv(domain, privacy_url, policy_text, needs_review, filename='./out/policy_scrape_output.csv'):
     """
         Append a row to the output CSV with:
           - Input domain
@@ -70,6 +70,7 @@ def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_
 
         Writes header row if the file does not yet exist.
 
+        :param needs_review:
         :param domain: The domain that was scraped (e.g., 'example.com')
         :param privacy_url: The full URL of the privacy policy page, or None
         :param policy_text: The extracted text of the privacy policy
@@ -77,15 +78,15 @@ def save_to_csv(domain, privacy_url, policy_text, filename='./out/policy_scrape_
     """
     file_exists = os.path.isfile(filename)
 
-    with open(filename, mode='w', newline='', encoding='utf-8') as file:
+    with open(filename, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
 
         # Write header only once
         if not file_exists:
-            writer.writerow(['Input Domain', 'Privacy Policy URL', 'Policy Text'])
+            writer.writerow(['Input Domain', 'Privacy Policy URL', 'Policy Text', 'Needs Review'])
 
         # Write the data row
-        writer.writerow([domain, privacy_url or 'Not Found', policy_text.strip()])
+        writer.writerow([domain, privacy_url or 'Not Found', policy_text.strip(), needs_review])
 
 
 def load_domains(filename='datasets/performance_analysis_dataset.csv'):
@@ -104,8 +105,8 @@ def load_domains(filename='datasets/performance_analysis_dataset.csv'):
 
     with open(filename, newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
-        # Choose 'domain' column if present, else default to first field
-        dom_col = 'domain' if 'domain' in reader.fieldnames else reader.fieldnames[0]
+        # Choose 'Input Domain' column if present, else default to first field
+        dom_col = 'Input Domain' if 'Input Domain' in reader.fieldnames else reader.fieldnames[0]
         for row in reader:
             dom = row.get(dom_col, '').strip()
             if dom:
@@ -120,7 +121,7 @@ if __name__ == '__main__':
 
     # Load list of domains; exit if missing
     try:
-        domains = load_domains(filename='datasets/top_3000_analysis_dataset.csv')
+        domains = load_domains()
     except FileNotFoundError:
         logger.error('Domain list not found')
         exit(1)
@@ -133,13 +134,13 @@ if __name__ == '__main__':
             policies = scraper.extract_policies(privacy_urls)
 
             if scraper.is_timeout_flag:
-                save_to_csv(url, ['DOMAIN TIMED OUT'], 'No privacy url found')
+                save_to_csv(url, ['DOMAIN TIMED OUT'], 'No privacy url found', needs_review= False)
             elif scraper.is_outdated_flag:
-                save_to_csv(url, ['DOMAIN OUTDATED'], 'No privacy url found')
+                save_to_csv(url, ['DOMAIN OUTDATED'], 'No privacy url found', needs_review= False)
             elif not scraper.is_en_flag:
-                save_to_csv(url, ['DOMAIN NOT IN ENGLISH'], 'No privacy url found')
+                save_to_csv(url, ['DOMAIN NOT IN ENGLISH'], 'No privacy url found', needs_review= False)
             else:
-                save_to_csv(url, privacy_urls, policies)
+                save_to_csv(url, privacy_urls, policies, needs_review = scraper.needs_review)
         except Exception as e:
             logger.error(f"Failed to extract privacy urls, for {url}, with the following error: {e}")
             continue

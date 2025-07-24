@@ -9,6 +9,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from langdetect import detect, DetectorFactory
 from difflib import SequenceMatcher
+import tldextract
 
 # Setup logger for this module
 logger = logging.getLogger(__name__)
@@ -53,6 +54,7 @@ class WebScraper:
                 domain_url (str): Domain to scrape (e.g., 'example.com' or 'https://example.com').
         """
         # Normalize URL to include scheme, assume https:// default
+        self.needs_review = False
         self.url = domain_url if domain_url.startswith(('http://', 'https://')) else f'https://{domain_url}'
 
         # To avoid redirects to initial home page
@@ -105,10 +107,10 @@ class WebScraper:
             return False
 
         # Reject 404 or generic error pages
-        page_not_found_matches = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR|404 Not Found|Sorry but the page|404 page|Sorry, the page you were looking for was not found|404 Page', body, re.IGNORECASE)
+        page_not_found_matches = re.search(r'page you are looking for cannot be found|Page not found|Content not found|ERROR 404|404 ERROR|404 Not Found|Sorry but the page|404 page|Sorry, the page you were looking for was not found|404 Page|That’s an error', body, re.IGNORECASE)
         if page_not_found_matches:
             snippet = page_not_found_matches.group(0)
-            logger.warning(f"({self.driver.current_url}) looks like a 404/error page — matched: '{snippet}'")
+            logger.warning(f"({self.driver.current_url}) looks like a 404/error page has matched: '{snippet}'")
             return False
 
         return True
@@ -147,7 +149,7 @@ class WebScraper:
             text = (
                 BeautifulSoup(html, 'html.parser')
                 .get_text(separator=' ', strip=True)
-                [:2000]
+                [:5000]
             )
             lang = detect(text)
             if lang == 'en':
@@ -182,7 +184,7 @@ class WebScraper:
             self.driver.get(self.url)
         except TimeoutException as e:
             logger.error(f"Timeout loading homepage {self.url}: {e}")
-            self.is_timeout_flag = False
+            self.is_timeout_flag = True
             return self.privacy_subdomains
         except Exception as e:
             logger.error(f"Error loading homepage {self.url}: {e}")
@@ -219,6 +221,8 @@ class WebScraper:
         # Navigate back to the domain url and restart the process
         try:
             self.driver.get(self.url)
+            #Add scrolling to make sure that all elements are captured
+            self.scroll_to_bottom()
         except TimeoutException as e:
             logger.error(f"Timeout reloading homepage {self.url}: {e}")
             return self.privacy_subdomains
@@ -292,6 +296,7 @@ class WebScraper:
             Scrolls page to bottom to trigger lazy-loaded elements.
         """
         last_height = self.driver.execute_script("return document.body.scrollHeight")
+        count = 0
         while True:
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(self.SCROLL_PAUSE_TIME)
@@ -299,6 +304,10 @@ class WebScraper:
             if new_height == last_height:
                 break
             last_height = new_height
+            count += 1
+            # Break for infinity scroll pages
+            if count > 10:
+                break
 
     @staticmethod
     def similarity(text1, text2):
@@ -316,7 +325,7 @@ class WebScraper:
     @staticmethod
     def remove_boilerplate_elements(soup):
         """
-            Remove common non-content elements (headers, footers, navs, banners).
+            Remove common non-content elements (headers, navs, banners).
 
             Args:
                 soup (BeautifulSoup): Parsed HTML soup
@@ -324,13 +333,12 @@ class WebScraper:
                 BeautifulSoup: Cleaned soup
         """
         # Remove structural tags
-        tags_list = ['footer', 'nav', 'aside', 'header']
+        tags_list = ['nav', 'aside', 'header']
         for tag in soup.find_all(tags_list):
             tag.decompose()
 
         # Remove by CSS selectors
-        css_selector_list = ['.footer', '#footer', '.site-footer', '#site-footer',
-                             '.navbar' ,'#navbar', '.nav', '#nav', '.site-nav', '#site-nav',
+        css_selector_list = ['.navbar' ,'#navbar', '.nav', '#nav', '.site-nav', '#site-nav',
                              '.sidebar', '#sidebar', '.cookie-banner', '#cookie-banner']
 
         for sel in css_selector_list:
@@ -352,6 +360,11 @@ class WebScraper:
         text_extracted = ''
         if len(privacy_urls_list) != 0:
             for privacy_url in privacy_urls_list:
+
+                # Check if the policy main domain is different from orignal one
+                if tldextract.extract(self.url).domain not in privacy_url:
+                    self.needs_review = True
+
                 self.driver.get(privacy_url)
 
                 # Allow padding time to let the site load
