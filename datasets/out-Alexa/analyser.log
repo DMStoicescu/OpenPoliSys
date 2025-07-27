@@ -1,0 +1,2083 @@
+2025-07-27 04:25:44,912 - INFO - Scraped data loaded.
+2025-07-27 04:25:44,916 - DETAIL - Scraped data curated of outdated domains, non-English domains, and unsuccessful scrapes.
+2025-07-27 04:25:44,916 - DETAIL - Starting iterative analysis...
+2025-07-27 04:25:44,954 - INFO - Started analysis for rarbg.to and index 2094.
+2025-07-27 04:25:44,955 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:25:47,577 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:25:54,980 - DETAIL - Policy analysis complete.
+2025-07-27 04:25:54,981 - DETAIL - Analysis completed and saved for rarbg.to.
+2025-07-27 04:25:54,982 - INFO - Started analysis for veed.io and index 2098.
+2025-07-27 04:25:54,982 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:25:59,227 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:26:22,321 - DETAIL - Policy analysis complete.
+2025-07-27 04:26:22,323 - DETAIL - Analysis completed and saved for veed.io.
+2025-07-27 04:26:22,323 - INFO - Started analysis for mailerlite.com and index 2099.
+2025-07-27 04:26:22,324 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:26:32,868 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:27:15,607 - DETAIL - Policy analysis complete.
+2025-07-27 04:27:15,612 - DETAIL - Analysis completed and saved for mailerlite.com.
+2025-07-27 04:27:15,612 - INFO - Started analysis for kmail-lists.com and index 2101.
+2025-07-27 04:27:15,612 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:27:23,134 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:27:55,775 - DETAIL - Policy analysis complete.
+2025-07-27 04:27:55,778 - DETAIL - Analysis completed and saved for kmail-lists.com.
+2025-07-27 04:27:55,779 - INFO - Started analysis for faucetpay.io and index 2103.
+2025-07-27 04:27:55,779 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:27:57,591 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:28:12,188 - DETAIL - Policy analysis complete.
+2025-07-27 04:28:12,189 - DETAIL - Analysis completed and saved for faucetpay.io.
+2025-07-27 04:28:12,189 - INFO - Started analysis for maybank2u.com.my and index 2104.
+2025-07-27 04:28:12,189 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:28:17,413 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:28:25,714 - DETAIL - Policy analysis complete.
+2025-07-27 04:28:25,715 - DETAIL - Analysis completed and saved for maybank2u.com.my.
+2025-07-27 04:28:25,715 - INFO - Started analysis for bamboohr.com and index 2105.
+2025-07-27 04:28:25,715 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:28:31,103 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:28:56,676 - DETAIL - Policy analysis complete.
+2025-07-27 04:28:56,678 - DETAIL - Analysis completed and saved for bamboohr.com.
+2025-07-27 04:28:56,678 - INFO - Started analysis for digimovie.vin and index 2106.
+2025-07-27 04:28:56,678 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:29:00,843 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:29:25,954 - DETAIL - Policy analysis complete.
+2025-07-27 04:29:25,955 - DETAIL - Analysis completed and saved for digimovie.vin.
+2025-07-27 04:29:25,955 - INFO - Started analysis for kaspersky.com and index 2110.
+2025-07-27 04:29:25,956 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:29:30,429 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:29:58,433 - DETAIL - Policy analysis complete.
+2025-07-27 04:29:58,435 - DETAIL - Analysis completed and saved for kaspersky.com.
+2025-07-27 04:29:58,435 - INFO - Started analysis for filecr.com and index 2111.
+2025-07-27 04:29:58,435 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:30:00,193 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:30:20,817 - DETAIL - Policy analysis complete.
+2025-07-27 04:30:20,818 - DETAIL - Analysis completed and saved for filecr.com.
+2025-07-27 04:30:20,818 - INFO - Started analysis for worldstarhiphop.com and index 2112.
+2025-07-27 04:30:20,819 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:30:26,954 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:30:56,088 - DETAIL - Policy analysis complete.
+2025-07-27 04:30:56,091 - DETAIL - Analysis completed and saved for worldstarhiphop.com.
+2025-07-27 04:30:56,091 - INFO - Started analysis for riotgames.com and index 2119.
+2025-07-27 04:30:56,091 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:31:01,862 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:31:29,380 - DETAIL - Policy analysis complete.
+2025-07-27 04:31:29,383 - DETAIL - Analysis completed and saved for riotgames.com.
+2025-07-27 04:31:29,383 - INFO - Started analysis for banggood.com and index 2123.
+2025-07-27 04:31:29,384 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:31:34,486 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:31:56,444 - DETAIL - Policy analysis complete.
+2025-07-27 04:31:56,446 - DETAIL - Analysis completed and saved for banggood.com.
+2025-07-27 04:31:56,446 - INFO - Started analysis for google.com.ly and index 2125.
+2025-07-27 04:31:56,446 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:32:01,386 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:32:28,657 - DETAIL - Policy analysis complete.
+2025-07-27 04:32:28,659 - DETAIL - Analysis completed and saved for google.com.ly.
+2025-07-27 04:32:28,659 - INFO - Started analysis for b-ok.asia and index 2127.
+2025-07-27 04:32:28,659 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:32:34,266 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:32:54,773 - DETAIL - Policy analysis complete.
+2025-07-27 04:32:54,775 - DETAIL - Analysis completed and saved for b-ok.asia.
+2025-07-27 04:32:54,775 - INFO - Started analysis for creativemarket.com and index 2128.
+2025-07-27 04:32:54,775 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:32:57,127 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:33:04,950 - DETAIL - Policy analysis complete.
+2025-07-27 04:33:04,951 - DETAIL - Analysis completed and saved for creativemarket.com.
+2025-07-27 04:33:04,951 - INFO - Started analysis for tmz.com and index 2130.
+2025-07-27 04:33:04,952 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:33:10,550 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:33:34,545 - DETAIL - Policy analysis complete.
+2025-07-27 04:33:34,547 - DETAIL - Analysis completed and saved for tmz.com.
+2025-07-27 04:33:34,548 - INFO - Started analysis for jooble.org and index 2132.
+2025-07-27 04:33:34,548 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:33:36,947 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:33:49,493 - DETAIL - Policy analysis complete.
+2025-07-27 04:33:49,494 - DETAIL - Analysis completed and saved for jooble.org.
+2025-07-27 04:33:49,495 - INFO - Started analysis for britishcouncil.org and index 2133.
+2025-07-27 04:33:49,495 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:33:51,383 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:34:01,566 - DETAIL - Policy analysis complete.
+2025-07-27 04:34:01,567 - DETAIL - Analysis completed and saved for britishcouncil.org.
+2025-07-27 04:34:01,567 - INFO - Started analysis for oppo.com and index 2135.
+2025-07-27 04:34:01,568 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:34:06,969 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:34:26,709 - DETAIL - Policy analysis complete.
+2025-07-27 04:34:26,712 - DETAIL - Analysis completed and saved for oppo.com.
+2025-07-27 04:34:26,712 - INFO - Started analysis for mangago.me and index 2136.
+2025-07-27 04:34:26,712 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:34:29,286 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:34:45,803 - DETAIL - Policy analysis complete.
+2025-07-27 04:34:45,804 - DETAIL - Analysis completed and saved for mangago.me.
+2025-07-27 04:34:45,804 - INFO - Started analysis for elle.com and index 2138.
+2025-07-27 04:34:45,805 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:34:48,792 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:35:02,985 - DETAIL - Policy analysis complete.
+2025-07-27 04:35:02,985 - DETAIL - Analysis completed and saved for elle.com.
+2025-07-27 04:35:02,986 - INFO - Started analysis for yaplakal.com and index 2139.
+2025-07-27 04:35:02,986 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:35:05,078 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:35:20,151 - DETAIL - Policy analysis complete.
+2025-07-27 04:35:20,152 - DETAIL - Analysis completed and saved for yaplakal.com.
+2025-07-27 04:35:20,153 - INFO - Started analysis for economist.com and index 2140.
+2025-07-27 04:35:20,153 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:35:25,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:35:40,780 - DETAIL - Policy analysis complete.
+2025-07-27 04:35:40,782 - DETAIL - Analysis completed and saved for economist.com.
+2025-07-27 04:35:40,783 - INFO - Started analysis for nseindia.com and index 2141.
+2025-07-27 04:35:40,783 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:35:43,905 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:35:51,830 - DETAIL - Policy analysis complete.
+2025-07-27 04:35:51,830 - DETAIL - Analysis completed and saved for nseindia.com.
+2025-07-27 04:35:51,831 - INFO - Started analysis for worldbank.org and index 2142.
+2025-07-27 04:35:51,831 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:35:54,347 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:36:10,514 - DETAIL - Policy analysis complete.
+2025-07-27 04:36:10,515 - DETAIL - Analysis completed and saved for worldbank.org.
+2025-07-27 04:36:10,515 - INFO - Started analysis for limetorrents.lol and index 2143.
+2025-07-27 04:36:10,515 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:36:12,458 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:36:32,662 - DETAIL - Policy analysis complete.
+2025-07-27 04:36:32,663 - DETAIL - Analysis completed and saved for limetorrents.lol.
+2025-07-27 04:36:32,663 - INFO - Started analysis for desmos.com and index 2144.
+2025-07-27 04:36:32,663 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:36:37,998 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:36:59,376 - DETAIL - Policy analysis complete.
+2025-07-27 04:36:59,378 - DETAIL - Analysis completed and saved for desmos.com.
+2025-07-27 04:36:59,378 - INFO - Started analysis for zxcs.me and index 2145.
+2025-07-27 04:36:59,378 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:37:04,139 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:37:29,752 - DETAIL - Policy analysis complete.
+2025-07-27 04:37:29,753 - DETAIL - Analysis completed and saved for zxcs.me.
+2025-07-27 04:37:29,754 - INFO - Started analysis for livechatinc.com and index 2146.
+2025-07-27 04:37:29,754 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:37:34,400 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:38:05,514 - DETAIL - Policy analysis complete.
+2025-07-27 04:38:05,516 - DETAIL - Analysis completed and saved for livechatinc.com.
+2025-07-27 04:38:05,517 - INFO - Started analysis for amazonaws.cn and index 2148.
+2025-07-27 04:38:05,518 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:38:11,322 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:38:33,166 - DETAIL - Policy analysis complete.
+2025-07-27 04:38:33,169 - DETAIL - Analysis completed and saved for amazonaws.cn.
+2025-07-27 04:38:33,169 - INFO - Started analysis for startpage.com and index 2150.
+2025-07-27 04:38:33,169 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:38:36,545 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:39:01,817 - DETAIL - Policy analysis complete.
+2025-07-27 04:39:01,818 - DETAIL - Analysis completed and saved for startpage.com.
+2025-07-27 04:39:01,818 - INFO - Started analysis for sofascore.com and index 2153.
+2025-07-27 04:39:01,818 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:39:05,969 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:39:24,661 - DETAIL - Policy analysis complete.
+2025-07-27 04:39:24,663 - DETAIL - Analysis completed and saved for sofascore.com.
+2025-07-27 04:39:24,663 - INFO - Started analysis for rozetka.com.ua and index 2154.
+2025-07-27 04:39:24,663 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:39:26,956 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:39:38,508 - DETAIL - Policy analysis complete.
+2025-07-27 04:39:38,509 - DETAIL - Analysis completed and saved for rozetka.com.ua.
+2025-07-27 04:39:38,509 - INFO - Started analysis for login.gov and index 2155.
+2025-07-27 04:39:38,510 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:39:43,408 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:40:06,272 - DETAIL - Policy analysis complete.
+2025-07-27 04:40:06,274 - DETAIL - Analysis completed and saved for login.gov.
+2025-07-27 04:40:06,274 - INFO - Started analysis for simpcity.su and index 2158.
+2025-07-27 04:40:06,274 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:40:08,271 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:40:20,520 - DETAIL - Policy analysis complete.
+2025-07-27 04:40:20,521 - DETAIL - Analysis completed and saved for simpcity.su.
+2025-07-27 04:40:20,521 - INFO - Started analysis for turbobit.net and index 2160.
+2025-07-27 04:40:20,522 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:40:21,961 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:40:29,471 - DETAIL - Policy analysis complete.
+2025-07-27 04:40:29,472 - DETAIL - Analysis completed and saved for turbobit.net.
+2025-07-27 04:40:29,472 - INFO - Started analysis for exporntoons.net and index 2161.
+2025-07-27 04:40:29,473 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:40:31,100 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:40:43,526 - DETAIL - Policy analysis complete.
+2025-07-27 04:40:43,528 - DETAIL - Analysis completed and saved for exporntoons.net.
+2025-07-27 04:40:43,528 - INFO - Started analysis for codecademy.com and index 2162.
+2025-07-27 04:40:43,529 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:40:48,806 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:41:07,281 - DETAIL - Policy analysis complete.
+2025-07-27 04:41:07,283 - DETAIL - Analysis completed and saved for codecademy.com.
+2025-07-27 04:41:07,284 - INFO - Started analysis for tradeinn.com and index 2163.
+2025-07-27 04:41:07,284 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:41:10,905 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:41:32,270 - DETAIL - Policy analysis complete.
+2025-07-27 04:41:32,272 - DETAIL - Analysis completed and saved for tradeinn.com.
+2025-07-27 04:41:32,273 - INFO - Started analysis for clockify.me and index 2164.
+2025-07-27 04:41:32,273 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:41:35,272 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:42:13,538 - DETAIL - Policy analysis complete.
+2025-07-27 04:42:13,540 - DETAIL - Analysis completed and saved for clockify.me.
+2025-07-27 04:42:13,540 - INFO - Started analysis for tuchong.com and index 2167.
+2025-07-27 04:42:13,540 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:42:18,035 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:42:49,944 - DETAIL - Policy analysis complete.
+2025-07-27 04:42:49,946 - DETAIL - Analysis completed and saved for tuchong.com.
+2025-07-27 04:42:49,946 - INFO - Started analysis for boredpanda.com and index 2168.
+2025-07-27 04:42:49,947 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:42:57,789 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:43:14,126 - DETAIL - Policy analysis complete.
+2025-07-27 04:43:14,128 - DETAIL - Analysis completed and saved for boredpanda.com.
+2025-07-27 04:43:14,128 - INFO - Started analysis for mobalytics.gg and index 2169.
+2025-07-27 04:43:14,128 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:43:17,630 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:44:01,274 - DETAIL - Policy analysis complete.
+2025-07-27 04:44:01,276 - DETAIL - Analysis completed and saved for mobalytics.gg.
+2025-07-27 04:44:01,276 - INFO - Started analysis for etrade.com and index 2176.
+2025-07-27 04:44:01,276 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:44:04,121 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:44:17,066 - DETAIL - Policy analysis complete.
+2025-07-27 04:44:17,067 - DETAIL - Analysis completed and saved for etrade.com.
+2025-07-27 04:44:17,068 - INFO - Started analysis for vista.com and index 2177.
+2025-07-27 04:44:17,068 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:44:23,686 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:44:50,905 - DETAIL - Policy analysis complete.
+2025-07-27 04:44:50,907 - DETAIL - Analysis completed and saved for vista.com.
+2025-07-27 04:44:50,907 - INFO - Started analysis for mxplayer.in and index 2179.
+2025-07-27 04:44:50,907 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:44:53,953 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:45:16,976 - DETAIL - Policy analysis complete.
+2025-07-27 04:45:16,978 - DETAIL - Analysis completed and saved for mxplayer.in.
+2025-07-27 04:45:16,978 - INFO - Started analysis for xda-developers.com and index 2181.
+2025-07-27 04:45:16,978 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:45:19,730 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:45:53,907 - DETAIL - Policy analysis complete.
+2025-07-27 04:45:53,909 - DETAIL - Analysis completed and saved for xda-developers.com.
+2025-07-27 04:45:53,909 - INFO - Started analysis for iherb.com and index 2183.
+2025-07-27 04:45:53,909 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:46:04,466 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:46:42,861 - DETAIL - Policy analysis complete.
+2025-07-27 04:46:42,864 - DETAIL - Analysis completed and saved for iherb.com.
+2025-07-27 04:46:42,864 - INFO - Started analysis for jsfiddle.net and index 2185.
+2025-07-27 04:46:42,865 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:46:45,473 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:47:01,753 - DETAIL - Policy analysis complete.
+2025-07-27 04:47:01,755 - DETAIL - Analysis completed and saved for jsfiddle.net.
+2025-07-27 04:47:01,755 - INFO - Started analysis for ccleaner.com and index 2189.
+2025-07-27 04:47:01,755 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:47:06,519 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:47:32,881 - DETAIL - Policy analysis complete.
+2025-07-27 04:47:32,883 - DETAIL - Analysis completed and saved for ccleaner.com.
+2025-07-27 04:47:32,883 - INFO - Started analysis for winwin7.com and index 2197.
+2025-07-27 04:47:32,884 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:47:36,257 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:47:53,921 - DETAIL - Policy analysis complete.
+2025-07-27 04:47:53,922 - DETAIL - Analysis completed and saved for winwin7.com.
+2025-07-27 04:47:53,923 - INFO - Started analysis for samsclub.com and index 2203.
+2025-07-27 04:47:53,923 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:47:59,577 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:48:32,394 - DETAIL - Policy analysis complete.
+2025-07-27 04:48:32,397 - DETAIL - Analysis completed and saved for samsclub.com.
+2025-07-27 04:48:32,397 - INFO - Started analysis for midjourney.com and index 2204.
+2025-07-27 04:48:32,397 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:48:34,627 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:48:45,037 - DETAIL - Policy analysis complete.
+2025-07-27 04:48:45,038 - DETAIL - Analysis completed and saved for midjourney.com.
+2025-07-27 04:48:45,039 - INFO - Started analysis for gap.com and index 2207.
+2025-07-27 04:48:45,039 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:48:52,841 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:49:22,954 - DETAIL - Policy analysis complete.
+2025-07-27 04:49:22,957 - DETAIL - Analysis completed and saved for gap.com.
+2025-07-27 04:49:22,958 - INFO - Started analysis for codesandbox.io and index 2208.
+2025-07-27 04:49:22,958 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:49:26,804 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:49:51,636 - DETAIL - Policy analysis complete.
+2025-07-27 04:49:51,638 - DETAIL - Analysis completed and saved for codesandbox.io.
+2025-07-27 04:49:51,638 - INFO - Started analysis for index.hu and index 2209.
+2025-07-27 04:49:51,638 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:49:54,384 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:50:50,470 - DETAIL - Policy analysis complete.
+2025-07-27 04:50:50,471 - DETAIL - Analysis completed and saved for index.hu.
+2025-07-27 04:50:50,471 - INFO - Started analysis for mail.com and index 2210.
+2025-07-27 04:50:50,471 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:50:54,658 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:51:27,416 - DETAIL - Policy analysis complete.
+2025-07-27 04:51:27,418 - DETAIL - Analysis completed and saved for mail.com.
+2025-07-27 04:51:27,418 - INFO - Started analysis for macrumors.com and index 2212.
+2025-07-27 04:51:27,418 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:51:30,681 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:51:49,268 - DETAIL - Policy analysis complete.
+2025-07-27 04:51:49,269 - DETAIL - Analysis completed and saved for macrumors.com.
+2025-07-27 04:51:49,269 - INFO - Started analysis for amazonaws.com.cn and index 2214.
+2025-07-27 04:51:49,269 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:51:55,290 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:52:19,532 - DETAIL - Policy analysis complete.
+2025-07-27 04:52:19,535 - DETAIL - Analysis completed and saved for amazonaws.com.cn.
+2025-07-27 04:52:19,535 - INFO - Started analysis for vanguard.com and index 2219.
+2025-07-27 04:52:19,535 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:52:23,919 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:52:42,763 - DETAIL - Policy analysis complete.
+2025-07-27 04:52:42,764 - DETAIL - Analysis completed and saved for vanguard.com.
+2025-07-27 04:52:42,765 - INFO - Started analysis for 4shared.com and index 2220.
+2025-07-27 04:52:42,765 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:52:51,750 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:53:05,683 - DETAIL - Policy analysis complete.
+2025-07-27 04:53:05,685 - DETAIL - Analysis completed and saved for 4shared.com.
+2025-07-27 04:53:05,686 - INFO - Started analysis for talent.com and index 2221.
+2025-07-27 04:53:05,686 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:53:09,101 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:53:33,996 - DETAIL - Policy analysis complete.
+2025-07-27 04:53:33,998 - DETAIL - Analysis completed and saved for talent.com.
+2025-07-27 04:53:33,998 - INFO - Started analysis for robinhood.com and index 2222.
+2025-07-27 04:53:33,999 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:53:39,211 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:54:00,982 - DETAIL - Policy analysis complete.
+2025-07-27 04:54:00,984 - DETAIL - Analysis completed and saved for robinhood.com.
+2025-07-27 04:54:00,985 - INFO - Started analysis for aconvert.com and index 2224.
+2025-07-27 04:54:00,985 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:54:03,947 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:54:30,241 - DETAIL - Policy analysis complete.
+2025-07-27 04:54:30,243 - DETAIL - Analysis completed and saved for aconvert.com.
+2025-07-27 04:54:30,243 - INFO - Started analysis for magiceden.io and index 2226.
+2025-07-27 04:54:30,243 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:54:34,843 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:55:17,692 - DETAIL - Policy analysis complete.
+2025-07-27 04:55:17,693 - DETAIL - Analysis completed and saved for magiceden.io.
+2025-07-27 04:55:17,693 - INFO - Started analysis for xinnet.com and index 2227.
+2025-07-27 04:55:17,694 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:55:20,333 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:55:33,659 - DETAIL - Policy analysis complete.
+2025-07-27 04:55:33,661 - DETAIL - Analysis completed and saved for xinnet.com.
+2025-07-27 04:55:33,661 - INFO - Started analysis for lbank.info and index 2228.
+2025-07-27 04:55:33,661 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:55:37,807 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:56:08,852 - DETAIL - Policy analysis complete.
+2025-07-27 04:56:08,853 - DETAIL - Analysis completed and saved for lbank.info.
+2025-07-27 04:56:08,854 - INFO - Started analysis for tailwindcss.com and index 2233.
+2025-07-27 04:56:08,854 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:56:11,799 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:56:21,418 - DETAIL - Policy analysis complete.
+2025-07-27 04:56:21,420 - DETAIL - Analysis completed and saved for tailwindcss.com.
+2025-07-27 04:56:21,420 - INFO - Started analysis for terabox.com and index 2236.
+2025-07-27 04:56:21,420 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:56:31,993 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:56:44,330 - DETAIL - Policy analysis complete.
+2025-07-27 04:56:44,331 - DETAIL - Analysis completed and saved for terabox.com.
+2025-07-27 04:56:44,331 - INFO - Started analysis for nutaku.net and index 2238.
+2025-07-27 04:56:44,331 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:56:51,939 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:57:26,318 - DETAIL - Policy analysis complete.
+2025-07-27 04:57:26,321 - DETAIL - Analysis completed and saved for nutaku.net.
+2025-07-27 04:57:26,322 - INFO - Started analysis for flutter.dev and index 2239.
+2025-07-27 04:57:26,322 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:57:31,834 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:57:56,482 - DETAIL - Policy analysis complete.
+2025-07-27 04:57:56,484 - DETAIL - Analysis completed and saved for flutter.dev.
+2025-07-27 04:57:56,484 - INFO - Started analysis for o8tv.com and index 2240.
+2025-07-27 04:57:56,485 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:57:59,275 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:58:08,226 - DETAIL - Policy analysis complete.
+2025-07-27 04:58:08,227 - DETAIL - Analysis completed and saved for o8tv.com.
+2025-07-27 04:58:08,227 - INFO - Started analysis for news4wide.net and index 2243.
+2025-07-27 04:58:08,227 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:58:11,121 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:58:22,283 - DETAIL - Policy analysis complete.
+2025-07-27 04:58:22,284 - DETAIL - Analysis completed and saved for news4wide.net.
+2025-07-27 04:58:22,284 - INFO - Started analysis for classlink.com and index 2246.
+2025-07-27 04:58:22,285 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:58:26,438 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:58:52,249 - DETAIL - Policy analysis complete.
+2025-07-27 04:58:52,251 - DETAIL - Analysis completed and saved for classlink.com.
+2025-07-27 04:58:52,251 - INFO - Started analysis for olx.com.pk and index 2248.
+2025-07-27 04:58:52,251 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:58:55,415 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:59:04,381 - DETAIL - Policy analysis complete.
+2025-07-27 04:59:04,383 - DETAIL - Analysis completed and saved for olx.com.pk.
+2025-07-27 04:59:04,383 - INFO - Started analysis for blackbaud.com and index 2249.
+2025-07-27 04:59:04,384 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:59:11,408 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 04:59:45,679 - DETAIL - Policy analysis complete.
+2025-07-27 04:59:45,682 - DETAIL - Analysis completed and saved for blackbaud.com.
+2025-07-27 04:59:45,683 - INFO - Started analysis for hltv.org and index 2250.
+2025-07-27 04:59:45,683 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 04:59:50,527 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:00:07,394 - DETAIL - Policy analysis complete.
+2025-07-27 05:00:07,395 - DETAIL - Analysis completed and saved for hltv.org.
+2025-07-27 05:00:07,396 - INFO - Started analysis for streamingcommunity.blog and index 2251.
+2025-07-27 05:00:07,396 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:00:16,789 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:00:37,295 - DETAIL - Policy analysis complete.
+2025-07-27 05:00:37,297 - DETAIL - Analysis completed and saved for streamingcommunity.blog.
+2025-07-27 05:00:37,297 - INFO - Started analysis for btbtt15.com and index 2255.
+2025-07-27 05:00:37,297 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:00:39,609 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:00:45,282 - DETAIL - Policy analysis complete.
+2025-07-27 05:00:45,282 - DETAIL - Analysis completed and saved for btbtt15.com.
+2025-07-27 05:00:45,282 - INFO - Started analysis for influencersgonewild.com and index 2259.
+2025-07-27 05:00:45,282 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:00:48,552 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:01:06,261 - DETAIL - Policy analysis complete.
+2025-07-27 05:01:06,262 - DETAIL - Analysis completed and saved for influencersgonewild.com.
+2025-07-27 05:01:06,263 - INFO - Started analysis for istv.com.cn and index 2261.
+2025-07-27 05:01:06,263 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:01:10,426 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:01:29,740 - DETAIL - Policy analysis complete.
+2025-07-27 05:01:29,742 - DETAIL - Analysis completed and saved for istv.com.cn.
+2025-07-27 05:01:29,742 - INFO - Started analysis for openathens.net and index 2262.
+2025-07-27 05:01:29,742 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:01:35,810 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:01:58,095 - DETAIL - Policy analysis complete.
+2025-07-27 05:01:58,096 - DETAIL - Analysis completed and saved for openathens.net.
+2025-07-27 05:01:58,096 - INFO - Started analysis for huggingface.co and index 2264.
+2025-07-27 05:01:58,096 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:02:00,817 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:02:18,344 - DETAIL - Policy analysis complete.
+2025-07-27 05:02:18,345 - DETAIL - Analysis completed and saved for huggingface.co.
+2025-07-27 05:02:18,345 - INFO - Started analysis for gizmodo.com and index 2265.
+2025-07-27 05:02:18,345 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:02:24,132 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:02:47,709 - DETAIL - Policy analysis complete.
+2025-07-27 05:02:47,711 - DETAIL - Analysis completed and saved for gizmodo.com.
+2025-07-27 05:02:47,712 - INFO - Started analysis for newsweek.com and index 2266.
+2025-07-27 05:02:47,712 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:02:52,179 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:03:12,102 - DETAIL - Policy analysis complete.
+2025-07-27 05:03:12,104 - DETAIL - Analysis completed and saved for newsweek.com.
+2025-07-27 05:03:12,105 - INFO - Started analysis for truist.com and index 2267.
+2025-07-27 05:03:12,105 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:03:18,726 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:04:23,736 - DETAIL - Policy analysis complete.
+2025-07-27 05:04:23,739 - DETAIL - Analysis completed and saved for truist.com.
+2025-07-27 05:04:23,739 - INFO - Started analysis for fnb.co.za and index 2268.
+2025-07-27 05:04:23,739 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:04:27,250 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:04:39,723 - DETAIL - Policy analysis complete.
+2025-07-27 05:04:39,724 - DETAIL - Analysis completed and saved for fnb.co.za.
+2025-07-27 05:04:39,725 - INFO - Started analysis for wordcounter.net and index 2270.
+2025-07-27 05:04:39,725 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:04:42,326 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:05:09,792 - DETAIL - Policy analysis complete.
+2025-07-27 05:05:09,793 - DETAIL - Analysis completed and saved for wordcounter.net.
+2025-07-27 05:05:09,793 - INFO - Started analysis for allrecipes.com and index 2272.
+2025-07-27 05:05:09,793 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:05:14,510 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:06:01,172 - DETAIL - Policy analysis complete.
+2025-07-27 05:06:01,177 - DETAIL - Analysis completed and saved for allrecipes.com.
+2025-07-27 05:06:01,178 - INFO - Started analysis for gotowebinar.com and index 2279.
+2025-07-27 05:06:01,178 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:06:03,666 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:06:19,474 - DETAIL - Policy analysis complete.
+2025-07-27 05:06:19,475 - DETAIL - Analysis completed and saved for gotowebinar.com.
+2025-07-27 05:06:19,475 - INFO - Started analysis for guru99.com and index 2280.
+2025-07-27 05:06:19,475 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:06:21,666 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:06:30,532 - DETAIL - Policy analysis complete.
+2025-07-27 05:06:30,533 - DETAIL - Analysis completed and saved for guru99.com.
+2025-07-27 05:06:30,533 - INFO - Started analysis for iobit.com and index 2282.
+2025-07-27 05:06:30,534 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:06:33,524 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:06:46,879 - DETAIL - Policy analysis complete.
+2025-07-27 05:06:46,880 - DETAIL - Analysis completed and saved for iobit.com.
+2025-07-27 05:06:46,881 - INFO - Started analysis for change.org and index 2285.
+2025-07-27 05:06:46,881 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:06:55,378 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:07:23,120 - DETAIL - Policy analysis complete.
+2025-07-27 05:07:23,124 - DETAIL - Analysis completed and saved for change.org.
+2025-07-27 05:07:23,124 - INFO - Started analysis for protothema.gr and index 2286.
+2025-07-27 05:07:23,124 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:07:25,536 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:07:51,486 - DETAIL - Policy analysis complete.
+2025-07-27 05:07:51,487 - DETAIL - Analysis completed and saved for protothema.gr.
+2025-07-27 05:07:51,487 - INFO - Started analysis for admitad.com and index 2287.
+2025-07-27 05:07:51,487 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:07:55,737 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:08:35,632 - DETAIL - Policy analysis complete.
+2025-07-27 05:08:35,633 - DETAIL - Analysis completed and saved for admitad.com.
+2025-07-27 05:08:35,634 - INFO - Started analysis for ufl.edu and index 2290.
+2025-07-27 05:08:35,634 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:08:38,766 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:09:14,499 - DETAIL - Policy analysis complete.
+2025-07-27 05:09:14,500 - DETAIL - Analysis completed and saved for ufl.edu.
+2025-07-27 05:09:14,501 - INFO - Started analysis for adultfriendfinder.com and index 2291.
+2025-07-27 05:09:14,501 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:09:17,271 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:10:58,021 - DETAIL - Policy analysis complete.
+2025-07-27 05:10:58,023 - DETAIL - Analysis completed and saved for adultfriendfinder.com.
+2025-07-27 05:10:58,023 - INFO - Started analysis for planetsuzy.org and index 2294.
+2025-07-27 05:10:58,023 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:11:08,055 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:11:34,137 - DETAIL - Policy analysis complete.
+2025-07-27 05:11:34,137 - DETAIL - Analysis completed and saved for planetsuzy.org.
+2025-07-27 05:11:34,138 - INFO - Started analysis for postman.com and index 2298.
+2025-07-27 05:11:34,138 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:11:44,023 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:12:19,287 - DETAIL - Policy analysis complete.
+2025-07-27 05:12:19,289 - DETAIL - Analysis completed and saved for postman.com.
+2025-07-27 05:12:19,290 - INFO - Started analysis for acm.org and index 2299.
+2025-07-27 05:12:19,297 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:12:28,788 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:12:53,803 - DETAIL - Policy analysis complete.
+2025-07-27 05:12:53,807 - DETAIL - Analysis completed and saved for acm.org.
+2025-07-27 05:12:53,807 - INFO - Started analysis for nyc.gov and index 2301.
+2025-07-27 05:12:53,807 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:12:58,024 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:13:26,847 - DETAIL - Policy analysis complete.
+2025-07-27 05:13:26,849 - DETAIL - Analysis completed and saved for nyc.gov.
+2025-07-27 05:13:26,850 - INFO - Started analysis for faselhd.club and index 2305.
+2025-07-27 05:13:26,850 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:13:29,189 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:13:48,732 - DETAIL - Policy analysis complete.
+2025-07-27 05:13:48,733 - DETAIL - Analysis completed and saved for faselhd.club.
+2025-07-27 05:13:48,733 - INFO - Started analysis for mako.co.il and index 2308.
+2025-07-27 05:13:48,733 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:13:51,206 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:14:09,103 - DETAIL - Policy analysis complete.
+2025-07-27 05:14:09,103 - DETAIL - Analysis completed and saved for mako.co.il.
+2025-07-27 05:14:09,104 - INFO - Started analysis for playvids.com and index 2310.
+2025-07-27 05:14:09,104 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:14:11,738 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:15:08,259 - DETAIL - Policy analysis complete.
+2025-07-27 05:15:08,260 - DETAIL - Analysis completed and saved for playvids.com.
+2025-07-27 05:15:08,260 - INFO - Started analysis for softwaretestinghelp.com and index 2311.
+2025-07-27 05:15:08,261 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:15:10,597 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:15:21,410 - DETAIL - Policy analysis complete.
+2025-07-27 05:15:21,411 - DETAIL - Analysis completed and saved for softwaretestinghelp.com.
+2025-07-27 05:15:21,412 - INFO - Started analysis for truecaller.com and index 2313.
+2025-07-27 05:15:21,412 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:15:31,939 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:16:22,088 - DETAIL - Policy analysis complete.
+2025-07-27 05:16:22,090 - DETAIL - Analysis completed and saved for truecaller.com.
+2025-07-27 05:16:22,090 - INFO - Started analysis for newgrounds.com and index 2315.
+2025-07-27 05:16:22,090 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:16:24,814 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:17:06,587 - DETAIL - Policy analysis complete.
+2025-07-27 05:17:06,589 - DETAIL - Analysis completed and saved for newgrounds.com.
+2025-07-27 05:17:06,589 - INFO - Started analysis for reactjs.org and index 2318.
+2025-07-27 05:17:06,589 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:17:09,274 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:17:46,888 - DETAIL - Policy analysis complete.
+2025-07-27 05:17:46,889 - DETAIL - Analysis completed and saved for reactjs.org.
+2025-07-27 05:17:46,889 - INFO - Started analysis for my.gov.au and index 2319.
+2025-07-27 05:17:46,890 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:17:49,808 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:18:30,591 - DETAIL - Policy analysis complete.
+2025-07-27 05:18:30,592 - DETAIL - Analysis completed and saved for my.gov.au.
+2025-07-27 05:18:30,592 - INFO - Started analysis for hpjav.tv and index 2320.
+2025-07-27 05:18:30,592 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:18:35,674 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:19:11,510 - DETAIL - Policy analysis complete.
+2025-07-27 05:19:11,511 - DETAIL - Analysis completed and saved for hpjav.tv.
+2025-07-27 05:19:11,511 - INFO - Started analysis for ameba.jp and index 2323.
+2025-07-27 05:19:11,511 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:19:13,382 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:19:24,299 - DETAIL - Policy analysis complete.
+2025-07-27 05:19:24,300 - DETAIL - Analysis completed and saved for ameba.jp.
+2025-07-27 05:19:24,300 - INFO - Started analysis for google.nl and index 2324.
+2025-07-27 05:19:24,301 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:19:31,615 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:19:51,456 - DETAIL - Policy analysis complete.
+2025-07-27 05:19:51,458 - DETAIL - Analysis completed and saved for google.nl.
+2025-07-27 05:19:51,458 - INFO - Started analysis for u.gg and index 2325.
+2025-07-27 05:19:51,458 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:19:55,733 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:20:25,437 - DETAIL - Policy analysis complete.
+2025-07-27 05:20:25,439 - DETAIL - Analysis completed and saved for u.gg.
+2025-07-27 05:20:25,440 - INFO - Started analysis for motionarray.com and index 2326.
+2025-07-27 05:20:25,440 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:20:27,956 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:20:38,543 - DETAIL - Policy analysis complete.
+2025-07-27 05:20:38,545 - DETAIL - Analysis completed and saved for motionarray.com.
+2025-07-27 05:20:38,545 - INFO - Started analysis for snapsave.app and index 2330.
+2025-07-27 05:20:38,545 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:20:41,149 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:22:41,168 - DETAIL - Policy analysis complete.
+2025-07-27 05:22:41,169 - DETAIL - Analysis completed and saved for snapsave.app.
+2025-07-27 05:22:41,169 - INFO - Started analysis for usc.edu and index 2331.
+2025-07-27 05:22:41,170 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:22:43,787 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:23:27,162 - DETAIL - Policy analysis complete.
+2025-07-27 05:23:27,163 - DETAIL - Analysis completed and saved for usc.edu.
+2025-07-27 05:23:27,163 - INFO - Started analysis for mailchi.mp and index 2333.
+2025-07-27 05:23:27,163 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:23:29,077 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:23:45,508 - DETAIL - Policy analysis complete.
+2025-07-27 05:23:45,509 - DETAIL - Analysis completed and saved for mailchi.mp.
+2025-07-27 05:23:45,510 - INFO - Started analysis for cam4.com and index 2339.
+2025-07-27 05:23:45,510 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:23:51,949 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:24:14,713 - DETAIL - Policy analysis complete.
+2025-07-27 05:24:14,715 - DETAIL - Analysis completed and saved for cam4.com.
+2025-07-27 05:24:14,715 - INFO - Started analysis for klaviyo.com and index 2341.
+2025-07-27 05:24:14,715 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:24:20,785 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:25:09,087 - DETAIL - Policy analysis complete.
+2025-07-27 05:25:09,090 - DETAIL - Analysis completed and saved for klaviyo.com.
+2025-07-27 05:25:09,090 - INFO - Started analysis for hsbc.com.hk and index 2342.
+2025-07-27 05:25:09,091 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:25:19,743 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:25:44,580 - DETAIL - Policy analysis complete.
+2025-07-27 05:25:44,581 - DETAIL - Analysis completed and saved for hsbc.com.hk.
+2025-07-27 05:25:44,582 - INFO - Started analysis for unimelb.edu.au and index 2344.
+2025-07-27 05:25:44,582 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:25:46,656 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:25:56,124 - DETAIL - Policy analysis complete.
+2025-07-27 05:25:56,124 - DETAIL - Analysis completed and saved for unimelb.edu.au.
+2025-07-27 05:25:56,125 - INFO - Started analysis for citibankonline.com and index 2346.
+2025-07-27 05:25:56,125 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:25:58,943 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:26:17,042 - DETAIL - Policy analysis complete.
+2025-07-27 05:26:17,043 - DETAIL - Analysis completed and saved for citibankonline.com.
+2025-07-27 05:26:17,044 - INFO - Started analysis for edupage.org and index 2348.
+2025-07-27 05:26:17,044 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:26:19,871 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:26:31,673 - DETAIL - Policy analysis complete.
+2025-07-27 05:26:31,675 - DETAIL - Analysis completed and saved for edupage.org.
+2025-07-27 05:26:31,675 - INFO - Started analysis for att.net and index 2349.
+2025-07-27 05:26:31,675 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:26:34,795 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:27:10,901 - DETAIL - Policy analysis complete.
+2025-07-27 05:27:10,903 - DETAIL - Analysis completed and saved for att.net.
+2025-07-27 05:27:10,903 - INFO - Started analysis for creativefabrica.com and index 2353.
+2025-07-27 05:27:10,903 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:27:13,394 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:27:23,165 - DETAIL - Policy analysis complete.
+2025-07-27 05:27:23,167 - DETAIL - Analysis completed and saved for creativefabrica.com.
+2025-07-27 05:27:23,167 - INFO - Started analysis for gaymaletube.com and index 2362.
+2025-07-27 05:27:23,167 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:27:26,935 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:27:45,319 - DETAIL - Policy analysis complete.
+2025-07-27 05:27:45,320 - DETAIL - Analysis completed and saved for gaymaletube.com.
+2025-07-27 05:27:45,321 - INFO - Started analysis for udacity.com and index 2364.
+2025-07-27 05:27:45,321 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:27:48,076 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:28:05,327 - DETAIL - Policy analysis complete.
+2025-07-27 05:28:05,327 - DETAIL - Analysis completed and saved for udacity.com.
+2025-07-27 05:28:05,328 - INFO - Started analysis for kucoin.com and index 2366.
+2025-07-27 05:28:05,328 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:28:11,284 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:29:14,389 - DETAIL - Policy analysis complete.
+2025-07-27 05:29:14,391 - DETAIL - Analysis completed and saved for kucoin.com.
+2025-07-27 05:29:14,391 - INFO - Started analysis for calculatorsoup.com and index 2367.
+2025-07-27 05:29:14,391 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:29:17,080 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:29:38,960 - DETAIL - Policy analysis complete.
+2025-07-27 05:29:38,961 - DETAIL - Analysis completed and saved for calculatorsoup.com.
+2025-07-27 05:29:38,962 - INFO - Started analysis for auspost.com.au and index 2369.
+2025-07-27 05:29:38,962 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:29:42,999 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:30:03,095 - DETAIL - Policy analysis complete.
+2025-07-27 05:30:03,097 - DETAIL - Analysis completed and saved for auspost.com.au.
+2025-07-27 05:30:03,098 - INFO - Started analysis for fantasypros.com and index 2376.
+2025-07-27 05:30:03,098 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:30:06,837 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:30:41,261 - DETAIL - Policy analysis complete.
+2025-07-27 05:30:41,263 - DETAIL - Analysis completed and saved for fantasypros.com.
+2025-07-27 05:30:41,263 - INFO - Started analysis for 1password.com and index 2377.
+2025-07-27 05:30:41,263 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:30:45,985 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:31:29,789 - DETAIL - Policy analysis complete.
+2025-07-27 05:31:29,791 - DETAIL - Analysis completed and saved for 1password.com.
+2025-07-27 05:31:29,791 - INFO - Started analysis for mdisk.me and index 2378.
+2025-07-27 05:31:29,791 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:31:33,043 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:32:06,082 - DETAIL - Policy analysis complete.
+2025-07-27 05:32:06,083 - DETAIL - Analysis completed and saved for mdisk.me.
+2025-07-27 05:32:06,084 - INFO - Started analysis for engadget.com and index 2382.
+2025-07-27 05:32:06,084 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:32:10,186 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:32:41,373 - DETAIL - Policy analysis complete.
+2025-07-27 05:32:41,374 - DETAIL - Analysis completed and saved for engadget.com.
+2025-07-27 05:32:41,375 - INFO - Started analysis for singlelogin.app and index 2383.
+2025-07-27 05:32:41,375 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:32:43,471 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:33:08,446 - DETAIL - Policy analysis complete.
+2025-07-27 05:33:08,448 - DETAIL - Analysis completed and saved for singlelogin.app.
+2025-07-27 05:33:08,449 - INFO - Started analysis for blender.org and index 2385.
+2025-07-27 05:33:08,449 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:33:14,207 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:34:11,730 - DETAIL - Policy analysis complete.
+2025-07-27 05:34:11,731 - DETAIL - Analysis completed and saved for blender.org.
+2025-07-27 05:34:11,731 - INFO - Started analysis for worldstar.com and index 2386.
+2025-07-27 05:34:11,731 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:34:17,376 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:35:13,337 - DETAIL - Policy analysis complete.
+2025-07-27 05:35:13,339 - DETAIL - Analysis completed and saved for worldstar.com.
+2025-07-27 05:35:13,340 - INFO - Started analysis for all-nationz.com and index 2387.
+2025-07-27 05:35:13,340 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:35:15,941 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:35:29,582 - DETAIL - Policy analysis complete.
+2025-07-27 05:35:29,583 - DETAIL - Analysis completed and saved for all-nationz.com.
+2025-07-27 05:35:29,583 - INFO - Started analysis for worldometers.info and index 2388.
+2025-07-27 05:35:29,583 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:35:32,132 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:35:51,567 - DETAIL - Policy analysis complete.
+2025-07-27 05:35:51,568 - DETAIL - Analysis completed and saved for worldometers.info.
+2025-07-27 05:35:51,568 - INFO - Started analysis for aps.org and index 2390.
+2025-07-27 05:35:51,568 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:35:53,711 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:36:08,738 - DETAIL - Policy analysis complete.
+2025-07-27 05:36:08,739 - DETAIL - Analysis completed and saved for aps.org.
+2025-07-27 05:36:08,740 - INFO - Started analysis for aboluowang.com and index 2393.
+2025-07-27 05:36:08,740 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:36:10,910 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:36:19,024 - DETAIL - Policy analysis complete.
+2025-07-27 05:36:19,026 - DETAIL - Analysis completed and saved for aboluowang.com.
+2025-07-27 05:36:19,026 - INFO - Started analysis for capitaloneshopping.com and index 2394.
+2025-07-27 05:36:19,026 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:36:26,434 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:36:46,319 - DETAIL - Policy analysis complete.
+2025-07-27 05:36:46,321 - DETAIL - Analysis completed and saved for capitaloneshopping.com.
+2025-07-27 05:36:46,322 - INFO - Started analysis for diagrams.net and index 2395.
+2025-07-27 05:36:46,322 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:36:50,195 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:37:30,351 - DETAIL - Policy analysis complete.
+2025-07-27 05:37:30,353 - DETAIL - Analysis completed and saved for diagrams.net.
+2025-07-27 05:37:30,353 - INFO - Started analysis for appsumo.com and index 2396.
+2025-07-27 05:37:30,353 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:37:33,431 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:37:59,984 - DETAIL - Policy analysis complete.
+2025-07-27 05:37:59,986 - DETAIL - Analysis completed and saved for appsumo.com.
+2025-07-27 05:37:59,987 - INFO - Started analysis for history.com and index 2398.
+2025-07-27 05:37:59,987 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:38:03,663 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:38:22,563 - DETAIL - Policy analysis complete.
+2025-07-27 05:38:22,565 - DETAIL - Analysis completed and saved for history.com.
+2025-07-27 05:38:22,565 - INFO - Started analysis for domestika.org and index 2401.
+2025-07-27 05:38:22,565 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:38:26,638 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:39:15,272 - DETAIL - Policy analysis complete.
+2025-07-27 05:39:15,273 - DETAIL - Analysis completed and saved for domestika.org.
+2025-07-27 05:39:15,274 - INFO - Started analysis for admissions.nic.in and index 2403.
+2025-07-27 05:39:15,274 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:39:17,726 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:39:24,489 - DETAIL - Policy analysis complete.
+2025-07-27 05:39:24,491 - DETAIL - Analysis completed and saved for admissions.nic.in.
+2025-07-27 05:39:24,492 - INFO - Started analysis for copy.ai and index 2406.
+2025-07-27 05:39:24,492 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:39:29,109 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:40:34,413 - DETAIL - Policy analysis complete.
+2025-07-27 05:40:34,415 - DETAIL - Analysis completed and saved for copy.ai.
+2025-07-27 05:40:34,416 - INFO - Started analysis for exe.app and index 2407.
+2025-07-27 05:40:34,416 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:40:44,993 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:40:59,274 - DETAIL - Policy analysis complete.
+2025-07-27 05:40:59,275 - DETAIL - Analysis completed and saved for exe.app.
+2025-07-27 05:40:59,275 - INFO - Started analysis for iafd.com and index 2412.
+2025-07-27 05:40:59,275 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:41:01,279 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:41:08,838 - DETAIL - Policy analysis complete.
+2025-07-27 05:41:08,839 - DETAIL - Analysis completed and saved for iafd.com.
+2025-07-27 05:41:08,839 - INFO - Started analysis for screener.in and index 2415.
+2025-07-27 05:41:08,839 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:41:12,214 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:42:15,073 - DETAIL - Policy analysis complete.
+2025-07-27 05:42:15,074 - DETAIL - Analysis completed and saved for screener.in.
+2025-07-27 05:42:15,074 - INFO - Started analysis for gmarket.co.kr and index 2421.
+2025-07-27 05:42:15,074 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:42:17,367 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:42:29,057 - DETAIL - Policy analysis complete.
+2025-07-27 05:42:29,057 - DETAIL - Analysis completed and saved for gmarket.co.kr.
+2025-07-27 05:42:29,058 - INFO - Started analysis for carwale.com and index 2424.
+2025-07-27 05:42:29,058 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:42:35,521 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:42:55,041 - DETAIL - Policy analysis complete.
+2025-07-27 05:42:55,042 - DETAIL - Analysis completed and saved for carwale.com.
+2025-07-27 05:42:55,043 - INFO - Started analysis for finviz.com and index 2425.
+2025-07-27 05:42:55,043 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:42:57,345 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:43:09,842 - DETAIL - Policy analysis complete.
+2025-07-27 05:43:09,844 - DETAIL - Analysis completed and saved for finviz.com.
+2025-07-27 05:43:09,844 - INFO - Started analysis for reclameaqui.com.br and index 2428.
+2025-07-27 05:43:09,844 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:43:12,960 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:43:31,861 - DETAIL - Policy analysis complete.
+2025-07-27 05:43:31,862 - DETAIL - Analysis completed and saved for reclameaqui.com.br.
+2025-07-27 05:43:31,863 - INFO - Started analysis for fnac.com and index 2431.
+2025-07-27 05:43:31,863 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:43:33,817 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:43:42,308 - DETAIL - Policy analysis complete.
+2025-07-27 05:43:42,309 - DETAIL - Analysis completed and saved for fnac.com.
+2025-07-27 05:43:42,310 - INFO - Started analysis for kinsta.com and index 2435.
+2025-07-27 05:43:42,310 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:43:47,436 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:44:29,305 - DETAIL - Policy analysis complete.
+2025-07-27 05:44:29,307 - DETAIL - Analysis completed and saved for kinsta.com.
+2025-07-27 05:44:29,307 - INFO - Started analysis for indiatoday.in and index 2436.
+2025-07-27 05:44:29,307 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:44:32,394 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:45:19,909 - DETAIL - Policy analysis complete.
+2025-07-27 05:45:19,911 - DETAIL - Analysis completed and saved for indiatoday.in.
+2025-07-27 05:45:19,911 - INFO - Started analysis for mangabuddy.com and index 2439.
+2025-07-27 05:45:19,912 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:45:23,126 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:45:37,270 - DETAIL - Policy analysis complete.
+2025-07-27 05:45:37,272 - DETAIL - Analysis completed and saved for mangabuddy.com.
+2025-07-27 05:45:37,272 - INFO - Started analysis for sflix.to and index 2441.
+2025-07-27 05:45:37,272 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:45:39,819 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:45:54,721 - DETAIL - Policy analysis complete.
+2025-07-27 05:45:54,722 - DETAIL - Analysis completed and saved for sflix.to.
+2025-07-27 05:45:54,723 - INFO - Started analysis for sydney.edu.au and index 2444.
+2025-07-27 05:45:54,723 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:45:58,799 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:46:36,669 - DETAIL - Policy analysis complete.
+2025-07-27 05:46:36,670 - DETAIL - Analysis completed and saved for sydney.edu.au.
+2025-07-27 05:46:36,670 - INFO - Started analysis for santander.co.uk and index 2445.
+2025-07-27 05:46:36,671 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:46:45,339 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:47:07,553 - DETAIL - Policy analysis complete.
+2025-07-27 05:47:07,557 - DETAIL - Analysis completed and saved for santander.co.uk.
+2025-07-27 05:47:07,558 - INFO - Started analysis for pnas.org and index 2446.
+2025-07-27 05:47:07,558 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:47:09,883 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:47:20,542 - DETAIL - Policy analysis complete.
+2025-07-27 05:47:20,543 - DETAIL - Analysis completed and saved for pnas.org.
+2025-07-27 05:47:20,544 - INFO - Started analysis for xhwide4.com and index 2447.
+2025-07-27 05:47:20,544 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:47:22,633 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:47:31,169 - DETAIL - Policy analysis complete.
+2025-07-27 05:47:31,169 - DETAIL - Analysis completed and saved for xhwide4.com.
+2025-07-27 05:47:31,170 - INFO - Started analysis for housing.com and index 2448.
+2025-07-27 05:47:31,170 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:47:34,779 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:47:57,704 - DETAIL - Policy analysis complete.
+2025-07-27 05:47:57,706 - DETAIL - Analysis completed and saved for housing.com.
+2025-07-27 05:47:57,706 - INFO - Started analysis for skysports.com and index 2449.
+2025-07-27 05:47:57,706 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:48:00,597 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:48:12,558 - DETAIL - Policy analysis complete.
+2025-07-27 05:48:12,559 - DETAIL - Analysis completed and saved for skysports.com.
+2025-07-27 05:48:12,560 - INFO - Started analysis for outlook.com and index 2452.
+2025-07-27 05:48:12,560 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:48:23,146 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:48:55,524 - DETAIL - Policy analysis complete.
+2025-07-27 05:48:55,533 - DETAIL - Analysis completed and saved for outlook.com.
+2025-07-27 05:48:55,533 - INFO - Started analysis for analdin.xxx and index 2454.
+2025-07-27 05:48:55,533 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:49:06,071 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:49:22,395 - DETAIL - Policy analysis complete.
+2025-07-27 05:49:22,396 - DETAIL - Analysis completed and saved for analdin.xxx.
+2025-07-27 05:49:22,396 - INFO - Started analysis for swiggy.com and index 2455.
+2025-07-27 05:49:22,396 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:49:25,697 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:49:51,798 - DETAIL - Policy analysis complete.
+2025-07-27 05:49:51,800 - DETAIL - Analysis completed and saved for swiggy.com.
+2025-07-27 05:49:51,801 - INFO - Started analysis for mercadolivre.com and index 2456.
+2025-07-27 05:49:51,802 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:49:56,655 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:50:04,353 - DETAIL - Policy analysis complete.
+2025-07-27 05:50:04,354 - DETAIL - Analysis completed and saved for mercadolivre.com.
+2025-07-27 05:50:04,355 - INFO - Started analysis for vxxx.com and index 2457.
+2025-07-27 05:50:04,355 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:50:09,979 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:50:26,366 - DETAIL - Policy analysis complete.
+2025-07-27 05:50:26,367 - DETAIL - Analysis completed and saved for vxxx.com.
+2025-07-27 05:50:26,368 - INFO - Started analysis for furaffinity.net and index 2458.
+2025-07-27 05:50:26,368 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:50:29,130 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:50:55,798 - DETAIL - Policy analysis complete.
+2025-07-27 05:50:55,799 - DETAIL - Analysis completed and saved for furaffinity.net.
+2025-07-27 05:50:55,800 - INFO - Started analysis for ciceksepeti.com and index 2463.
+2025-07-27 05:50:55,800 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:50:58,527 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:51:05,983 - DETAIL - Policy analysis complete.
+2025-07-27 05:51:05,984 - DETAIL - Analysis completed and saved for ciceksepeti.com.
+2025-07-27 05:51:05,985 - INFO - Started analysis for 4kdownload.com and index 2466.
+2025-07-27 05:51:05,985 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:51:09,761 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:51:31,444 - DETAIL - Policy analysis complete.
+2025-07-27 05:51:31,446 - DETAIL - Analysis completed and saved for 4kdownload.com.
+2025-07-27 05:51:31,446 - INFO - Started analysis for newxiaozhan.com and index 2467.
+2025-07-27 05:51:31,446 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:51:36,913 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:52:06,726 - DETAIL - Policy analysis complete.
+2025-07-27 05:52:06,727 - DETAIL - Analysis completed and saved for newxiaozhan.com.
+2025-07-27 05:52:06,727 - INFO - Started analysis for national-lottery.co.uk and index 2469.
+2025-07-27 05:52:06,727 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:52:13,201 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:52:48,704 - DETAIL - Policy analysis complete.
+2025-07-27 05:52:48,707 - DETAIL - Analysis completed and saved for national-lottery.co.uk.
+2025-07-27 05:52:48,708 - INFO - Started analysis for placeit.net and index 2472.
+2025-07-27 05:52:48,708 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:52:59,265 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:53:27,823 - DETAIL - Policy analysis complete.
+2025-07-27 05:53:27,828 - DETAIL - Analysis completed and saved for placeit.net.
+2025-07-27 05:53:27,828 - INFO - Started analysis for imgbb.com and index 2476.
+2025-07-27 05:53:27,829 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:53:31,142 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:53:53,118 - DETAIL - Policy analysis complete.
+2025-07-27 05:53:53,120 - DETAIL - Analysis completed and saved for imgbb.com.
+2025-07-27 05:53:53,120 - INFO - Started analysis for ozbargain.com.au and index 2478.
+2025-07-27 05:53:53,120 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:53:56,146 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:54:18,957 - DETAIL - Policy analysis complete.
+2025-07-27 05:54:18,958 - DETAIL - Analysis completed and saved for ozbargain.com.au.
+2025-07-27 05:54:18,958 - INFO - Started analysis for tcgplayer.com and index 2485.
+2025-07-27 05:54:18,959 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:54:21,082 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:54:54,515 - DETAIL - Policy analysis complete.
+2025-07-27 05:54:54,516 - DETAIL - Analysis completed and saved for tcgplayer.com.
+2025-07-27 05:54:54,517 - INFO - Started analysis for liveworksheets.com and index 2488.
+2025-07-27 05:54:54,517 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:54:56,685 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:55:09,742 - DETAIL - Policy analysis complete.
+2025-07-27 05:55:09,743 - DETAIL - Analysis completed and saved for liveworksheets.com.
+2025-07-27 05:55:09,743 - INFO - Started analysis for gofundme.com and index 2490.
+2025-07-27 05:55:09,744 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:55:14,031 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:56:03,364 - DETAIL - Policy analysis complete.
+2025-07-27 05:56:03,366 - DETAIL - Analysis completed and saved for gofundme.com.
+2025-07-27 05:56:03,367 - INFO - Started analysis for pbs.org and index 2491.
+2025-07-27 05:56:03,367 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:56:06,362 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:56:31,342 - DETAIL - Policy analysis complete.
+2025-07-27 05:56:31,344 - DETAIL - Analysis completed and saved for pbs.org.
+2025-07-27 05:56:31,344 - INFO - Started analysis for whois.com and index 2495.
+2025-07-27 05:56:31,345 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:56:33,680 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:56:44,719 - DETAIL - Policy analysis complete.
+2025-07-27 05:56:44,720 - DETAIL - Analysis completed and saved for whois.com.
+2025-07-27 05:56:44,720 - INFO - Started analysis for zety.com and index 2497.
+2025-07-27 05:56:44,720 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:56:49,438 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:57:07,383 - DETAIL - Policy analysis complete.
+2025-07-27 05:57:07,385 - DETAIL - Analysis completed and saved for zety.com.
+2025-07-27 05:57:07,385 - INFO - Started analysis for voflix.com and index 2498.
+2025-07-27 05:57:07,386 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:57:10,057 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:57:26,283 - DETAIL - Policy analysis complete.
+2025-07-27 05:57:26,284 - DETAIL - Analysis completed and saved for voflix.com.
+2025-07-27 05:57:26,285 - INFO - Started analysis for tesla.com and index 2501.
+2025-07-27 05:57:26,285 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:57:28,566 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:57:37,324 - DETAIL - Policy analysis complete.
+2025-07-27 05:57:37,326 - DETAIL - Analysis completed and saved for tesla.com.
+2025-07-27 05:57:37,326 - INFO - Started analysis for freemake.com and index 2503.
+2025-07-27 05:57:37,326 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:57:39,810 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:58:02,688 - DETAIL - Policy analysis complete.
+2025-07-27 05:58:02,690 - DETAIL - Analysis completed and saved for freemake.com.
+2025-07-27 05:58:02,690 - INFO - Started analysis for rightmove.co.uk and index 2504.
+2025-07-27 05:58:02,690 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:58:13,231 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:58:48,548 - DETAIL - Policy analysis complete.
+2025-07-27 05:58:48,552 - DETAIL - Analysis completed and saved for rightmove.co.uk.
+2025-07-27 05:58:48,553 - INFO - Started analysis for sexkbj.com and index 2506.
+2025-07-27 05:58:48,553 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:58:51,144 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:58:57,881 - DETAIL - Policy analysis complete.
+2025-07-27 05:58:57,882 - DETAIL - Analysis completed and saved for sexkbj.com.
+2025-07-27 05:58:57,882 - INFO - Started analysis for obsproject.com and index 2507.
+2025-07-27 05:58:57,882 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:58:59,833 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:59:17,000 - DETAIL - Policy analysis complete.
+2025-07-27 05:59:17,001 - DETAIL - Analysis completed and saved for obsproject.com.
+2025-07-27 05:59:17,002 - INFO - Started analysis for ranker.com and index 2508.
+2025-07-27 05:59:17,002 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:59:25,941 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:59:39,351 - DETAIL - Policy analysis complete.
+2025-07-27 05:59:39,356 - DETAIL - Analysis completed and saved for ranker.com.
+2025-07-27 05:59:39,356 - INFO - Started analysis for ckk.ai and index 2509.
+2025-07-27 05:59:39,356 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 05:59:42,327 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 05:59:57,266 - DETAIL - Policy analysis complete.
+2025-07-27 05:59:57,267 - DETAIL - Analysis completed and saved for ckk.ai.
+2025-07-27 05:59:57,267 - INFO - Started analysis for laravel.com and index 2512.
+2025-07-27 05:59:57,267 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:00:00,906 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:00:24,695 - DETAIL - Policy analysis complete.
+2025-07-27 06:00:24,698 - DETAIL - Analysis completed and saved for laravel.com.
+2025-07-27 06:00:24,698 - INFO - Started analysis for thoughtco.com and index 2516.
+2025-07-27 06:00:24,698 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:00:30,741 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:01:00,210 - DETAIL - Policy analysis complete.
+2025-07-27 06:01:00,212 - DETAIL - Analysis completed and saved for thoughtco.com.
+2025-07-27 06:01:00,212 - INFO - Started analysis for myfonts.com and index 2521.
+2025-07-27 06:01:00,212 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:01:05,983 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:01:33,695 - DETAIL - Policy analysis complete.
+2025-07-27 06:01:33,698 - DETAIL - Analysis completed and saved for myfonts.com.
+2025-07-27 06:01:33,698 - INFO - Started analysis for unblockit.cat and index 2525.
+2025-07-27 06:01:33,698 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:01:39,918 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:01:53,293 - DETAIL - Policy analysis complete.
+2025-07-27 06:01:53,295 - DETAIL - Analysis completed and saved for unblockit.cat.
+2025-07-27 06:01:53,296 - INFO - Started analysis for tubegalore.com and index 2527.
+2025-07-27 06:01:53,296 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:01:58,786 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:02:21,540 - DETAIL - Policy analysis complete.
+2025-07-27 06:02:21,542 - DETAIL - Analysis completed and saved for tubegalore.com.
+2025-07-27 06:02:21,542 - INFO - Started analysis for chinasexq.com and index 2529.
+2025-07-27 06:02:21,542 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:02:32,027 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:03:03,269 - DETAIL - Policy analysis complete.
+2025-07-27 06:03:03,270 - DETAIL - Analysis completed and saved for chinasexq.com.
+2025-07-27 06:03:03,271 - INFO - Started analysis for vitalsource.com and index 2530.
+2025-07-27 06:03:03,271 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:03:07,478 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:03:41,536 - DETAIL - Policy analysis complete.
+2025-07-27 06:03:41,538 - DETAIL - Analysis completed and saved for vitalsource.com.
+2025-07-27 06:03:41,538 - INFO - Started analysis for finanzen.net and index 2533.
+2025-07-27 06:03:41,539 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:03:43,767 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:03:55,500 - DETAIL - Policy analysis complete.
+2025-07-27 06:03:55,501 - DETAIL - Analysis completed and saved for finanzen.net.
+2025-07-27 06:03:55,502 - INFO - Started analysis for tp-link.com and index 2536.
+2025-07-27 06:03:55,502 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:04:04,454 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:04:49,398 - DETAIL - Policy analysis complete.
+2025-07-27 06:04:49,401 - DETAIL - Analysis completed and saved for tp-link.com.
+2025-07-27 06:04:49,401 - INFO - Started analysis for time.com and index 2539.
+2025-07-27 06:04:49,401 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:04:54,810 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:05:22,405 - DETAIL - Policy analysis complete.
+2025-07-27 06:05:22,407 - DETAIL - Analysis completed and saved for time.com.
+2025-07-27 06:05:22,408 - INFO - Started analysis for dmmbus.fun and index 2540.
+2025-07-27 06:05:22,408 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:05:31,339 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:06:40,619 - DETAIL - Policy analysis complete.
+2025-07-27 06:06:40,620 - DETAIL - Analysis completed and saved for dmmbus.fun.
+2025-07-27 06:06:40,621 - INFO - Started analysis for onlinevideoconverter.pro and index 2541.
+2025-07-27 06:06:40,621 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:06:42,920 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:06:56,955 - DETAIL - Policy analysis complete.
+2025-07-27 06:06:56,957 - DETAIL - Analysis completed and saved for onlinevideoconverter.pro.
+2025-07-27 06:06:56,957 - INFO - Started analysis for amzn.to and index 2542.
+2025-07-27 06:06:56,957 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:07:07,474 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:08:33,690 - DETAIL - Policy analysis complete.
+2025-07-27 06:08:33,694 - DETAIL - Analysis completed and saved for amzn.to.
+2025-07-27 06:08:33,695 - INFO - Started analysis for filehippo.com and index 2543.
+2025-07-27 06:08:33,695 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:08:44,402 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:09:50,138 - DETAIL - Policy analysis complete.
+2025-07-27 06:09:50,140 - DETAIL - Analysis completed and saved for filehippo.com.
+2025-07-27 06:09:50,140 - INFO - Started analysis for upenn.edu and index 2545.
+2025-07-27 06:09:50,140 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:09:53,864 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:10:14,248 - DETAIL - Policy analysis complete.
+2025-07-27 06:10:14,250 - DETAIL - Analysis completed and saved for upenn.edu.
+2025-07-27 06:10:14,250 - INFO - Started analysis for adidas.com and index 2546.
+2025-07-27 06:10:14,250 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:10:19,815 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:10:36,280 - DETAIL - Policy analysis complete.
+2025-07-27 06:10:36,281 - DETAIL - Analysis completed and saved for adidas.com.
+2025-07-27 06:10:36,281 - INFO - Started analysis for thetrainline.com and index 2548.
+2025-07-27 06:10:36,281 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:10:40,243 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:10:56,581 - DETAIL - Policy analysis complete.
+2025-07-27 06:10:56,582 - DETAIL - Analysis completed and saved for thetrainline.com.
+2025-07-27 06:10:56,583 - INFO - Started analysis for bungie.net and index 2553.
+2025-07-27 06:10:56,583 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:11:00,077 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:11:26,816 - DETAIL - Policy analysis complete.
+2025-07-27 06:11:26,818 - DETAIL - Analysis completed and saved for bungie.net.
+2025-07-27 06:11:26,819 - INFO - Started analysis for fmovies.ps and index 2554.
+2025-07-27 06:11:26,819 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:11:29,147 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:11:37,928 - DETAIL - Policy analysis complete.
+2025-07-27 06:11:37,929 - DETAIL - Analysis completed and saved for fmovies.ps.
+2025-07-27 06:11:37,930 - INFO - Started analysis for theepochtimes.com and index 2556.
+2025-07-27 06:11:37,930 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:11:42,450 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:12:02,572 - DETAIL - Policy analysis complete.
+2025-07-27 06:12:02,574 - DETAIL - Analysis completed and saved for theepochtimes.com.
+2025-07-27 06:12:02,575 - INFO - Started analysis for pssy.xyz and index 2557.
+2025-07-27 06:12:02,575 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:12:06,263 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:12:25,998 - DETAIL - Policy analysis complete.
+2025-07-27 06:12:26,000 - DETAIL - Analysis completed and saved for pssy.xyz.
+2025-07-27 06:12:26,001 - INFO - Started analysis for hindawi.com and index 2558.
+2025-07-27 06:12:26,001 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:12:27,410 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:12:42,019 - DETAIL - Policy analysis complete.
+2025-07-27 06:12:42,020 - DETAIL - Analysis completed and saved for hindawi.com.
+2025-07-27 06:12:42,021 - INFO - Started analysis for windowsreport.com and index 2562.
+2025-07-27 06:12:42,021 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:12:45,221 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:13:02,687 - DETAIL - Policy analysis complete.
+2025-07-27 06:13:02,689 - DETAIL - Analysis completed and saved for windowsreport.com.
+2025-07-27 06:13:02,689 - INFO - Started analysis for mirrored.to and index 2566.
+2025-07-27 06:13:02,689 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:13:05,369 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:13:34,858 - DETAIL - Policy analysis complete.
+2025-07-27 06:13:34,860 - DETAIL - Analysis completed and saved for mirrored.to.
+2025-07-27 06:13:34,860 - INFO - Started analysis for thumbzilla.com and index 2567.
+2025-07-27 06:13:34,860 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:13:42,948 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:13:59,558 - DETAIL - Policy analysis complete.
+2025-07-27 06:13:59,562 - DETAIL - Analysis completed and saved for thumbzilla.com.
+2025-07-27 06:13:59,562 - INFO - Started analysis for getpocket.com and index 2568.
+2025-07-27 06:13:59,562 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:14:02,001 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:14:33,341 - DETAIL - Policy analysis complete.
+2025-07-27 06:14:33,342 - DETAIL - Analysis completed and saved for getpocket.com.
+2025-07-27 06:14:33,342 - INFO - Started analysis for clideo.com and index 2569.
+2025-07-27 06:14:33,342 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:14:39,020 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:14:53,542 - DETAIL - Policy analysis complete.
+2025-07-27 06:14:53,544 - DETAIL - Analysis completed and saved for clideo.com.
+2025-07-27 06:14:53,544 - INFO - Started analysis for gamebanana.com and index 2570.
+2025-07-27 06:14:53,544 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:14:57,200 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:15:22,457 - DETAIL - Policy analysis complete.
+2025-07-27 06:15:22,459 - DETAIL - Analysis completed and saved for gamebanana.com.
+2025-07-27 06:15:22,459 - INFO - Started analysis for inmotionhosting.com and index 2571.
+2025-07-27 06:15:22,459 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:15:26,037 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:15:41,375 - DETAIL - Policy analysis complete.
+2025-07-27 06:15:41,377 - DETAIL - Analysis completed and saved for inmotionhosting.com.
+2025-07-27 06:15:41,377 - INFO - Started analysis for cgtrader.com and index 2572.
+2025-07-27 06:15:41,377 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:15:45,543 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:16:13,491 - DETAIL - Policy analysis complete.
+2025-07-27 06:16:13,493 - DETAIL - Analysis completed and saved for cgtrader.com.
+2025-07-27 06:16:13,493 - INFO - Started analysis for lloydsbank.co.uk and index 2573.
+2025-07-27 06:16:13,493 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:16:15,297 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:16:40,705 - DETAIL - Policy analysis complete.
+2025-07-27 06:16:40,706 - DETAIL - Analysis completed and saved for lloydsbank.co.uk.
+2025-07-27 06:16:40,707 - INFO - Started analysis for add0n.com and index 2576.
+2025-07-27 06:16:40,707 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:16:46,658 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:17:10,692 - DETAIL - Policy analysis complete.
+2025-07-27 06:17:10,694 - DETAIL - Analysis completed and saved for add0n.com.
+2025-07-27 06:17:10,695 - INFO - Started analysis for meetup.com and index 2577.
+2025-07-27 06:17:10,695 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:17:12,754 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:17:31,280 - DETAIL - Policy analysis complete.
+2025-07-27 06:17:31,281 - DETAIL - Analysis completed and saved for meetup.com.
+2025-07-27 06:17:31,281 - INFO - Started analysis for wannianli8.com and index 2578.
+2025-07-27 06:17:31,281 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:17:33,534 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:17:48,457 - DETAIL - Policy analysis complete.
+2025-07-27 06:17:48,459 - DETAIL - Analysis completed and saved for wannianli8.com.
+2025-07-27 06:17:48,459 - INFO - Started analysis for gradescope.com and index 2582.
+2025-07-27 06:17:48,459 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:17:59,187 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:18:29,762 - DETAIL - Policy analysis complete.
+2025-07-27 06:18:29,765 - DETAIL - Analysis completed and saved for gradescope.com.
+2025-07-27 06:18:29,765 - INFO - Started analysis for paytm.com and index 2585.
+2025-07-27 06:18:29,766 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:18:32,628 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:19:07,525 - DETAIL - Policy analysis complete.
+2025-07-27 06:19:07,526 - DETAIL - Analysis completed and saved for paytm.com.
+2025-07-27 06:19:07,527 - INFO - Started analysis for klmanga.com and index 2586.
+2025-07-27 06:19:07,527 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:19:14,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:19:22,352 - DETAIL - Policy analysis complete.
+2025-07-27 06:19:22,354 - DETAIL - Analysis completed and saved for klmanga.com.
+2025-07-27 06:19:22,354 - INFO - Started analysis for ifixit.com and index 2590.
+2025-07-27 06:19:22,354 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:19:29,023 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:19:50,575 - DETAIL - Policy analysis complete.
+2025-07-27 06:19:50,577 - DETAIL - Analysis completed and saved for ifixit.com.
+2025-07-27 06:19:50,578 - INFO - Started analysis for kajabi.com and index 2595.
+2025-07-27 06:19:50,578 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:19:57,436 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:20:40,909 - DETAIL - Policy analysis complete.
+2025-07-27 06:20:40,911 - DETAIL - Analysis completed and saved for kajabi.com.
+2025-07-27 06:20:40,911 - INFO - Started analysis for workable.com and index 2596.
+2025-07-27 06:20:40,912 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:20:45,799 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:21:21,715 - DETAIL - Policy analysis complete.
+2025-07-27 06:21:21,717 - DETAIL - Analysis completed and saved for workable.com.
+2025-07-27 06:21:21,717 - INFO - Started analysis for pluralsight.com and index 2599.
+2025-07-27 06:21:21,717 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:21:32,183 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:22:01,354 - DETAIL - Policy analysis complete.
+2025-07-27 06:22:01,356 - DETAIL - Analysis completed and saved for pluralsight.com.
+2025-07-27 06:22:01,356 - INFO - Started analysis for booth.pm and index 2600.
+2025-07-27 06:22:01,356 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:22:06,140 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:22:39,095 - DETAIL - Policy analysis complete.
+2025-07-27 06:22:39,098 - DETAIL - Analysis completed and saved for booth.pm.
+2025-07-27 06:22:39,098 - INFO - Started analysis for canva.cn and index 2602.
+2025-07-27 06:22:39,098 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:22:41,979 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:23:08,160 - DETAIL - Policy analysis complete.
+2025-07-27 06:23:08,161 - DETAIL - Analysis completed and saved for canva.cn.
+2025-07-27 06:23:08,161 - INFO - Started analysis for j9jp.com and index 2603.
+2025-07-27 06:23:08,162 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:23:11,769 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:23:23,619 - DETAIL - Policy analysis complete.
+2025-07-27 06:23:23,620 - DETAIL - Analysis completed and saved for j9jp.com.
+2025-07-27 06:23:23,621 - INFO - Started analysis for arstechnica.com and index 2609.
+2025-07-27 06:23:23,621 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:23:26,088 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:23:59,315 - DETAIL - Policy analysis complete.
+2025-07-27 06:23:59,316 - DETAIL - Analysis completed and saved for arstechnica.com.
+2025-07-27 06:23:59,316 - INFO - Started analysis for metacritic.com and index 2612.
+2025-07-27 06:23:59,316 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:24:04,060 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:24:25,611 - DETAIL - Policy analysis complete.
+2025-07-27 06:24:25,613 - DETAIL - Analysis completed and saved for metacritic.com.
+2025-07-27 06:24:25,613 - INFO - Started analysis for kissanime.com.ru and index 2614.
+2025-07-27 06:24:25,614 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:24:28,255 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:24:37,797 - DETAIL - Policy analysis complete.
+2025-07-27 06:24:37,798 - DETAIL - Analysis completed and saved for kissanime.com.ru.
+2025-07-27 06:24:37,798 - INFO - Started analysis for java.com and index 2616.
+2025-07-27 06:24:37,798 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:24:40,151 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:25:07,197 - DETAIL - Policy analysis complete.
+2025-07-27 06:25:07,198 - DETAIL - Analysis completed and saved for java.com.
+2025-07-27 06:25:07,199 - INFO - Started analysis for panda321.com and index 2617.
+2025-07-27 06:25:07,199 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:25:09,325 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:25:20,435 - DETAIL - Policy analysis complete.
+2025-07-27 06:25:20,436 - DETAIL - Analysis completed and saved for panda321.com.
+2025-07-27 06:25:20,436 - INFO - Started analysis for cargurus.com and index 2618.
+2025-07-27 06:25:20,436 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:25:31,003 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:26:04,534 - DETAIL - Policy analysis complete.
+2025-07-27 06:26:04,536 - DETAIL - Analysis completed and saved for cargurus.com.
+2025-07-27 06:26:04,537 - INFO - Started analysis for yanetflix.com and index 2619.
+2025-07-27 06:26:04,537 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:26:06,749 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:26:20,513 - DETAIL - Policy analysis complete.
+2025-07-27 06:26:20,514 - DETAIL - Analysis completed and saved for yanetflix.com.
+2025-07-27 06:26:20,514 - INFO - Started analysis for wappalyzer.com and index 2621.
+2025-07-27 06:26:20,514 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:26:23,445 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:26:55,536 - DETAIL - Policy analysis complete.
+2025-07-27 06:26:55,537 - DETAIL - Analysis completed and saved for wappalyzer.com.
+2025-07-27 06:26:55,537 - INFO - Started analysis for xunniupan.com and index 2622.
+2025-07-27 06:26:55,538 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:26:57,746 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:27:07,799 - DETAIL - Policy analysis complete.
+2025-07-27 06:27:07,800 - DETAIL - Analysis completed and saved for xunniupan.com.
+2025-07-27 06:27:07,801 - INFO - Started analysis for pinterest.de and index 2623.
+2025-07-27 06:27:07,801 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:27:11,884 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:27:37,794 - DETAIL - Policy analysis complete.
+2025-07-27 06:27:37,796 - DETAIL - Analysis completed and saved for pinterest.de.
+2025-07-27 06:27:37,796 - INFO - Started analysis for infinitecampus.org and index 2624.
+2025-07-27 06:27:37,796 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:27:40,383 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:27:55,597 - DETAIL - Policy analysis complete.
+2025-07-27 06:27:55,598 - DETAIL - Analysis completed and saved for infinitecampus.org.
+2025-07-27 06:27:55,599 - INFO - Started analysis for rbcroyalbank.com and index 2626.
+2025-07-27 06:27:55,599 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:27:59,381 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:28:17,324 - DETAIL - Policy analysis complete.
+2025-07-27 06:28:17,326 - DETAIL - Analysis completed and saved for rbcroyalbank.com.
+2025-07-27 06:28:17,327 - INFO - Started analysis for italent.cn and index 2627.
+2025-07-27 06:28:17,327 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:28:23,617 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:28:56,853 - DETAIL - Policy analysis complete.
+2025-07-27 06:28:56,855 - DETAIL - Analysis completed and saved for italent.cn.
+2025-07-27 06:28:56,855 - INFO - Started analysis for si.com and index 2630.
+2025-07-27 06:28:56,855 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:29:01,641 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:29:34,415 - DETAIL - Policy analysis complete.
+2025-07-27 06:29:34,417 - DETAIL - Analysis completed and saved for si.com.
+2025-07-27 06:29:34,418 - INFO - Started analysis for techcrunch.com and index 2633.
+2025-07-27 06:29:34,418 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:29:38,627 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:30:02,857 - DETAIL - Policy analysis complete.
+2025-07-27 06:30:02,859 - DETAIL - Analysis completed and saved for techcrunch.com.
+2025-07-27 06:30:02,859 - INFO - Started analysis for usa.gov and index 2634.
+2025-07-27 06:30:02,859 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:30:06,891 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:30:40,723 - DETAIL - Policy analysis complete.
+2025-07-27 06:30:40,724 - DETAIL - Analysis completed and saved for usa.gov.
+2025-07-27 06:30:40,725 - INFO - Started analysis for otakomu.jp and index 2636.
+2025-07-27 06:30:40,725 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:30:43,651 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:30:56,879 - DETAIL - Policy analysis complete.
+2025-07-27 06:30:56,881 - DETAIL - Analysis completed and saved for otakomu.jp.
+2025-07-27 06:30:56,881 - INFO - Started analysis for mercadolibre.cl and index 2637.
+2025-07-27 06:30:56,881 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:30:59,525 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:31:14,759 - DETAIL - Policy analysis complete.
+2025-07-27 06:31:14,760 - DETAIL - Analysis completed and saved for mercadolibre.cl.
+2025-07-27 06:31:14,761 - INFO - Started analysis for starplus.com and index 2641.
+2025-07-27 06:31:14,761 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:31:22,650 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:31:48,354 - DETAIL - Policy analysis complete.
+2025-07-27 06:31:48,358 - DETAIL - Analysis completed and saved for starplus.com.
+2025-07-27 06:31:48,358 - INFO - Started analysis for incues.com and index 2646.
+2025-07-27 06:31:48,359 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:31:52,317 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:32:45,461 - DETAIL - Policy analysis complete.
+2025-07-27 06:32:45,463 - DETAIL - Analysis completed and saved for incues.com.
+2025-07-27 06:32:45,463 - INFO - Started analysis for manchester.ac.uk and index 2647.
+2025-07-27 06:32:45,463 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:32:48,031 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:33:13,300 - DETAIL - Policy analysis complete.
+2025-07-27 06:33:13,302 - DETAIL - Analysis completed and saved for manchester.ac.uk.
+2025-07-27 06:33:13,302 - INFO - Started analysis for aleks.com and index 2650.
+2025-07-27 06:33:13,302 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:33:17,414 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:33:38,272 - DETAIL - Policy analysis complete.
+2025-07-27 06:33:38,274 - DETAIL - Analysis completed and saved for aleks.com.
+2025-07-27 06:33:38,275 - INFO - Started analysis for rocketreach.co and index 2651.
+2025-07-27 06:33:38,275 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:33:40,064 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:33:53,599 - DETAIL - Policy analysis complete.
+2025-07-27 06:33:53,600 - DETAIL - Analysis completed and saved for rocketreach.co.
+2025-07-27 06:33:53,600 - INFO - Started analysis for ucl.ac.uk and index 2655.
+2025-07-27 06:33:53,600 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:33:56,140 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:34:17,024 - DETAIL - Policy analysis complete.
+2025-07-27 06:34:17,025 - DETAIL - Analysis completed and saved for ucl.ac.uk.
+2025-07-27 06:34:17,026 - INFO - Started analysis for visymo.com and index 2658.
+2025-07-27 06:34:17,026 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:34:22,228 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:34:44,660 - DETAIL - Policy analysis complete.
+2025-07-27 06:34:44,662 - DETAIL - Analysis completed and saved for visymo.com.
+2025-07-27 06:34:44,662 - INFO - Started analysis for coolors.co and index 2659.
+2025-07-27 06:34:44,662 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:34:51,496 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:35:41,486 - DETAIL - Policy analysis complete.
+2025-07-27 06:35:41,488 - DETAIL - Analysis completed and saved for coolors.co.
+2025-07-27 06:35:41,489 - INFO - Started analysis for xvideos2.com and index 2660.
+2025-07-27 06:35:41,489 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:35:48,334 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:36:20,196 - DETAIL - Policy analysis complete.
+2025-07-27 06:36:20,198 - DETAIL - Analysis completed and saved for xvideos2.com.
+2025-07-27 06:36:20,198 - INFO - Started analysis for almasryalyoum.com and index 2661.
+2025-07-27 06:36:20,198 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:36:22,110 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:36:34,044 - DETAIL - Policy analysis complete.
+2025-07-27 06:36:34,045 - DETAIL - Analysis completed and saved for almasryalyoum.com.
+2025-07-27 06:36:34,046 - INFO - Started analysis for vogue.com and index 2663.
+2025-07-27 06:36:34,046 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:36:39,154 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:36:55,032 - DETAIL - Policy analysis complete.
+2025-07-27 06:36:55,034 - DETAIL - Analysis completed and saved for vogue.com.
+2025-07-27 06:36:55,035 - INFO - Started analysis for scholastic.com and index 2664.
+2025-07-27 06:36:55,035 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:37:05,583 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:39:14,647 - DETAIL - Policy analysis complete.
+2025-07-27 06:39:14,649 - DETAIL - Analysis completed and saved for scholastic.com.
+2025-07-27 06:39:14,649 - INFO - Started analysis for systeme.io and index 2667.
+2025-07-27 06:39:14,649 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:39:17,671 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:39:30,180 - DETAIL - Policy analysis complete.
+2025-07-27 06:39:30,181 - DETAIL - Analysis completed and saved for systeme.io.
+2025-07-27 06:39:30,181 - INFO - Started analysis for cbsnews.com and index 2670.
+2025-07-27 06:39:30,181 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:39:37,955 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:40:17,121 - DETAIL - Policy analysis complete.
+2025-07-27 06:40:17,124 - DETAIL - Analysis completed and saved for cbsnews.com.
+2025-07-27 06:40:17,125 - INFO - Started analysis for ccavenue.com and index 2671.
+2025-07-27 06:40:17,125 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:40:20,020 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:40:54,381 - DETAIL - Policy analysis complete.
+2025-07-27 06:40:54,383 - DETAIL - Analysis completed and saved for ccavenue.com.
+2025-07-27 06:40:54,383 - INFO - Started analysis for ga-dev-tools.web.app and index 2672.
+2025-07-27 06:40:54,383 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:40:59,404 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:41:28,113 - DETAIL - Policy analysis complete.
+2025-07-27 06:41:28,116 - DETAIL - Analysis completed and saved for ga-dev-tools.web.app.
+2025-07-27 06:41:28,116 - INFO - Started analysis for thegatewaypundit.com and index 2673.
+2025-07-27 06:41:28,116 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:41:33,660 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:41:49,931 - DETAIL - Policy analysis complete.
+2025-07-27 06:41:49,932 - DETAIL - Analysis completed and saved for thegatewaypundit.com.
+2025-07-27 06:41:49,932 - INFO - Started analysis for superchat.live and index 2674.
+2025-07-27 06:41:49,932 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:41:58,186 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:42:30,578 - DETAIL - Policy analysis complete.
+2025-07-27 06:42:30,580 - DETAIL - Analysis completed and saved for superchat.live.
+2025-07-27 06:42:30,580 - INFO - Started analysis for nbcsports.com and index 2675.
+2025-07-27 06:42:30,581 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:42:41,129 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:43:24,262 - DETAIL - Policy analysis complete.
+2025-07-27 06:43:24,266 - DETAIL - Analysis completed and saved for nbcsports.com.
+2025-07-27 06:43:24,266 - INFO - Started analysis for hoyolab.com and index 2676.
+2025-07-27 06:43:24,266 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:43:30,366 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:44:24,042 - DETAIL - Policy analysis complete.
+2025-07-27 06:44:24,044 - DETAIL - Analysis completed and saved for hoyolab.com.
+2025-07-27 06:44:24,044 - INFO - Started analysis for uploadgig.com and index 2679.
+2025-07-27 06:44:24,044 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:44:26,445 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:44:55,531 - DETAIL - Policy analysis complete.
+2025-07-27 06:44:55,532 - DETAIL - Analysis completed and saved for uploadgig.com.
+2025-07-27 06:44:55,533 - INFO - Started analysis for fosshub.com and index 2680.
+2025-07-27 06:44:55,533 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:44:59,775 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:45:17,383 - DETAIL - Policy analysis complete.
+2025-07-27 06:45:17,384 - DETAIL - Analysis completed and saved for fosshub.com.
+2025-07-27 06:45:17,384 - INFO - Started analysis for dailypost.ng and index 2681.
+2025-07-27 06:45:17,384 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:45:19,572 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:45:47,130 - DETAIL - Policy analysis complete.
+2025-07-27 06:45:47,132 - DETAIL - Analysis completed and saved for dailypost.ng.
+2025-07-27 06:45:47,132 - INFO - Started analysis for uptodate.com and index 2682.
+2025-07-27 06:45:47,132 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:45:50,806 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:46:11,912 - DETAIL - Policy analysis complete.
+2025-07-27 06:46:11,914 - DETAIL - Analysis completed and saved for uptodate.com.
+2025-07-27 06:46:11,914 - INFO - Started analysis for arduino.cc and index 2687.
+2025-07-27 06:46:11,914 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:46:19,862 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:46:49,735 - DETAIL - Policy analysis complete.
+2025-07-27 06:46:49,737 - DETAIL - Analysis completed and saved for arduino.cc.
+2025-07-27 06:46:49,738 - INFO - Started analysis for ebay.ca and index 2689.
+2025-07-27 06:46:49,738 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:46:51,945 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:47:16,935 - DETAIL - Policy analysis complete.
+2025-07-27 06:47:16,936 - DETAIL - Analysis completed and saved for ebay.ca.
+2025-07-27 06:47:16,937 - INFO - Started analysis for pdfsimpli.com and index 2690.
+2025-07-27 06:47:16,937 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:47:20,249 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:47:52,778 - DETAIL - Policy analysis complete.
+2025-07-27 06:47:52,779 - DETAIL - Analysis completed and saved for pdfsimpli.com.
+2025-07-27 06:47:52,779 - INFO - Started analysis for ni.com and index 2693.
+2025-07-27 06:47:52,779 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:47:56,896 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:48:25,709 - DETAIL - Policy analysis complete.
+2025-07-27 06:48:25,712 - DETAIL - Analysis completed and saved for ni.com.
+2025-07-27 06:48:25,712 - INFO - Started analysis for getresponse.com and index 2696.
+2025-07-27 06:48:25,713 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:48:33,936 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:48:55,899 - DETAIL - Policy analysis complete.
+2025-07-27 06:48:55,902 - DETAIL - Analysis completed and saved for getresponse.com.
+2025-07-27 06:48:55,902 - INFO - Started analysis for yjc.news and index 2697.
+2025-07-27 06:48:55,902 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:49:00,376 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:49:33,172 - DETAIL - Policy analysis complete.
+2025-07-27 06:49:33,173 - DETAIL - Analysis completed and saved for yjc.news.
+2025-07-27 06:49:33,173 - INFO - Started analysis for geekbang.org and index 2701.
+2025-07-27 06:49:33,173 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:49:35,545 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:49:43,048 - DETAIL - Policy analysis complete.
+2025-07-27 06:49:43,049 - DETAIL - Analysis completed and saved for geekbang.org.
+2025-07-27 06:49:43,050 - INFO - Started analysis for company-information.service.gov.uk and index 2706.
+2025-07-27 06:49:43,050 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:49:47,467 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:50:01,264 - DETAIL - Policy analysis complete.
+2025-07-27 06:50:01,264 - DETAIL - Analysis completed and saved for company-information.service.gov.uk.
+2025-07-27 06:50:01,265 - INFO - Started analysis for pinterest.jp and index 2707.
+2025-07-27 06:50:01,265 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:50:05,459 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:50:24,714 - DETAIL - Policy analysis complete.
+2025-07-27 06:50:24,716 - DETAIL - Analysis completed and saved for pinterest.jp.
+2025-07-27 06:50:24,716 - INFO - Started analysis for expressvpn.com and index 2708.
+2025-07-27 06:50:24,717 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:50:29,441 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:50:43,512 - DETAIL - Policy analysis complete.
+2025-07-27 06:50:43,514 - DETAIL - Analysis completed and saved for expressvpn.com.
+2025-07-27 06:50:43,514 - INFO - Started analysis for blibli.com and index 2710.
+2025-07-27 06:50:43,514 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:50:53,960 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:51:12,633 - DETAIL - Policy analysis complete.
+2025-07-27 06:51:12,634 - DETAIL - Analysis completed and saved for blibli.com.
+2025-07-27 06:51:12,634 - INFO - Started analysis for yunxuetang.cn and index 2713.
+2025-07-27 06:51:12,635 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:51:15,126 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:51:43,048 - DETAIL - Policy analysis complete.
+2025-07-27 06:51:43,049 - DETAIL - Analysis completed and saved for yunxuetang.cn.
+2025-07-27 06:51:43,050 - INFO - Started analysis for pytorch.org and index 2715.
+2025-07-27 06:51:43,050 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:51:47,469 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:52:07,908 - DETAIL - Policy analysis complete.
+2025-07-27 06:52:07,910 - DETAIL - Analysis completed and saved for pytorch.org.
+2025-07-27 06:52:07,910 - INFO - Started analysis for hpe.com and index 2717.
+2025-07-27 06:52:07,911 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:52:10,241 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:52:18,053 - DETAIL - Policy analysis complete.
+2025-07-27 06:52:18,054 - DETAIL - Analysis completed and saved for hpe.com.
+2025-07-27 06:52:18,055 - INFO - Started analysis for orcid.org and index 2718.
+2025-07-27 06:52:18,055 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:52:23,896 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:53:24,832 - DETAIL - Policy analysis complete.
+2025-07-27 06:53:24,834 - DETAIL - Analysis completed and saved for orcid.org.
+2025-07-27 06:53:24,835 - INFO - Started analysis for pinterest.com.au and index 2720.
+2025-07-27 06:53:24,835 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:53:29,988 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:53:50,913 - DETAIL - Policy analysis complete.
+2025-07-27 06:53:50,916 - DETAIL - Analysis completed and saved for pinterest.com.au.
+2025-07-27 06:53:50,917 - INFO - Started analysis for adda247.com and index 2724.
+2025-07-27 06:53:50,917 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:53:58,335 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:54:19,508 - DETAIL - Policy analysis complete.
+2025-07-27 06:54:19,510 - DETAIL - Analysis completed and saved for adda247.com.
+2025-07-27 06:54:19,510 - INFO - Started analysis for muzhuangnet.com and index 2725.
+2025-07-27 06:54:19,510 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:54:24,642 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:54:43,609 - DETAIL - Policy analysis complete.
+2025-07-27 06:54:43,611 - DETAIL - Analysis completed and saved for muzhuangnet.com.
+2025-07-27 06:54:43,611 - INFO - Started analysis for bestjavporn.com and index 2726.
+2025-07-27 06:54:43,611 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:54:45,758 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:54:53,664 - DETAIL - Policy analysis complete.
+2025-07-27 06:54:53,666 - DETAIL - Analysis completed and saved for bestjavporn.com.
+2025-07-27 06:54:53,667 - INFO - Started analysis for imgbox.com and index 2727.
+2025-07-27 06:54:53,667 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:54:55,887 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:55:12,891 - DETAIL - Policy analysis complete.
+2025-07-27 06:55:12,893 - DETAIL - Analysis completed and saved for imgbox.com.
+2025-07-27 06:55:12,893 - INFO - Started analysis for badoo.com and index 2728.
+2025-07-27 06:55:12,893 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:55:17,307 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:55:34,343 - DETAIL - Policy analysis complete.
+2025-07-27 06:55:34,345 - DETAIL - Analysis completed and saved for badoo.com.
+2025-07-27 06:55:34,346 - INFO - Started analysis for tamu.edu and index 2731.
+2025-07-27 06:55:34,346 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:55:39,497 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:55:49,673 - DETAIL - Policy analysis complete.
+2025-07-27 06:55:49,674 - DETAIL - Analysis completed and saved for tamu.edu.
+2025-07-27 06:55:49,674 - INFO - Started analysis for goibibo.com and index 2732.
+2025-07-27 06:55:49,675 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:55:51,454 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:55:57,385 - DETAIL - Policy analysis complete.
+2025-07-27 06:55:57,386 - DETAIL - Analysis completed and saved for goibibo.com.
+2025-07-27 06:55:57,386 - INFO - Started analysis for pelisplus.cx and index 2733.
+2025-07-27 06:55:57,386 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:56:03,532 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:56:27,645 - DETAIL - Policy analysis complete.
+2025-07-27 06:56:27,646 - DETAIL - Analysis completed and saved for pelisplus.cx.
+2025-07-27 06:56:27,647 - INFO - Started analysis for google.kz and index 2734.
+2025-07-27 06:56:27,647 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:56:32,955 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:56:51,123 - DETAIL - Policy analysis complete.
+2025-07-27 06:56:51,125 - DETAIL - Analysis completed and saved for google.kz.
+2025-07-27 06:56:51,126 - INFO - Started analysis for pornhits.com and index 2736.
+2025-07-27 06:56:51,126 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:56:54,663 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:57:12,020 - DETAIL - Policy analysis complete.
+2025-07-27 06:57:12,021 - DETAIL - Analysis completed and saved for pornhits.com.
+2025-07-27 06:57:12,022 - INFO - Started analysis for livemint.com and index 2739.
+2025-07-27 06:57:12,022 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:57:16,601 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:57:27,280 - DETAIL - Policy analysis complete.
+2025-07-27 06:57:27,282 - DETAIL - Analysis completed and saved for livemint.com.
+2025-07-27 06:57:27,282 - INFO - Started analysis for wordwall.net and index 2740.
+2025-07-27 06:57:27,282 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:57:30,014 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:57:42,822 - DETAIL - Policy analysis complete.
+2025-07-27 06:57:42,823 - DETAIL - Analysis completed and saved for wordwall.net.
+2025-07-27 06:57:42,824 - INFO - Started analysis for rakuten-card.co.jp and index 2748.
+2025-07-27 06:57:42,824 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:57:46,508 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:57:54,092 - DETAIL - Policy analysis complete.
+2025-07-27 06:57:54,092 - DETAIL - Analysis completed and saved for rakuten-card.co.jp.
+2025-07-27 06:57:54,093 - INFO - Started analysis for javmost.cx and index 2753.
+2025-07-27 06:57:54,093 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:57:56,569 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:58:03,442 - DETAIL - Policy analysis complete.
+2025-07-27 06:58:03,443 - DETAIL - Analysis completed and saved for javmost.cx.
+2025-07-27 06:58:03,444 - INFO - Started analysis for fool.com and index 2754.
+2025-07-27 06:58:03,444 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:58:07,236 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:58:19,221 - DETAIL - Policy analysis complete.
+2025-07-27 06:58:19,222 - DETAIL - Analysis completed and saved for fool.com.
+2025-07-27 06:58:19,223 - INFO - Started analysis for cbr.com and index 2755.
+2025-07-27 06:58:19,223 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:58:23,690 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:58:54,504 - DETAIL - Policy analysis complete.
+2025-07-27 06:58:54,505 - DETAIL - Analysis completed and saved for cbr.com.
+2025-07-27 06:58:54,505 - INFO - Started analysis for techpowerup.com and index 2756.
+2025-07-27 06:58:54,505 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:58:57,193 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:59:07,156 - DETAIL - Policy analysis complete.
+2025-07-27 06:59:07,158 - DETAIL - Analysis completed and saved for techpowerup.com.
+2025-07-27 06:59:07,158 - INFO - Started analysis for gadgets360.com and index 2757.
+2025-07-27 06:59:07,158 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:59:10,536 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 06:59:29,826 - DETAIL - Policy analysis complete.
+2025-07-27 06:59:29,827 - DETAIL - Analysis completed and saved for gadgets360.com.
+2025-07-27 06:59:29,827 - INFO - Started analysis for appen.com and index 2758.
+2025-07-27 06:59:29,827 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 06:59:33,958 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:00:15,457 - DETAIL - Policy analysis complete.
+2025-07-27 07:00:15,459 - DETAIL - Analysis completed and saved for appen.com.
+2025-07-27 07:00:15,459 - INFO - Started analysis for icons8.com and index 2761.
+2025-07-27 07:00:15,459 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:00:23,154 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:00:47,454 - DETAIL - Policy analysis complete.
+2025-07-27 07:00:47,457 - DETAIL - Analysis completed and saved for icons8.com.
+2025-07-27 07:00:47,457 - INFO - Started analysis for spiceworks.com and index 2762.
+2025-07-27 07:00:47,457 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:00:50,133 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:01:04,512 - DETAIL - Policy analysis complete.
+2025-07-27 07:01:04,513 - DETAIL - Analysis completed and saved for spiceworks.com.
+2025-07-27 07:01:04,514 - INFO - Started analysis for ficbook.net and index 2766.
+2025-07-27 07:01:04,514 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:01:14,974 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:01:42,958 - DETAIL - Policy analysis complete.
+2025-07-27 07:01:42,959 - DETAIL - Analysis completed and saved for ficbook.net.
+2025-07-27 07:01:42,960 - INFO - Started analysis for box.net and index 2769.
+2025-07-27 07:01:42,960 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:01:44,702 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:02:04,415 - DETAIL - Policy analysis complete.
+2025-07-27 07:02:04,416 - DETAIL - Analysis completed and saved for box.net.
+2025-07-27 07:02:04,416 - INFO - Started analysis for soccerway.com and index 2770.
+2025-07-27 07:02:04,417 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:02:07,390 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:02:41,805 - DETAIL - Policy analysis complete.
+2025-07-27 07:02:41,807 - DETAIL - Analysis completed and saved for soccerway.com.
+2025-07-27 07:02:41,807 - INFO - Started analysis for theweathernetwork.com and index 2772.
+2025-07-27 07:02:41,807 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:02:45,107 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:03:15,984 - DETAIL - Policy analysis complete.
+2025-07-27 07:03:15,985 - DETAIL - Analysis completed and saved for theweathernetwork.com.
+2025-07-27 07:03:15,985 - INFO - Started analysis for fsoufsou.com and index 2773.
+2025-07-27 07:03:15,986 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:03:18,284 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:03:30,103 - DETAIL - Policy analysis complete.
+2025-07-27 07:03:30,104 - DETAIL - Analysis completed and saved for fsoufsou.com.
+2025-07-27 07:03:30,104 - INFO - Started analysis for illinois.edu and index 2775.
+2025-07-27 07:03:30,104 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:03:34,002 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:03:57,717 - DETAIL - Policy analysis complete.
+2025-07-27 07:03:57,719 - DETAIL - Analysis completed and saved for illinois.edu.
+2025-07-27 07:03:57,719 - INFO - Started analysis for google.com.ph and index 2776.
+2025-07-27 07:03:57,719 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:04:02,329 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:04:20,136 - DETAIL - Policy analysis complete.
+2025-07-27 07:04:20,138 - DETAIL - Analysis completed and saved for google.com.ph.
+2025-07-27 07:04:20,139 - INFO - Started analysis for manyvids.com and index 2779.
+2025-07-27 07:04:20,139 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:04:21,879 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:04:35,872 - DETAIL - Policy analysis complete.
+2025-07-27 07:04:35,872 - DETAIL - Analysis completed and saved for manyvids.com.
+2025-07-27 07:04:35,873 - INFO - Started analysis for argos.co.uk and index 2780.
+2025-07-27 07:04:35,873 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:04:38,087 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:04:49,456 - DETAIL - Policy analysis complete.
+2025-07-27 07:04:49,457 - DETAIL - Analysis completed and saved for argos.co.uk.
+2025-07-27 07:04:49,458 - INFO - Started analysis for google.com.qa and index 2781.
+2025-07-27 07:04:49,458 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:04:57,340 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:05:32,460 - DETAIL - Policy analysis complete.
+2025-07-27 07:05:32,462 - DETAIL - Analysis completed and saved for google.com.qa.
+2025-07-27 07:05:32,463 - INFO - Started analysis for hunter.io and index 2782.
+2025-07-27 07:05:32,463 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:05:35,390 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:06:00,182 - DETAIL - Policy analysis complete.
+2025-07-27 07:06:00,184 - DETAIL - Analysis completed and saved for hunter.io.
+2025-07-27 07:06:00,184 - INFO - Started analysis for bigo.tv and index 2783.
+2025-07-27 07:06:00,184 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:06:05,124 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:06:41,889 - DETAIL - Policy analysis complete.
+2025-07-27 07:06:41,891 - DETAIL - Analysis completed and saved for bigo.tv.
+2025-07-27 07:06:41,891 - INFO - Started analysis for cleartax.in and index 2784.
+2025-07-27 07:06:41,891 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:06:47,840 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:07:14,894 - DETAIL - Policy analysis complete.
+2025-07-27 07:07:14,897 - DETAIL - Analysis completed and saved for cleartax.in.
+2025-07-27 07:07:14,897 - INFO - Started analysis for javmost.com and index 2788.
+2025-07-27 07:07:14,897 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:07:17,066 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:07:24,682 - DETAIL - Policy analysis complete.
+2025-07-27 07:07:24,683 - DETAIL - Analysis completed and saved for javmost.com.
+2025-07-27 07:07:24,684 - INFO - Started analysis for thetimes.co.uk and index 2789.
+2025-07-27 07:07:24,684 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:07:30,689 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:08:05,582 - DETAIL - Policy analysis complete.
+2025-07-27 07:08:05,585 - DETAIL - Analysis completed and saved for thetimes.co.uk.
+2025-07-27 07:08:05,585 - INFO - Started analysis for pdfcoffee.com and index 2790.
+2025-07-27 07:08:05,585 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:08:08,138 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:08:50,047 - DETAIL - Policy analysis complete.
+2025-07-27 07:08:50,048 - DETAIL - Analysis completed and saved for pdfcoffee.com.
+2025-07-27 07:08:50,048 - INFO - Started analysis for careers360.com and index 2791.
+2025-07-27 07:08:50,048 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:08:53,390 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:09:14,206 - DETAIL - Policy analysis complete.
+2025-07-27 07:09:14,208 - DETAIL - Analysis completed and saved for careers360.com.
+2025-07-27 07:09:14,208 - INFO - Started analysis for gog.com and index 2792.
+2025-07-27 07:09:14,208 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:09:24,748 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:09:51,102 - DETAIL - Policy analysis complete.
+2025-07-27 07:09:51,105 - DETAIL - Analysis completed and saved for gog.com.
+2025-07-27 07:09:51,105 - INFO - Started analysis for razer.com and index 2795.
+2025-07-27 07:09:51,106 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:10:01,583 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:10:23,764 - DETAIL - Policy analysis complete.
+2025-07-27 07:10:23,766 - DETAIL - Analysis completed and saved for razer.com.
+2025-07-27 07:10:23,766 - INFO - Started analysis for cibc.com and index 2797.
+2025-07-27 07:10:23,766 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:10:27,006 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:10:34,232 - DETAIL - Policy analysis complete.
+2025-07-27 07:10:34,233 - DETAIL - Analysis completed and saved for cibc.com.
+2025-07-27 07:10:34,234 - INFO - Started analysis for gfxcamp.com and index 2805.
+2025-07-27 07:10:34,234 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:10:37,098 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:10:51,564 - DETAIL - Policy analysis complete.
+2025-07-27 07:10:51,565 - DETAIL - Analysis completed and saved for gfxcamp.com.
+2025-07-27 07:10:51,566 - INFO - Started analysis for medlineplus.gov and index 2806.
+2025-07-27 07:10:51,566 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:10:53,510 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:11:05,678 - DETAIL - Policy analysis complete.
+2025-07-27 07:11:05,679 - DETAIL - Analysis completed and saved for medlineplus.gov.
+2025-07-27 07:11:05,679 - INFO - Started analysis for playno1.com and index 2807.
+2025-07-27 07:11:05,680 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:11:07,622 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:11:20,427 - DETAIL - Policy analysis complete.
+2025-07-27 07:11:20,428 - DETAIL - Analysis completed and saved for playno1.com.
+2025-07-27 07:11:20,428 - INFO - Started analysis for utexas.edu and index 2809.
+2025-07-27 07:11:20,429 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:11:24,327 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:12:05,532 - DETAIL - Policy analysis complete.
+2025-07-27 07:12:05,533 - DETAIL - Analysis completed and saved for utexas.edu.
+2025-07-27 07:12:05,533 - INFO - Started analysis for woocommerce.com and index 2810.
+2025-07-27 07:12:05,534 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:12:10,136 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:13:03,896 - DETAIL - Policy analysis complete.
+2025-07-27 07:13:03,899 - DETAIL - Analysis completed and saved for woocommerce.com.
+2025-07-27 07:13:03,899 - INFO - Started analysis for inflact.com and index 2811.
+2025-07-27 07:13:03,899 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:13:08,395 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:13:23,008 - DETAIL - Policy analysis complete.
+2025-07-27 07:13:23,010 - DETAIL - Analysis completed and saved for inflact.com.
+2025-07-27 07:13:23,010 - INFO - Started analysis for file-upload.com and index 2812.
+2025-07-27 07:13:23,010 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:13:25,594 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:14:11,657 - DETAIL - Policy analysis complete.
+2025-07-27 07:14:11,658 - DETAIL - Analysis completed and saved for file-upload.com.
+2025-07-27 07:14:11,658 - INFO - Started analysis for 36dm.com and index 2814.
+2025-07-27 07:14:11,658 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:14:14,107 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:14:27,643 - DETAIL - Policy analysis complete.
+2025-07-27 07:14:27,644 - DETAIL - Analysis completed and saved for 36dm.com.
+2025-07-27 07:14:27,644 - INFO - Started analysis for ucdavis.edu and index 2818.
+2025-07-27 07:14:27,644 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:14:30,062 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:14:49,645 - DETAIL - Policy analysis complete.
+2025-07-27 07:14:49,646 - DETAIL - Analysis completed and saved for ucdavis.edu.
+2025-07-27 07:14:49,647 - INFO - Started analysis for klarna.com and index 2819.
+2025-07-27 07:14:49,647 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:14:54,694 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:15:23,486 - DETAIL - Policy analysis complete.
+2025-07-27 07:15:23,487 - DETAIL - Analysis completed and saved for klarna.com.
+2025-07-27 07:15:23,487 - INFO - Started analysis for streamyard.com and index 2824.
+2025-07-27 07:15:23,487 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:15:26,415 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:15:32,915 - DETAIL - Policy analysis complete.
+2025-07-27 07:15:32,916 - DETAIL - Analysis completed and saved for streamyard.com.
+2025-07-27 07:15:32,917 - INFO - Started analysis for familysimulators.io and index 2825.
+2025-07-27 07:15:32,917 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:15:34,852 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:15:43,550 - DETAIL - Policy analysis complete.
+2025-07-27 07:15:43,551 - DETAIL - Analysis completed and saved for familysimulators.io.
+2025-07-27 07:15:43,551 - INFO - Started analysis for zoopla.co.uk and index 2828.
+2025-07-27 07:15:43,551 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:15:45,640 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:15:53,022 - DETAIL - Policy analysis complete.
+2025-07-27 07:15:53,023 - DETAIL - Analysis completed and saved for zoopla.co.uk.
+2025-07-27 07:15:53,023 - INFO - Started analysis for google.co.il and index 2830.
+2025-07-27 07:15:53,024 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:16:03,466 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:16:31,951 - DETAIL - Policy analysis complete.
+2025-07-27 07:16:31,954 - DETAIL - Analysis completed and saved for google.co.il.
+2025-07-27 07:16:31,955 - INFO - Started analysis for swagbucks.com and index 2832.
+2025-07-27 07:16:31,955 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:16:42,429 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:17:00,973 - DETAIL - Policy analysis complete.
+2025-07-27 07:17:00,977 - DETAIL - Analysis completed and saved for swagbucks.com.
+2025-07-27 07:17:00,977 - INFO - Started analysis for upstream.to and index 2834.
+2025-07-27 07:17:00,977 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:17:03,760 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:17:22,893 - DETAIL - Policy analysis complete.
+2025-07-27 07:17:22,894 - DETAIL - Analysis completed and saved for upstream.to.
+2025-07-27 07:17:22,894 - INFO - Started analysis for quickconnect.cn and index 2835.
+2025-07-27 07:17:22,894 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:17:25,898 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:17:58,124 - DETAIL - Policy analysis complete.
+2025-07-27 07:17:58,125 - DETAIL - Analysis completed and saved for quickconnect.cn.
+2025-07-27 07:17:58,126 - INFO - Started analysis for qwant.com and index 2836.
+2025-07-27 07:17:58,126 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:18:01,318 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:18:24,983 - DETAIL - Policy analysis complete.
+2025-07-27 07:18:24,985 - DETAIL - Analysis completed and saved for qwant.com.
+2025-07-27 07:18:24,985 - INFO - Started analysis for datacamp.com and index 2841.
+2025-07-27 07:18:24,985 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:18:29,500 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:18:42,353 - DETAIL - Policy analysis complete.
+2025-07-27 07:18:42,353 - DETAIL - Analysis completed and saved for datacamp.com.
+2025-07-27 07:18:42,354 - INFO - Started analysis for musescore.com and index 2843.
+2025-07-27 07:18:42,354 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:18:46,149 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:19:15,995 - DETAIL - Policy analysis complete.
+2025-07-27 07:19:15,996 - DETAIL - Analysis completed and saved for musescore.com.
+2025-07-27 07:19:15,996 - INFO - Started analysis for rae.es and index 2844.
+2025-07-27 07:19:15,996 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:19:17,910 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:19:39,878 - DETAIL - Policy analysis complete.
+2025-07-27 07:19:39,879 - DETAIL - Analysis completed and saved for rae.es.
+2025-07-27 07:19:39,880 - INFO - Started analysis for baseball-reference.com and index 2845.
+2025-07-27 07:19:39,880 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:19:43,277 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:20:05,326 - DETAIL - Policy analysis complete.
+2025-07-27 07:20:05,328 - DETAIL - Analysis completed and saved for baseball-reference.com.
+2025-07-27 07:20:05,328 - INFO - Started analysis for nerdwallet.com and index 2846.
+2025-07-27 07:20:05,328 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:20:12,286 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:20:34,297 - DETAIL - Policy analysis complete.
+2025-07-27 07:20:34,300 - DETAIL - Analysis completed and saved for nerdwallet.com.
+2025-07-27 07:20:34,300 - INFO - Started analysis for javsee.cc and index 2847.
+2025-07-27 07:20:34,300 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:20:35,933 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:20:49,369 - DETAIL - Policy analysis complete.
+2025-07-27 07:20:49,370 - DETAIL - Analysis completed and saved for javsee.cc.
+2025-07-27 07:20:49,370 - INFO - Started analysis for maojinwu.com and index 2848.
+2025-07-27 07:20:49,370 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:20:54,381 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:21:14,636 - DETAIL - Policy analysis complete.
+2025-07-27 07:21:14,636 - DETAIL - Analysis completed and saved for maojinwu.com.
+2025-07-27 07:21:14,637 - INFO - Started analysis for sporcle.com and index 2849.
+2025-07-27 07:21:14,637 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:21:25,240 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:21:51,127 - DETAIL - Policy analysis complete.
+2025-07-27 07:21:51,130 - DETAIL - Analysis completed and saved for sporcle.com.
+2025-07-27 07:21:51,130 - INFO - Started analysis for dhgate.com and index 2850.
+2025-07-27 07:21:51,130 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:21:53,355 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:22:01,363 - DETAIL - Policy analysis complete.
+2025-07-27 07:22:01,364 - DETAIL - Analysis completed and saved for dhgate.com.
+2025-07-27 07:22:01,365 - INFO - Started analysis for iurl302.top and index 2853.
+2025-07-27 07:22:01,365 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:22:11,780 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:23:23,425 - DETAIL - Policy analysis complete.
+2025-07-27 07:23:23,426 - DETAIL - Analysis completed and saved for iurl302.top.
+2025-07-27 07:23:23,427 - INFO - Started analysis for 99designs.com and index 2856.
+2025-07-27 07:23:23,427 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:23:28,013 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:23:52,946 - DETAIL - Policy analysis complete.
+2025-07-27 07:23:52,948 - DETAIL - Analysis completed and saved for 99designs.com.
+2025-07-27 07:23:52,948 - INFO - Started analysis for frontlineeducation.com and index 2861.
+2025-07-27 07:23:52,948 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:23:56,833 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:24:32,576 - DETAIL - Policy analysis complete.
+2025-07-27 07:24:32,578 - DETAIL - Analysis completed and saved for frontlineeducation.com.
+2025-07-27 07:24:32,578 - INFO - Started analysis for pgyer.com and index 2865.
+2025-07-27 07:24:32,578 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:24:36,535 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:24:49,043 - DETAIL - Policy analysis complete.
+2025-07-27 07:24:49,045 - DETAIL - Analysis completed and saved for pgyer.com.
+2025-07-27 07:24:49,045 - INFO - Started analysis for doramy.club and index 2868.
+2025-07-27 07:24:49,045 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:24:50,888 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:24:59,190 - DETAIL - Policy analysis complete.
+2025-07-27 07:24:59,190 - DETAIL - Analysis completed and saved for doramy.club.
+2025-07-27 07:24:59,191 - INFO - Started analysis for bozrc.com and index 2869.
+2025-07-27 07:24:59,191 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:25:01,259 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:25:19,964 - DETAIL - Policy analysis complete.
+2025-07-27 07:25:19,965 - DETAIL - Analysis completed and saved for bozrc.com.
+2025-07-27 07:25:19,966 - INFO - Started analysis for pinterest.es and index 2871.
+2025-07-27 07:25:19,966 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:25:24,618 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:25:41,097 - DETAIL - Policy analysis complete.
+2025-07-27 07:25:41,099 - DETAIL - Analysis completed and saved for pinterest.es.
+2025-07-27 07:25:41,099 - INFO - Started analysis for pcpartpicker.com and index 2872.
+2025-07-27 07:25:41,099 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:25:44,471 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:26:13,344 - DETAIL - Policy analysis complete.
+2025-07-27 07:26:13,345 - DETAIL - Analysis completed and saved for pcpartpicker.com.
+2025-07-27 07:26:13,345 - INFO - Started analysis for theatlantic.com and index 2874.
+2025-07-27 07:26:13,345 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:26:18,076 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:26:49,421 - DETAIL - Policy analysis complete.
+2025-07-27 07:26:49,423 - DETAIL - Analysis completed and saved for theatlantic.com.
+2025-07-27 07:26:49,423 - INFO - Started analysis for loverslab.com and index 2875.
+2025-07-27 07:26:49,423 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:26:51,676 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:26:59,284 - DETAIL - Policy analysis complete.
+2025-07-27 07:26:59,285 - DETAIL - Analysis completed and saved for loverslab.com.
+2025-07-27 07:26:59,286 - INFO - Started analysis for btsj5.com and index 2876.
+2025-07-27 07:26:59,286 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:27:01,372 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:27:07,507 - DETAIL - Policy analysis complete.
+2025-07-27 07:27:07,508 - DETAIL - Analysis completed and saved for btsj5.com.
+2025-07-27 07:27:07,509 - INFO - Started analysis for convertkit.com and index 2877.
+2025-07-27 07:27:07,509 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:27:10,812 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:27:57,138 - DETAIL - Policy analysis complete.
+2025-07-27 07:27:57,140 - DETAIL - Analysis completed and saved for convertkit.com.
+2025-07-27 07:27:57,140 - INFO - Started analysis for onenote.com and index 2880.
+2025-07-27 07:27:57,140 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:28:07,820 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:29:06,225 - DETAIL - Policy analysis complete.
+2025-07-27 07:29:06,233 - DETAIL - Analysis completed and saved for onenote.com.
+2025-07-27 07:29:06,233 - INFO - Started analysis for nudevista.com and index 2881.
+2025-07-27 07:29:06,233 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:29:12,341 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:29:32,652 - DETAIL - Policy analysis complete.
+2025-07-27 07:29:32,653 - DETAIL - Analysis completed and saved for nudevista.com.
+2025-07-27 07:29:32,654 - INFO - Started analysis for ipsosinteractive.com and index 2882.
+2025-07-27 07:29:32,654 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:29:43,173 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:30:19,161 - DETAIL - Policy analysis complete.
+2025-07-27 07:30:19,162 - DETAIL - Analysis completed and saved for ipsosinteractive.com.
+2025-07-27 07:30:19,162 - INFO - Started analysis for bmo.com and index 2887.
+2025-07-27 07:30:19,162 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:30:21,034 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:30:27,088 - DETAIL - Policy analysis complete.
+2025-07-27 07:30:27,090 - DETAIL - Analysis completed and saved for bmo.com.
+2025-07-27 07:30:27,090 - INFO - Started analysis for mangaraw.lol and index 2888.
+2025-07-27 07:30:27,090 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:30:29,456 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:30:34,539 - DETAIL - Policy analysis complete.
+2025-07-27 07:30:34,540 - DETAIL - Analysis completed and saved for mangaraw.lol.
+2025-07-27 07:30:34,540 - INFO - Started analysis for vultr.com and index 2891.
+2025-07-27 07:30:34,541 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:30:39,947 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:31:10,676 - DETAIL - Policy analysis complete.
+2025-07-27 07:31:10,680 - DETAIL - Analysis completed and saved for vultr.com.
+2025-07-27 07:31:10,680 - INFO - Started analysis for lifewire.com and index 2893.
+2025-07-27 07:31:10,680 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:31:18,281 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:31:48,971 - DETAIL - Policy analysis complete.
+2025-07-27 07:31:48,974 - DETAIL - Analysis completed and saved for lifewire.com.
+2025-07-27 07:31:48,974 - INFO - Started analysis for pearsonvue.com and index 2894.
+2025-07-27 07:31:48,975 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:31:55,397 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:32:20,590 - DETAIL - Policy analysis complete.
+2025-07-27 07:32:20,593 - DETAIL - Analysis completed and saved for pearsonvue.com.
+2025-07-27 07:32:20,594 - INFO - Started analysis for alternativeto.net and index 2895.
+2025-07-27 07:32:20,594 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:32:22,445 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:32:35,858 - DETAIL - Policy analysis complete.
+2025-07-27 07:32:35,859 - DETAIL - Analysis completed and saved for alternativeto.net.
+2025-07-27 07:32:35,860 - INFO - Started analysis for harpersbazaar.com and index 2899.
+2025-07-27 07:32:35,861 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:32:38,075 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:32:45,202 - DETAIL - Policy analysis complete.
+2025-07-27 07:32:45,203 - DETAIL - Analysis completed and saved for harpersbazaar.com.
+2025-07-27 07:32:45,204 - INFO - Started analysis for puma.com and index 2900.
+2025-07-27 07:32:45,204 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:32:51,368 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:33:17,466 - DETAIL - Policy analysis complete.
+2025-07-27 07:33:17,468 - DETAIL - Analysis completed and saved for puma.com.
+2025-07-27 07:33:17,469 - INFO - Started analysis for psychologytoday.com and index 2906.
+2025-07-27 07:33:17,469 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:33:28,101 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:34:16,028 - DETAIL - Policy analysis complete.
+2025-07-27 07:34:16,030 - DETAIL - Analysis completed and saved for psychologytoday.com.
+2025-07-27 07:34:16,030 - INFO - Started analysis for tagged.com and index 2908.
+2025-07-27 07:34:16,030 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:34:26,555 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:34:52,811 - DETAIL - Policy analysis complete.
+2025-07-27 07:34:52,815 - DETAIL - Analysis completed and saved for tagged.com.
+2025-07-27 07:34:52,815 - INFO - Started analysis for bobbyhadz.com and index 2909.
+2025-07-27 07:34:52,815 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:34:56,218 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:35:35,526 - DETAIL - Policy analysis complete.
+2025-07-27 07:35:35,527 - DETAIL - Analysis completed and saved for bobbyhadz.com.
+2025-07-27 07:35:35,527 - INFO - Started analysis for clipchamp.com and index 2918.
+2025-07-27 07:35:35,527 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:35:46,101 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:36:29,326 - DETAIL - Policy analysis complete.
+2025-07-27 07:36:29,333 - DETAIL - Analysis completed and saved for clipchamp.com.
+2025-07-27 07:36:29,333 - INFO - Started analysis for gumtree.com and index 2920.
+2025-07-27 07:36:29,333 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:36:36,179 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:37:04,761 - DETAIL - Policy analysis complete.
+2025-07-27 07:37:04,763 - DETAIL - Analysis completed and saved for gumtree.com.
+2025-07-27 07:37:04,763 - INFO - Started analysis for chrome.com and index 2921.
+2025-07-27 07:37:04,764 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:37:11,185 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:37:57,449 - DETAIL - Policy analysis complete.
+2025-07-27 07:37:57,453 - DETAIL - Analysis completed and saved for chrome.com.
+2025-07-27 07:37:57,453 - INFO - Started analysis for bitrix24.com and index 2923.
+2025-07-27 07:37:57,453 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:38:08,105 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:39:07,374 - DETAIL - Policy analysis complete.
+2025-07-27 07:39:07,376 - DETAIL - Analysis completed and saved for bitrix24.com.
+2025-07-27 07:39:07,377 - INFO - Started analysis for brazzersnetwork.com and index 2924.
+2025-07-27 07:39:07,377 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:39:11,616 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:39:30,755 - DETAIL - Policy analysis complete.
+2025-07-27 07:39:30,757 - DETAIL - Analysis completed and saved for brazzersnetwork.com.
+2025-07-27 07:39:30,758 - INFO - Started analysis for barnesandnoble.com and index 2933.
+2025-07-27 07:39:30,758 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:39:32,720 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:40:02,263 - DETAIL - Policy analysis complete.
+2025-07-27 07:40:02,264 - DETAIL - Analysis completed and saved for barnesandnoble.com.
+2025-07-27 07:40:02,265 - INFO - Started analysis for angelbroking.com and index 2937.
+2025-07-27 07:40:02,265 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:40:06,609 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:40:32,722 - DETAIL - Policy analysis complete.
+2025-07-27 07:40:32,723 - DETAIL - Analysis completed and saved for angelbroking.com.
+2025-07-27 07:40:32,724 - INFO - Started analysis for boardgamegeek.com and index 2939.
+2025-07-27 07:40:32,724 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:40:43,337 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:41:24,079 - DETAIL - Policy analysis complete.
+2025-07-27 07:41:24,083 - DETAIL - Analysis completed and saved for boardgamegeek.com.
+2025-07-27 07:41:24,083 - INFO - Started analysis for flightaware.com and index 2947.
+2025-07-27 07:41:24,084 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:41:28,421 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:41:58,003 - DETAIL - Policy analysis complete.
+2025-07-27 07:41:58,005 - DETAIL - Analysis completed and saved for flightaware.com.
+2025-07-27 07:41:58,005 - INFO - Started analysis for 69shu.com and index 2950.
+2025-07-27 07:41:58,006 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:42:00,227 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:42:10,835 - DETAIL - Policy analysis complete.
+2025-07-27 07:42:10,836 - DETAIL - Analysis completed and saved for 69shu.com.
+2025-07-27 07:42:10,836 - INFO - Started analysis for jiyingw.vip and index 2951.
+2025-07-27 07:42:10,836 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:42:13,624 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:42:28,878 - DETAIL - Policy analysis complete.
+2025-07-27 07:42:28,879 - DETAIL - Analysis completed and saved for jiyingw.vip.
+2025-07-27 07:42:28,880 - INFO - Started analysis for kaggle.com and index 2952.
+2025-07-27 07:42:28,880 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:42:39,484 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:43:39,922 - DETAIL - Policy analysis complete.
+2025-07-27 07:43:39,924 - DETAIL - Analysis completed and saved for kaggle.com.
+2025-07-27 07:43:39,924 - INFO - Started analysis for uchicago.edu and index 2956.
+2025-07-27 07:43:39,925 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:43:48,857 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:44:22,743 - DETAIL - Policy analysis complete.
+2025-07-27 07:44:22,745 - DETAIL - Analysis completed and saved for uchicago.edu.
+2025-07-27 07:44:22,745 - INFO - Started analysis for ford.com and index 2958.
+2025-07-27 07:44:22,745 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:44:24,574 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:44:33,556 - DETAIL - Policy analysis complete.
+2025-07-27 07:44:33,556 - DETAIL - Analysis completed and saved for ford.com.
+2025-07-27 07:44:33,556 - INFO - Started analysis for hudl.com and index 2959.
+2025-07-27 07:44:33,556 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:44:44,055 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:45:48,842 - DETAIL - Policy analysis complete.
+2025-07-27 07:45:48,844 - DETAIL - Analysis completed and saved for hudl.com.
+2025-07-27 07:45:48,845 - INFO - Started analysis for square-enix.com and index 2960.
+2025-07-27 07:45:48,845 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:45:50,720 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:45:57,497 - DETAIL - Policy analysis complete.
+2025-07-27 07:45:57,497 - DETAIL - Analysis completed and saved for square-enix.com.
+2025-07-27 07:45:57,498 - INFO - Started analysis for brainly.com.br and index 2964.
+2025-07-27 07:45:57,498 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:45:59,848 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:46:07,309 - DETAIL - Policy analysis complete.
+2025-07-27 07:46:07,309 - DETAIL - Analysis completed and saved for brainly.com.br.
+2025-07-27 07:46:07,310 - INFO - Started analysis for moddb.com and index 2965.
+2025-07-27 07:46:07,310 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:46:10,150 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:46:24,167 - DETAIL - Policy analysis complete.
+2025-07-27 07:46:24,168 - DETAIL - Analysis completed and saved for moddb.com.
+2025-07-27 07:46:24,168 - INFO - Started analysis for stackblitz.com and index 2966.
+2025-07-27 07:46:24,168 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:46:27,494 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:47:04,240 - DETAIL - Policy analysis complete.
+2025-07-27 07:47:04,241 - DETAIL - Analysis completed and saved for stackblitz.com.
+2025-07-27 07:47:04,241 - INFO - Started analysis for trannyvideosx.com and index 2967.
+2025-07-27 07:47:04,242 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:47:13,867 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:47:25,224 - DETAIL - Policy analysis complete.
+2025-07-27 07:47:25,225 - DETAIL - Analysis completed and saved for trannyvideosx.com.
+2025-07-27 07:47:25,226 - INFO - Started analysis for xhamster2.com and index 2972.
+2025-07-27 07:47:25,226 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:47:29,975 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:48:19,248 - DETAIL - Policy analysis complete.
+2025-07-27 07:48:19,250 - DETAIL - Analysis completed and saved for xhamster2.com.
+2025-07-27 07:48:19,250 - INFO - Started analysis for linuxhint.com and index 2974.
+2025-07-27 07:48:19,250 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:48:21,837 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:48:51,860 - DETAIL - Policy analysis complete.
+2025-07-27 07:48:51,862 - DETAIL - Analysis completed and saved for linuxhint.com.
+2025-07-27 07:48:51,862 - INFO - Started analysis for dirtyship.com and index 2975.
+2025-07-27 07:48:51,862 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:48:54,217 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:49:26,624 - DETAIL - Policy analysis complete.
+2025-07-27 07:49:26,625 - DETAIL - Analysis completed and saved for dirtyship.com.
+2025-07-27 07:49:26,625 - INFO - Started analysis for mybrowseraddon.com and index 2978.
+2025-07-27 07:49:26,625 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:49:31,060 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:49:56,290 - DETAIL - Policy analysis complete.
+2025-07-27 07:49:56,292 - DETAIL - Analysis completed and saved for mybrowseraddon.com.
+2025-07-27 07:49:56,292 - INFO - Started analysis for gogoanimeapp.com and index 2980.
+2025-07-27 07:49:56,292 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:49:58,565 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:50:07,961 - DETAIL - Policy analysis complete.
+2025-07-27 07:50:07,962 - DETAIL - Analysis completed and saved for gogoanimeapp.com.
+2025-07-27 07:50:07,962 - INFO - Started analysis for whitebit.com and index 2981.
+2025-07-27 07:50:07,963 - DETAIL - Analyser initialised with model: DeepSeek.
+2025-07-27 07:50:10,132 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-27 07:50:23,178 - DETAIL - Policy analysis complete.
+2025-07-27 07:50:23,179 - DETAIL - Analysis completed and saved for whitebit.com.
