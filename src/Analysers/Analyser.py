@@ -217,7 +217,6 @@ class Analyser:
           - Privacy Policy URL (or 'Not Found')
           - Policy Text
           - Annotation
-          - Needs Review (bool or str)
 
         Writes the header row if the file does not yet exist.
 
