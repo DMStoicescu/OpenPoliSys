@@ -7,7 +7,9 @@ import re
 
 # ─── CONFIGURATION ─────────────────────────────────────────────────────────────
 INPUT_CSV        = "../hist-out-good/scrapes/policy_scrape_output-GOOD3.csv"
+# INPUT_CSV        = "../datasets/out-Alexa/policy_scrape_output.csv"
 SCRAPER_LOG      = "../hist-out-good/logs/scraper-GOOD3.log"
+# SCRAPER_LOG      = "../datasets/out-Alexa/scraper.log"
 VALIDATION_CSV   = "../datasets/performance_analysis_dataset.csv"
 TS_FORMAT        = "%Y-%m-%d %H:%M:%S,%f"
 # ───────────────────────────────────────────────────────────────────────────────
